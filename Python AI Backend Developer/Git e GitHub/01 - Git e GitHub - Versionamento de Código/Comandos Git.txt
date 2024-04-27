@@ -1,0 +1,153 @@
+---> git clone -> Clona um repósitorio Git existente para um novo diretório local
+
+---> git commit -> grava alterações no repositório
+
+---> git pull -> "puxa" as alterações do repositório remoto para o local (busca e mescla)
+
+---> git push -> "empurra" as alterações do repositório local para o remoto
+
+
+COMANDOS DE FACILIDADE:
+
+    ---> ls -> Lista os arquivos e diretórios no diretório atual.
+    ---> mkdir [nome_do_diretório] -> Cria um novo diretório com o nome especificado.
+    ---> cd [nome_do_diretório] -> Muda para o diretório especificado.
+    ---> cd .. -> Volta para o diretório anterior.
+    ---> cat [nome_do_arquivo] -> Exibe o conteúdo de um arquivo.
+    ---> ctrl + l -> Limpa o terminal.
+    ---> clear -> Limpa o terminal
+    ---> seta para cima -> Recupera o comando anterior.
+    ---> mv [origem] [destino] -> Move arquivos ou diretórios.
+    ---> cp [origem] [destino] -> Copia arquivos ou diretórios.
+    ---> rm [arquivo] -> Remove (apaga) um arquivo.
+    ---> rm -r [diretório] -> Remove (apaga) um diretório e seu conteúdo.
+    ---> rm -rf [diretório] -> Remove (apaga) a força um diretório e seu conteúdo.
+    ---> touch [nome_do_arquivo] -> Cria um novo arquivo vazio.
+    ---> grep [padrão] [nome_do_arquivo] -> Procura por um padrão em um arquivo.
+    ---> history -> Exibe o histórico de comandos usados no terminal.
+    ---> man [comando] -> Exibe o manual do usuário para um comando específico.
+
+
+COMANDOS GIT:
+
+    ---> Para visualizar uma config -> $ git config <ESCOPO> <NOME_DA_CONFIGURAÇÃO>
+    Exemplos:
+        ---> $ git config --global --list
+
+        ---> $ git config --global user.email 
+        ---> $ git config --global user.name
+    
+
+    ---> Para definir uma config -> $ git config <ESCOPO> <NOME_DA_CONFIGURAÇÃO> <VALOR_DA_CONFIGURAÇÃO>
+    Exemplos:
+        ---> $ git config --global user.email meu_email@gmail.com
+        ---> $ git config --global user.name meu_nome
+
+
+    ---> Para inicializar um repositório git -> $ git init 
+
+
+    ---> Para visualizar o status do repositório git -> $ git status
+
+
+    ---> Para adicionar um arquivo ao git -> $ git add <NOME_DO_ARQUIVO>
+    Exemplos:
+        ---> $ git add .
+        --> $ git add README.md
+
+
+    ---> Para comitar -> $ git commit -m"<MENSAGEM>"
+
+
+    ---> Para ver as informações do commit -> $ git log
+
+
+    ---> Para ignorar arquivos -> $ echo <DIRETÓRIO> > .gitignore
+    Exemplos:
+        ---> $ echo teste/ > .gitignore
+
+
+    ---> Para o git manter um diretório vazio -> touch <DIRETÓRIO>.gitkeep
+    Exemplos:
+        touch teste/.gitkeep
+
+
+    ---> Para recuperar um arquivo -> $ git restore <TYPE(--staged) ><FILE>
+
+
+    ---> Para mudar uma mensagem de commit -> $ git commit --amend -m"MENSAGEM"
+    Exemplos:
+        ---> $ git commit --amend -m"teste"
+
+
+    ---> Para resetar um repositório -> $ git reset <TYPE(--soft, --mixed, --hard)> <HASH OU FILE> 
+
+
+    
+    ---> Para ter um log mais complexo -> $ git reflog
+
+
+
+
+$ git config --global init.defaultbranch main
+$ git config --global credential.helper store
+
+---> criando uma ssh 
+    $ ls -al ~/.ssh -> se retornar erro não existe ssh
+        $ ssh-keygen -t ed25519 -C "fabriciodossantosmoreira@gmail.com"
+        da enter para o dir padrão
+
+        $ eval "$(ssh-agent -s)"
+        $ ssh-add ~/.ssh/id_ed25519
+
+
+
+GIT CLONE:
+    $git clone <URL>
+    $git clone <URL> <NOME_DA_PASTA>
+    $git clone <URL> --branch <NOME_DA_BRANCH> --single-branch
+    $git clone <URL> --branch <NOME_DA_BRANCH> --branch<BRANCH-TO-CLONE> --single-branch
+
+
+
+
+GIT COMMIT:
+    $ git commit -m"<MENSAGEM>"
+
+GIT PULL:
+    puxa as alterações do repositório remoto e mesclar com o repositório local
+
+    $ git pull
+
+Conectando um repositório local com um repositório remoto:
+    $ git remote add ["nome_do_repositorio" = origin] ["link https"]
+
+
+$ git checkout  -b teste
+git checkout <NOME_DA_BRANCH> main
+
+$ git checkout -v: lista os ultimos commits de cada branch
+
+
+$ git merge <NOME_DA_BRANCH> : OBS tem que estar na branch que de=seja mesclar
+
+$ git branch : lista as branchs no repositório atual
+$ git branch -d <NOME_DA_BRANCH> : deleta uma branch
+
+
+$ git fetch origin main: baixa as alterações no repositório remoto sem afetar o local
+
+$ git diff main origin/main : diferenças entre as branchs
+
+$ git merge origin/main : mescla as branchs
+
+
+$ git stash
+$ git stash list
+$ git stash pop
+$ git stach apply
+
+adiciona o remote upstream para manter o repositório local atualizado:
+git remote add upstream <HTTPS>
+
+git remote -v 
