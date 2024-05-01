@@ -18,7 +18,7 @@ class Cliente():
 
 
     def __str__(self) -> str:
-        return f"{self.__class__.__name__}: {', '.join([f'\n\t{chave}={valor}' for chave, valor in self.__dict__.items()])}\n"
+        return f"Nome: {self.nome}, Endereço: {self.endereco}"
 
 
     @property

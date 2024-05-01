@@ -1,6 +1,5 @@
 from transacao import Transacao
-
-from datetime import date, datetime
+from datetime import datetime
 
 
 class Historico():
@@ -14,7 +13,7 @@ class Historico():
             {
                 "tipo": transacao.__class__.__name__,
                 "valor": transacao.valor,
-                "data": datetime.now().strftime("%d-%m-%Y %H:%M:%s"),
+                "data": datetime.now().strftime("%d-%m-%Y %H:%M:%S")
             }
             )
         

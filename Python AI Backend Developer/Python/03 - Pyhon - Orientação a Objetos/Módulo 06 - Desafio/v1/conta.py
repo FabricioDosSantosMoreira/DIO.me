@@ -12,10 +12,11 @@ class Conta():
         self._numero = numero
         self._saldo: float = 0.0
         self._agencia: str = "0001"
+        self._numero_saques = 0
         
         
     @classmethod
-    def nova_conta(cls, cliente, numero: int):
+    def nova_conta(cls, cliente, numero: int) -> 'Conta':
         return cls(cliente, numero)
 
     
@@ -31,7 +32,7 @@ class Conta():
 
 
         self._saldo -= valor
-        print("\nSUCESSO - - -> Saque realizado com sucesso!")
+        print(f"\nSUCESSO - - -> Saque de R$ {valor:.2f} realizado com sucesso!")
 
         return True
     
@@ -44,13 +45,13 @@ class Conta():
 
 
         self._saldo += valor
-        print("\nSUCESSO - - -> Depósito realizado com sucesso!")
+        print(f"\nSUCESSO - - -> Depósito de R$ {valor:.2f} realizado com sucesso!")
 
         return True
     
 
     def __str__(self) -> str:
-        return f"{self.__class__.__name__}: {', '.join([f'\n\t{chave}={str(valor)}' for chave, valor in self.__dict__.items()])}\n"
+        return f"Agência: {self.agencia}, C/C: {self.numero}, Titular: {self.cliente.nome}"
 
 
     @property
@@ -72,11 +73,15 @@ class Conta():
     @property
     def historico(self) -> Historico:
         return self._historico
+    
+    @property
+    def numero_saques(self) -> int:
+        return self._numero_saques
 
 
 class ContaCorrente(Conta): # Extende a classe Conta. Herança simples
 
-    def __init__(self, cliente, numero: int, limite: float=500.0, limite_saques: int=3) -> None:
+    def __init__(self, cliente: Cliente, numero: int, limite: float=500.0, limite_saques: int=3) -> None:
         super().__init__(cliente=cliente, numero=numero) 
 
         self._limite = limite
