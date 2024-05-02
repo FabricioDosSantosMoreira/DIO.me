@@ -20,12 +20,6 @@ class Historico():
     
     def gerar_relatorio(self, tipo_transacao=None):
 
-        # tipos = []
-        # if not tipo_transacao:
-        #     tipos = ["Deposito", "Saque"]
-
-        # elif tipo_transacao == "Saque"
-
         for transacao in self.transacoes:
             if tipo_transacao is None or transacao["tipo"].lower() == tipo_transacao.lower():
                 yield transacao

@@ -353,7 +353,6 @@ class Main():
 
 
     def listar_contas(self) -> None:
-        # TODO: utilizar a classe COntaIterador
 
         if len(self.contas) == 0:
             print("\nNão há contas para listar!")
