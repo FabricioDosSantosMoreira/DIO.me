@@ -33,7 +33,7 @@ class Conta():
 
         self._saldo -= valor
         print(f"\nSUCESSO - - -> Saque de R$ {valor:.2f} realizado com sucesso!")
-
+        self._numero_saques += 1
         return True
     
 
