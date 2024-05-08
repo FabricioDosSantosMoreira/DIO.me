@@ -1,4 +1,4 @@
-#  Os operadores de associação são utilizados para verificar se um valor está 
+# Os operadores de associação são utilizados para verificar se um valor está 
 # presente em uma sequência (como uma lista, tupla, conjunto, ou dicionário)
 
 

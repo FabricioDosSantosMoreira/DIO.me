@@ -2,13 +2,14 @@
 # Eles permitem que você associe um valor a uma variável de forma simples e direta. 
 
 
-# Operador de Atribuição Simples (=)
+# ---> Operador de Atribuição Simples (=)
+
 # Atribui um valor à variável
 x = 10 
 print("Valor de x após atribuição simples:", x) # Saída: 10
 
 
-# Operadores de Atribuição Combinada. Estes operadores combinam atribuição com uma operação aritmética
+# ---> Operadores de Atribuição Combinada. Estes operadores combinam atribuição com uma operação aritmética
 
 # Operador de Atribuição e Adição (+=)
 # Adiciona o valor à variável e atribui o resultado à mesma variável

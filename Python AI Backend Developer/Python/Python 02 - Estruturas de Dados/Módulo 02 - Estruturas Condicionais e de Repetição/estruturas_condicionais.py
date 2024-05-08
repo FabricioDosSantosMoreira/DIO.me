@@ -8,6 +8,8 @@ idade = 20
 possui_cartao = True
 
 
+# ---> Estruturas comndicionais simples
+
 # Exemplo de estrutura condicional 'if'
 if idade >= 18:
     print("Você é maior de idade.")
@@ -35,7 +37,7 @@ if idade >= 18 and temperatura > 20:
     print("Condições ideais para sair.")
 
 
-# Exemplo de estruturas condicionais aninhadas
+# ---> Estruturas condicionais aninhadas
 
 # Verifica se a pessoa é maior de 18 anos
 if idade >= 18:
@@ -50,7 +52,7 @@ else:
     print("Você é menor de idade.")
 
 
-# Exemplo de estruturas condicionais ternária
+# ---> Estruturas condicionais ternária
 
 # Estrutura condicional em uma linha (ternário)
 resultado = "Aprovado" if idade >= 18 else "Reprovado"
