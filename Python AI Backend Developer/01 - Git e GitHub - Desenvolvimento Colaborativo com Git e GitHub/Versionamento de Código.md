@@ -19,34 +19,41 @@ Os sistemas de Controle de Versão (Version Control System - VCS) são softwares
 
 Dentre os Sistemas de Controle de Versão (VCS), temos:
 
-<table>
+<table cellspacing="0" border="0">
   <thead>
-    <tr align="left">
-      <th>Sistemas</th>
-      <th>Descrição</th>
-      <th>Exemplos</th>
+    <tr>
+      <th>💻 Sistema</th>
+      <th>📚 Descrição</th>
+      <th>📝 Exemplo</th>
     </tr>
   </thead>
-  <tbody align="left">
+  <tbody>
     <tr>
       <td>Centralizado (CVCS)</td>
-      <td>Nesses sistemas, há um único repositório central que armazena todo o histórico de versões do projeto. Os usuários têm acesso ao repositório central para realizar checkouts (obter uma cópia do código) e check-ins (enviar alterações de volta para o repositório).</td>
-      <td align="center">
-          <img align="center" width="30px" alt="Subversion" src="./utils/subversion.svg">
-          <img align="center" width="30px" alt="Perforce" src="./utils/perforce.svg">
+      <td>Nesses sistemas, há um único repositório central que armazena todo o histórico de 
+      versões do projeto. Os usuários têm acesso ao repositório central para realizar 
+      checkouts (obter uma cópia do código) e check-ins 
+      (enviar alterações de volta para o repositório).</td>
+      <td style="text-align: center;">
+          <img width="20px" alt="Subversion" src="./utils/subversion.svg">
+          <img width="20px" alt="Perforce" src="./utils/perforce.svg">
       </td>
     </tr>
     <tr>
       <td>Distribuído (DVCS)</td>
-      <td>Nesses sistemas, cada usuário possui uma cópia completa do repositório, incluindo todo o histórico de versões. Isso permite que os usuários trabalhem offline e realizem operações como commit (enviar alterações para o repositório local) sem acesso à rede.</td>
-      <td align="center">
-        <img align="center" width="30px" alt="Git" src="./utils/git.svg">
-        <img align="center" width="30px" alt="Mercurial" src="./utils/mercurial.svg">
+      <td>Nesses sistemas, cada usuário possui uma cópia completa do repositório, 
+      incluindo todo o histórico de versões. Isso permite que os usuários trabalhem 
+      offline e realizem operações como commit (enviar alterações para o repositório local) 
+      sem acesso à rede.</td>
+      <td style="text-align: center;">
+        <img width="20px" alt="Git" src="./utils/git.svg">
+        <img width="20px" alt="Mercurial" src="./utils/mercurial.svg">
       </td>    
     </tr>
   </tbody>
   <tfoot></tfoot>
 </table>
+
 
 
 <h2>
@@ -67,14 +74,17 @@ O GitHub é uma plataforma de hospedagem de código que utiliza o Git para contr
 
 
 ## 🔗 Fontes:
-<h1><a href="https://web.dio.me/home/"><img align="center" width="20px" src="./utils/dio.webp"></a><a href="https://web.dio.me/home"> Digital Inovation One (DIO)</a></h1>
+- <h2><a href="https://web.dio.me/home/"><img align="center" width="20px" src="./utils/dio.webp"></a><a href="https://web.dio.me/home"> Digital Inovation One (DIO)</a></h2>
 
-<h1><a href="https://git-scm.com/"><img align="center" width="20px" src="./utils/git.svg"></a><a href="https://git-scm.com/"> Git</a></h1>
+- <h2><a href="https://subversion.apache.org/"><img align="center" width="20px" src="./utils/subversion.svg"></a><a href="https://subversion.apache.org/"> Subversion</a></h2>
 
-<h1><a href="https://github.com/"><img align="center" width="20px" src="./utils/github.svg"></a><a href="https://github.com/"> GitHub</a></h1>
+- <h2><a href="https://www.mercurial-scm.org/"><img align="center" width="20px" src="./utils/mercurial.svg"></a><a href="https://www.mercurial-scm.org/"> Mercurial</a></h2>
 
-<h1><a href="https://subversion.apache.org/"><img align="center" width="20px" src="./utils/subversion.svg"></a><a href="https://subversion.apache.org/"> Subversion</a></h1>
+- <h2><a href="https://www.perforce.com/"><img align="center" width="20px" src="./utils/perforce.svg"></a><a href="https://www.perforce.com/"> Perforce</a></h2>
 
-<h1><a href="https://www.mercurial-scm.org/"><img align="center" width="20px" src="./utils/mercurial.svg"></a><a href="https://www.mercurial-scm.org/"> Mercurial</a></h1>
+- <h2><a href="https://github.com/"><img align="center" width="20px" src="./utils/github.svg"></a><a href="https://github.com/"> GitHub</a></h2>
 
-<h1><a href="https://www.perforce.com/"><img align="center" width="20px" src="./utils/perforce.svg"></a><a href="https://www.perforce.com/"> Perforce</a></h1>
+- <h2><a href="https://git-scm.com/"><img align="center" width="20px" src="./utils/git.svg"></a><a href="https://git-scm.com/"> Git</a></h1>
+
+
+

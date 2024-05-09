@@ -5,31 +5,98 @@
 </h1>
 
 
-## 💻 Comandos Básicos do Git:
+  
+<table>
+  <thead>
+    <tr align="left">
+      <th>💻 Comando</th>
+      <th>📚 Descrição</th>
+      <th>📝 Exemplo</th>
+    </tr>
+  </thead>
+  <tbody align="left">
+    <tr>
+      <td>Git Clone</td>
+      <td>É utilizado para criar uma cópia local de um repositório Git remoto. Ele faz o download de todos os arquivos e histórico de commits do repositório remoto para o seu computador.</td>
+      <td align="left">
+        <code>$ git clone https://github.com/FabricioDosSantosMoreira/DIO.me.git</code>
+      </td>
+    </tr>
+    <tr>
+      <td>Git Commit</td>
+      <td>É utilizado para salvar as alterações feitas nos arquivos do repositório. Ele cria um registro permanente das mudanças feitas desde o último commit.</td>
+      <td align="left">
+        <code>$ git commit -m "UPDATE: DIO.me"</code>
+      </td>    
+    </tr>
+    <tr>
+      <td>Git Push</td>
+      <td>É utilizado para enviar os commits locais para um repositório remoto. Ele atualiza o ramo remoto com as mudanças feitas localmente.</td>
+      <td align="left">
+        <code>$ git push origin main</code>
+      </td>
+    </tr>
+    <tr>
+      <td>Git Pull</td>
+      <td>É utilizado para obter e integrar as alterações de um repositório remoto para o repositório local. Ele baixa as mudanças do repositório remoto e as mescla no branch local.</td>
+      <td align="left">
+        <code>$ git pull origin https://github.com/FabricioDosSantosMoreira/DIO.me.git</code>
+      </td>
+    </tr>
+  </tbody>
+  <tfoot></tfoot>
+</table>
 
-### 📋 Git Clone:
-Clona um repositório Git existente para um novo diretório local. 
+
+
+
+
+
+
+
+
+
+## 💻 Comandos Básicos do Git:
+Lista de comando básicos do Git
+
+### 📋 Git Clone -> clona um repositório Git existente para um novo diretório local. 
 ```bash 
 $ git clone 
 ``` 
 
-### 📋 Git Commit:
-Grava alterações no repositório.
+### 📋 Git Commit -> grava as alterações no repositório.
 ```bash
 $ git commit 
 ```  
 
-### 📋 Git Pull:
-"Puxa" as alterações do repositório remoto para o local (busca e mescla).
+### 📋 Git Pull -> "puxa" as alterações do repositório remoto para o local.
 ```bash
 $ git pull 
-```  
+``` 
 
-### 📋 Git Push:
-"Empurra" as alterações do repositório local para o remoto.
+### 📋 Git Push -> "empurra" as alterações do repositório local para o remoto.
 ```bash
 $ git push 
 ```  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## 💻 Comandos de Facilidade:
