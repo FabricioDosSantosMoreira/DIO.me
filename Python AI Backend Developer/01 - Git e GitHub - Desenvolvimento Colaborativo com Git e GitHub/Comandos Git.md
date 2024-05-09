@@ -5,362 +5,293 @@
 </h1>
 
 
-  
+## 💻 Principais Comandos do Git:
 <table>
   <thead>
     <tr align="left">
       <th>💻 Comando</th>
       <th>📚 Descrição</th>
-      <th>📝 Exemplo</th>
+      <th>📋 Exemplo</th>
     </tr>
   </thead>
   <tbody align="left">
     <tr>
       <td>Git Clone</td>
-      <td>É utilizado para criar uma cópia local de um repositório Git remoto. Ele faz o download de todos os arquivos e histórico de commits do repositório remoto para o seu computador.</td>
-      <td align="left">
-        <code>$ git clone https://github.com/FabricioDosSantosMoreira/DIO.me.git</code>
-      </td>
+      <td>É utilizado para adquirir uma cópia local <br> de um repositório Git remoto.</td>
+      <td align="left"> <code>$ git clone https://github.com/FabricioDosSantosMoreira/DIO.me.git</code></td>
     </tr>
     <tr>
       <td>Git Commit</td>
-      <td>É utilizado para salvar as alterações feitas nos arquivos do repositório. Ele cria um registro permanente das mudanças feitas desde o último commit.</td>
-      <td align="left">
-        <code>$ git commit -m "UPDATE: DIO.me"</code>
-      </td>    
+      <td>É utilizado para salvar as alterações <br> feitas nos arquivos do repositório.</td>
+      <td align="left"> <code>$ git commit -m "UPDATE: DIO.me"</code></td>
     </tr>
     <tr>
       <td>Git Push</td>
-      <td>É utilizado para enviar os commits locais para um repositório remoto. Ele atualiza o ramo remoto com as mudanças feitas localmente.</td>
-      <td align="left">
-        <code>$ git push origin main</code>
-      </td>
+      <td>É utilizado para enviar os commits <br> locais para um repositório remoto.</td>
+      <td align="left"> <code>$ git push origin main</code></td>
     </tr>
     <tr>
       <td>Git Pull</td>
-      <td>É utilizado para obter e integrar as alterações de um repositório remoto para o repositório local. Ele baixa as mudanças do repositório remoto e as mescla no branch local.</td>
-      <td align="left">
-        <code>$ git pull origin https://github.com/FabricioDosSantosMoreira/DIO.me.git</code>
-      </td>
+      <td>É utilizado para obter e integrar as <br> alterações de um repositório remoto <br> para o repositório local.</td>
+      <td align="left"> <code>$ git pull origin https://github.com/FabricioDosSantosMoreira/DIO.me.git</code></td>
     </tr>
   </tbody>
   <tfoot></tfoot>
 </table>
 
 
-
-
-
-
-
-
-
-
-## 💻 Comandos Básicos do Git:
-Lista de comando básicos do Git
-
-### 📋 Git Clone -> clona um repositório Git existente para um novo diretório local. 
-```bash 
-$ git clone 
-``` 
-
-### 📋 Git Commit -> grava as alterações no repositório.
-```bash
-$ git commit 
-```  
-
-### 📋 Git Pull -> "puxa" as alterações do repositório remoto para o local.
-```bash
-$ git pull 
-``` 
-
-### 📋 Git Push -> "empurra" as alterações do repositório local para o remoto.
-```bash
-$ git push 
-```  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 💻 Comandos de Facilidade:
-
-### 📋 Limpa o terminal:
-```bash
-$ clear
-```  
-
-### 📋 Exibe as primeiras linhas de um arquivo:
-```bash
-$ head [NOME_DO_ARQUIVO]
-```  
-
-### 📋 Mostra o caminho completo do diretório atual:
-```bash
-$ pwd
-```  
-
-### 📋 Exibe o manual do usuário para um comando específico:
-```bash
-$ -man [COMANDO]
-```  
-
-### 📋 Muda para o diretório especificado:
-```bash
-$ cd [CAMINHO_DO_DIRETÓRIO]
-```  
-
-### 📋 Exibe o conteúdo de um arquivo:
-```bash
-$ -cat [NOME_DO_ARQUIVO]
-```  
-
-### 📋 Lista os arquivos e diretórios no diretório atual:
-```bash
-$ -ls
-```  
-
-### 📋 Exibe informações detalhadas sobre um arquivo ou diretório:
-```bash
-$ -ls -l [ARQUIVO/DIRETÓRIO]
-```  
-
-### 📋 Cria um novo diretório com o nome especificado:
-```bash
-$ -mkdir [NOME_DO_DIRETÓRIO]
-```  
-
-### 📋 Move arquivos ou diretórios:
-```bash
-$ -mv [ORIGEM] [DESTINO]
-```  
-
-### 📋 Copia arquivos ou diretórios:
-```bash
-$ -cp [ORIGEM] [DESTINO]
-```  
-
-### 📋 Remove (apaga) um arquivo:
-```bash
-$ -rm [ARQUIVO]
-```  
-
-### 📋 Remove (apaga) um diretório e seu conteúdo:
-```bash
-$ -rm -r [DIRETÓRIO]
-```
-
-### 📋 Remove (apaga) a força um diretório e seu conteúdo:
-```bash
-$ -rm -rf [DIRETÓRIO]
-```  
-
-### 📋 Cria um novo arquivo vazio:
-```bash
-$ -touch [NOME_DO_ARQUIVO]
-```  
-
-### 📋 Procura por um padrão em um arquivo:
-```bash
-$ -grep [PADRÃO] [ARQUIVO]
-```  
-
-### 📋 Exibe o histórico de comandos usados no terminal:
-```bash
-$ -history
-```  
-
-
 ## ⚙ Comandos do Git:
+<table>
+  <thead>
+    <tr align="left">
+      <th>💻 Comando</th>
+      <th>📚 Descrição</th>
+      <th>📋 Exemplo</th>
+    </tr>
+  </thead>
+  <tbody align="left">
+    <tr>
+      <td>git init</td>
+      <td>Inicializa um repositório Git.</td>
+      <td align="left"> <code>$ git init</code></td>
+    </tr>
+    <tr>
+      <td>git status</td>
+      <td>Visualiza o status do repositório Git.</td>
+      <td align="left"> <code>$ git status</code></td>
+    </tr>
+    <tr>
+      <td>git config [ESCOPO] [CONFIGURAÇÃO]</td>
+      <td>Visualiza ou define uma configuração do Git.</td>
+      <td align="left"> <code>$ git config --global user.email</code><br><code>$ git config --global user.name</code><br><code>$ git config --global --list</code></td>
+    </tr>
+    <tr>
+      <td>git log</td>
+      <td>Visualiza as informações do commit.</td>
+      <td align="left"> <code>$ git log</code></td>
+    </tr>
+    <tr>
+      <td>git reflog</td>
+      <td>Visualiza um log mais robusto.</td>
+      <td align="left"> <code>$ git reflog</code></td>
+    </tr>
+    <tr>
+      <td>git add [ARQUIVO]</td>
+      <td>Adiciona um arquivo ao Git.</td>
+      <td align="left"> <code>$ git add .</code><br><code>$ git add README.md</code></td>
+    </tr>
+    <tr>
+      <td>git commit -m"[MENSAGEM]"</td>
+      <td>Comita as mudanças com uma mensagem.</td>
+      <td align="left"> <code>$ git commit -m "MENSAGEM"</code></td>
+    </tr>
+    <tr>
+      <td>git commit --amend -m"[MENSAGEM]"</td>
+      <td>Muda a mensagem de commit.</td>
+      <td align="left"> <code>$ git commit --amend -m "MENSAGEM"</code></td>
+    </tr>
+    <tr>
+      <td>git restore [TYPE] [ARQUIVO]</td>
+      <td>Recupera um arquivo.</td>
+      <td align="left"> <code>$ git restore --source exemplo.txt</code><br><code>$ git restore --staged exemplo.txt</code><br><code>$ git restore --worktree exemplo.txt</code></td>
+    </tr>
+    <tr>
+      <td>git reset [TYPE] [HASH/ARQUIVO]</td>
+      <td>Reseta o repositório.</td>
+      <td align="left"> <code>$ git reset --mixed HEAD~1</code><br><code>$ git reset --soft HEAD~1</code><br><code>$ git reset --hard HEAD~1</code></td>
+    </tr>
+    <tr>
+      <td>git config --global init.defaultbranch main</td>
+      <td>Define a branch padrão.</td>
+      <td align="left"> <code>$ git config --global init.defaultbranch main</code></td>
+    </tr>
+    <tr>
+      <td>git config [ESCOPO] credential.helper [VALOR]</td>
+      <td>Configura o armazenamento de credenciais.</td>
+      <td align="left"> <code>$ git config --global credential.helper store</code><br><code>$ git config --global credential.helper cache</code><br><code>$ git config --global credential.helper manager</code></td>
+    </tr>
+    <tr>
+      <td>git remote add origin [LINK]</td>
+      <td>Conecta um repositório local com um remoto.</td>
+      <td align="left"> <code>$ git remote add origin https://github.com/FabricioDosSantosMoreira/DIO.me</code></td>
+    </tr>
+    <tr>
+      <td>git remote add upstream [LINK]</td>
+      <td>Adiciona um remote upstream para manter o repositório local atualizado.</td>
+      <td align="left"> <code>$ git remote add upstream https://github.com/FabricioDosSantosMoreira/DIO.me</code></td>
+    </tr>
+  </tbody>
+  <tfoot></tfoot>
+</table>
 
-### 📋 Inicializar um repositório git:
-```bash
-$ git init
-```  
 
-### 📋 Visualizar o status do repositório git:
-```bash
-$ git status
-```  
-
-### 📋 Visualizar uma configuração:
-```bash
-$ git config [ESCOPO] [CONFIGURAÇÃO]
-```  
-#### Exemplos
-```bash
-$ git config --global user.email
-$ git config --global user.name
-$ git config --global --list
-```  
-
-### 📋 Visualizar as informações do commit:
-```bash
-$ git log
-```  
-
-### 📋 Visualizar um log mais robusto:
-```bash
-$ git reflog
-```  
-
-### 📋 Definir uma configuração:
-```bash
-$ git config [ESCOPO] [CONFIGURAÇÃO] [VALOR]
-```  
-#### Exemplos
-```bash
-$ git config --global user.email meu_email@gmail.com
-$ git config --global user.name meu_nome
-```  
-
-### 📋 Adicionar um arquivo ao git:
-```bash
-$ git add [ARQUIVO]
-```  
-#### Exemplos
-```bash
-$ git add .
-$ git add README.md
-```  
-
-### 📋 Comitar as mudanças com uma mensagem:
-```bash
-$ git commit -m"[MENSAGEM]"
-```  
-
-### 📋 Muda a mensagem de commmit:
-```bash
-$ git commit --amend -m"MENSAGEM"
-```  
-
-### 📋 Recupera um arquivo:
-```bash
-$ git restore [TYPE] [ARQUIVO]: 
-```  
-#### Exemplos:
-```bash
-$ git restore --source exemplo.txt
-$ git restore --staged exemplo.txt
-$ git restore --worktree exemplo.txt
-```  
-
-### 📋 Reseta o repositório:
-```bash
-$ git reset [TYPE] [HASH/ARQUIVO]
-```  
-#### Exemplos:
-```bash
-git reset --mixed HEAD~1
-git reset --soft HEAD~1
-git reset --hard HEAD~1
-```  
-
-### 📋 Definir a branch padrão:
-```bash
-$ git config --global init.defaultbranch main
-```  
-
-### 📋 Configurar o armazenamento de credenciais:
-```bash
-$ git config [ESCOPO] credential.helper [VALOR]
-```  
-#### Exemplos:
-```bash
-$ git config --global credential.helper store
-$ git config --global credential.helper cache
-$ git config --global credential.helper manager
-``` 
-
-### 📋 Conectar um repositório local com um remoto:
-```bash
-$ git remote add origin [LINK]
-```  
-#### Exemplos:
-```bash
-$ git remote add origin https://github.com/FabricioDosSantosMoreira/DIO.me
-``` 
-
-### 📋 Adicionar um remote upstream para manter o repositório local atualizado:
-```bash
-$ git remote add upstream [LINK]
-```  
-#### Exemplos:
-```bash
-$ git remote add upstream https://github.com/FabricioDosSantosMoreira/DIO.me
-``` 
+## 🔍 Comandos de Facilidade do Git:
+<table>
+  <thead>
+    <tr align="left">
+      <th>💻 Comando</th>
+      <th>📚 Descrição</th>
+      <th>📋 Exemplo</th>
+    </tr>
+  </thead>
+  <tbody align="left">
+    <tr>
+      <td>clear</td>
+      <td>Limpa o terminal.</td>
+      <td align="left"> <code>$ clear</code></td>
+    </tr>
+    <tr>
+      <td>head [NOME_DO_ARQUIVO]</td>
+      <td>Exibe as primeiras linhas de um arquivo.</td>
+      <td align="left"> <code>$ head arquivo.txt</code></td>
+    </tr>
+    <tr>
+      <td>pwd</td>
+      <td>Mostra o caminho completo do diretório atual.</td>
+      <td align="left"> <code>$ pwd</code></td>
+    </tr>
+    <tr>
+      <td>man [COMANDO]</td>
+      <td>Exibe o manual do usuário para um comando específico.</td>
+      <td align="left"> <code>$ man ls</code></td>
+    </tr>
+    <tr>
+      <td>cd [CAMINHO_DO_DIRETÓRIO]</td>
+      <td>Muda para o diretório especificado.</td>
+      <td align="left"> <code>$ cd Documents</code></td>
+    </tr>
+    <tr>
+      <td>cat [NOME_DO_ARQUIVO]</td>
+      <td>Exibe o conteúdo de um arquivo.</td>
+      <td align="left"> <code>$ cat texto.txt</code></td>
+    </tr>
+    <tr>
+      <td>ls</td>
+      <td>Lista os arquivos e diretórios no diretório atual.</td>
+      <td align="left"> <code>$ ls</code></td>
+    </tr>
+    <tr>
+      <td>ls -l [ARQUIVO/DIRETÓRIO]</td>
+      <td>Exibe informações detalhadas sobre um arquivo ou diretório.</td>
+      <td align="left"> <code>$ ls -l arquivo.txt</code></td>
+    </tr>
+    <tr>
+      <td>mkdir [NOME_DO_DIRETÓRIO]</td>
+      <td>Cria um novo diretório com o nome especificado.</td>
+      <td align="left"> <code>$ mkdir novo_diretorio</code></td>
+    </tr>
+    <tr>
+      <td>mv [ORIGEM] [DESTINO]</td>
+      <td>Movimenta arquivos ou diretórios.</td>
+      <td align="left"> <code>$ mv arquivo.txt path_pasta_destino/</code></td>
+    </tr>
+    <tr>
+      <td>cp [ORIGEM] [DESTINO]</td>
+      <td>Copia arquivos ou diretórios.</td>
+      <td align="left"> <code>$ cp arquivo.txt -path_pasta_destino/</code></td>
+    </tr>
+    <tr>
+      <td>rm [ARQUIVO]</td>
+      <td>Remove (apaga) um arquivo.</td>
+      <td align="left"> <code>$ rm arquivo.txt</code></td>
+    </tr>
+    <tr>
+      <td>rm -r [DIRETÓRIO]</td>
+      <td>Remove (apaga) um diretório e seu conteúdo.</td>
+      <td align="left"> <code>$ rm -r pasta</code></td>
+    </tr>
+    <tr>
+      <td>rm -rf [DIRETÓRIO]</td>
+      <td>Remove (apaga) a força um diretório e seu conteúdo.</td>
+      <td align="left"> <code>$ rm -rf pasta</code></td>
+    </tr>
+    <tr>
+      <td>touch [NOME_DO_ARQUIVO]</td>
+      <td>Cria um novo arquivo vazio.</td>
+      <td align="left"> <code>$ touch novo_arquivo.txt</code></td>
+    </tr>
+    <tr>
+      <td>grep [PADRÃO] [ARQUIVO]</td>
+      <td>Procura por um padrão em um arquivo.</td>
+      <td align="left"> <code>$ grep "palavra" arquivo.txt</code></td>
+    </tr>
+    <tr>
+      <td>history</td>
+      <td>Exibe o histórico de comandos usados no terminal.</td>
+      <td align="left"> <code>$ history</code></td>
+    </tr>
+  </tbody>
+  <tfoot></tfoot>
+</table>
 
 
 ## ⚙ Outros Comandos Úteis do Git:
+<table>
+  <thead>
+    <tr align="left">
+      <th>💻 Comando</th>
+      <th>📚 Descrição</th>
+      <th>📋 Exemplo</th>
+    </tr>
+  </thead>
+  <tbody align="left">
+    <tr>
+      <td><code>git checkout -b [NOME_DA_BRANCH]</code></td>
+      <td>É utilizado para criar uma nova branch e mudar para ela.</td>
+      <td align="left"> <code>$ git checkout -b teste</code></td>
+    </tr>
+    <tr>
+      <td><code>git checkout [BRANCH] main</code></td>
+      <td>É utilizado para mudar para uma branch específica a partir da branch principal (main).</td>
+      <td align="left"> <code>$ git checkout main</code></td>
+    </tr>
+    <tr>
+      <td><code>git checkout -v</code></td>
+      <td>É utilizado para listar os últimos commits de cada branch.</td>
+      <td align="left"> <code>$ git checkout -v</code></td>
+    </tr>
+    <tr>
+      <td><code>git merge [BRANCH]</code></td>
+      <td>É utilizado para mesclar uma branch específica com a branch atual.</td>
+      <td align="left"> <code>$ git merge main</code></td>
+    </tr>
+    <tr>
+      <td><code>git branch</code></td>
+      <td>É utilizado para listar as branches no repositório atual.</td>
+      <td align="left"> <code>$ git branch</code></td>
+    </tr>
+    <tr>
+      <td><code>git branch -d [BRANCH]</code></td>
+      <td>É utilizado para deletar uma branch específica.</td>
+      <td align="left"> <code>$ git branch -d main</code></td>
+    </tr>
+    <tr>
+      <td><code>git fetch origin main</code></td>
+      <td>É utilizado para baixar as alterações do repositório remoto sem afetar o local.</td>
+      <td align="left"> <code>$ git fetch origin main</code></td>
+    </tr>
+    <tr>
+      <td><code>git diff main origin/main</code></td>
+      <td>É utilizado para mostrar as diferenças entre as branches.</td>
+      <td align="left"> <code>$ git diff main origin/main</code></td>
+    </tr>
+    <tr>
+      <td><code>git merge origin/main</code></td>
+      <td>É utilizado para mesclar as alterações da branch remota com a branch local.</td>
+      <td align="left"> <code>$ git merge origin/main</code></td>
+    </tr>
+    <tr>
+      <td><code>git stash</code> <br> <code>$ git stash list</code> <br> <code>$ git stash pop</code> <br> <code>$ git stash apply</code></td>
+      <td>É utilizado para gerenciar o stash, que permite armazenar temporariamente mudanças que ainda não estão prontas para serem commitadas.</td>
+      <td align="left"> <code>$ git stash</code> <br> <code>$ git stash list</code> <br> <code>$ git stash pop</code> <br> <code>$ git stash apply</code></td>
+    </tr>
+  </tbody>
+  <tfoot></tfoot>
+</table>
 
-### Criar uma nova branch e mudar para ela:
-```bash
-$ git checkout -b teste
-``` 
+## 🔗 Fontes:
+- <h2><a href="https://web.dio.me/home/"><img align="center" width="20px" src="./utils/dio.webp"></a><a href="https://web.dio.me/home"> Digital Inovation One (DIO)</a></h2>
 
-### Mudar para uma branch específica a partir da branch principal (main):
-```bash
-$ git checkout [BRANCH] main
-```
+- <h2><a href="https://github.com/"><img align="center" width="20px" src="./utils/github.svg"></a><a href="https://github.com/"> GitHub</a></h2>
 
-### Listar os últimos commits de cada branch:
-```bash
-$ git checkout -v
-```
-
-### Mesclar uma branch específica com a branch atual:
-```bash
-$ git merge [BRANCH]
-```
-
-### Listar as branches no repositório atual:
-```bash
-$ git branch
-```
-
-### Deletar uma branch específica:
-```bash
-$ git branch -d [BRANCH]
-```
-
-### Baixar as alterações do repositório remoto sem afetar o local:
-```bash
-$ git fetch origin main
-```
-
-### Mostrar as diferenças entre as branches:
-```bash
-$ git diff main origin/main
-```
-
-### Mesclar as alterações da branch remota com a branch local:
-```bash
-$ git merge origin/main
-```
-
-### Comandos relacionados ao stash:
-```bash
-$ git stash
-```
-#### Exemplos:
-```bash
-$ git stash list
-$ git stash pop
-$ git stash apply
-```
+- <h2><a href="https://git-scm.com/"><img align="center" width="20px" src="./utils/git.svg"></a><a href="https://git-scm.com/"> Git</a></h1>
