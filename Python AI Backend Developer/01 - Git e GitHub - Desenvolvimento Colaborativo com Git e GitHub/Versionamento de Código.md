@@ -3,11 +3,11 @@
     <img align="center" width="40px" src="./utils/git.svg"></a>
     <a href="https://github.com/">
     <img align="center" width="40px" src="./utils/github.svg"></a>
-    <span> Versionamento de Código com Git e GitHub</span>
+    <span>Versionamento de Código com Git e GitHub</strong></span>
 </h1>
 
 
-## Sistemas de Controle de Versão:
+## 💻 Sistemas de Controle de Versão:
 Os sistemas de Controle de Versão (Version Control System - VCS) são softwares que controlam as versões de um arquivo ao longo do tempo.
 
 - Registra o histórico de atualizações de um arquivo
@@ -15,7 +15,7 @@ Os sistemas de Controle de Versão (Version Control System - VCS) são softwares
 - Gerencia quais foram as alterações, a data, autor, etc.
 
 
-## Tipos de Sistemas de Controle de Versão:
+## 📂 Tipos de Sistemas de Controle de Versão:
 
 Dentre os Sistemas de Controle de Versão (VCS), temos:
 
@@ -51,7 +51,7 @@ Dentre os Sistemas de Controle de Versão (VCS), temos:
 
 <h2>
     <a href="https://git-scm.com/">
-    <img align="center" width="40px" src="./utils/git.svg"></a>
+    <img align="center" width="30px" src="./utils/git.svg"></a>
     <span> Git:</span>
 </h2>
 
@@ -60,13 +60,13 @@ O Git é um sistema de controle de versão distribuído amplamente utilizado, co
 
 <h2>
     <a href="https://github.com/">
-    <img align="center" width="40px" src="./utils/github.svg"></a>
+    <img align="center" width="30px" src="./utils/github.svg"></a>
     <span> GitHub:</span>
 </h2>
 O GitHub é uma plataforma de hospedagem de código que utiliza o Git para controle de versão. Além de fornecer funcionalidades para gerenciar repositórios Git, como controle de versão, ramificações e solicitações de pull, o GitHub também facilita a colaboração entre desenvolvedores por meio de recursos como problemas, wikis e projetos. É amplamente utilizado pela comunidade de desenvolvimento de software para hospedar e compartilhar código-fonte de projetos de código aberto e privados.
 
 
-## Fontes:
+## 🔗 Fontes:
 <h1><a href="https://web.dio.me/home/"><img align="center" width="20px" src="./utils/dio.webp"></a><a href="https://web.dio.me/home"> Digital Inovation One (DIO)</a></h1>
 
 <h1><a href="https://git-scm.com/"><img align="center" width="20px" src="./utils/git.svg"></a><a href="https://git-scm.com/"> Git</a></h1>
