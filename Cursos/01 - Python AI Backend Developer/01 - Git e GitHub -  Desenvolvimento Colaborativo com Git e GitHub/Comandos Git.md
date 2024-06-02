@@ -236,52 +236,52 @@
   </thead>
   <tbody align="left">
     <tr>
-      <td><code>git checkout -b [NOME_DA_BRANCH]</code></td>
+      <td>git checkout -b [NOME_DA_BRANCH]</td>
       <td>É utilizado para criar uma nova branch e mudar para ela.</td>
       <td align="left"> <code>$ git checkout -b teste</code></td>
     </tr>
     <tr>
-      <td><code>git checkout [BRANCH] main</code></td>
+      <td>git checkout [BRANCH] main</td>
       <td>É utilizado para mudar para uma branch específica a partir da branch principal (main).</td>
       <td align="left"> <code>$ git checkout main</code></td>
     </tr>
     <tr>
-      <td><code>git checkout -v</code></td>
+      <td>git checkout -v</td>
       <td>É utilizado para listar os últimos commits de cada branch.</td>
       <td align="left"> <code>$ git checkout -v</code></td>
     </tr>
     <tr>
-      <td><code>git merge [BRANCH]</code></td>
+      <td>git merge [BRANCH]</td>
       <td>É utilizado para mesclar uma branch específica com a branch atual.</td>
       <td align="left"> <code>$ git merge main</code></td>
     </tr>
     <tr>
-      <td><code>git branch</code></td>
+      <td>git branch</td>
       <td>É utilizado para listar as branches no repositório atual.</td>
       <td align="left"> <code>$ git branch</code></td>
     </tr>
     <tr>
-      <td><code>git branch -d [BRANCH]</code></td>
+      <td>git branch -d [BRANCH]</td>
       <td>É utilizado para deletar uma branch específica.</td>
       <td align="left"> <code>$ git branch -d main</code></td>
     </tr>
     <tr>
-      <td><code>git fetch origin main</code></td>
+      <td>git fetch origin main</td>
       <td>É utilizado para baixar as alterações do repositório remoto sem afetar o local.</td>
       <td align="left"> <code>$ git fetch origin main</code></td>
     </tr>
     <tr>
-      <td><code>git diff main origin/main</code></td>
+      <td>git diff main origin/main</td>
       <td>É utilizado para mostrar as diferenças entre as branches.</td>
       <td align="left"> <code>$ git diff main origin/main</code></td>
     </tr>
     <tr>
-      <td><code>git merge origin/main</code></td>
+      <td>git merge origin/main</td>
       <td>É utilizado para mesclar as alterações da branch remota com a branch local.</td>
       <td align="left"> <code>$ git merge origin/main</code></td>
     </tr>
     <tr>
-      <td><code>git stash</code> <br> <code>$ git stash list</code> <br> <code>$ git stash pop</code> <br> <code>$ git stash apply</code></td>
+      <td>$ git stash <br> $ git stash list <br> $ git stash pop <br> $ git stash apply</td>
       <td>É utilizado para gerenciar o stash, que permite armazenar temporariamente mudanças que ainda não estão prontas para serem commitadas.</td>
       <td align="left"> <code>$ git stash</code> <br> <code>$ git stash list</code> <br> <code>$ git stash pop</code> <br> <code>$ git stash apply</code></td>
     </tr>
