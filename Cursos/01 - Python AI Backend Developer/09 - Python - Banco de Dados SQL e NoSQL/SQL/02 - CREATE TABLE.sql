@@ -1,0 +1,64 @@
+# - - - - -> CREATE TABLE:
+
+# - - -> Tipos de Dados: 
+
+#				Os tipos de dados podem váriar muito entre os diversos SGBD, os mais comuns são:
+#
+# 					- Inteiro (INTEGER): Para valores numéricos inteiros, como IDs.
+# 					- Decimal/Numérico (DECIMAL/NUMERIC): Para valores numéricos com ponto flutuante.
+# 					- Caractere/Varchar (CHARACTER/VARCHAR): Para cadeias de caracteres de tamanho variável.
+# 					- Data/Hora (DATE/TIME): Para valores de data e hora.
+# 					- Booleano (BOOLEAN): Para valores booleanos (verdadeiro ou falso).
+# 					- Texto longo (TEXT): Para grandes cadeias de caracteres.
+
+
+
+# - - -> Opções:
+
+# 				Ao criar tabelas em um banco de dados, você pode usar diversas opções para definir as
+#			propriedades das colunas. Essas opções ajudam a garantir a integridade dos dados, definir
+#			comportamentos padrão e impor restrições. Aqui estão algumas das opções mais comuns:
+#
+# 				- NOT NULL: Indica que a coluna não pode conter valores nulos.
+# 				- UNIQUE: Garante que todos os valores da coluna sejam únicos.
+# 				- PRIMARY KEY: Define a coluna como chave primária da tabela.
+# 				- FOREIGN KEY: Define a coluna como chave estrangeira, referenciando outra tabela.
+# 				- DEFAULT: Define um valor padrão para a coluna.
+#				- AUTO_INCREMENT: Faz com que os valores da coluna sejam gerados automaticamente.
+
+
+# - - -> Sintaxe:
+
+# CREATE TABLE {{nome}}
+#		({{coluna}} {{tipo}} {{opções}} COMMENT {{comentário}});
+
+
+
+# - - -> Exemplos:
+
+# Cria a tabela 'usuarios' e suas colunas.
+CREATE TABLE viagens.usuarios (
+   id INT COMMENT 'Identificador único do usuário',
+   nome VARCHAR(255) NOT NULL COMMENT 'Nome do usuário',
+   email VARCHAR(100) NOT NULL UNIQUE COMMENT 'E-mail do usuário',
+   data_nascimento DATE NOT NULL COMMENT 'Data de nascimento do usuário',
+   endereco VARCHAR(70) NOT NULL COMMENT 'Endereço do usuário'
+);
+
+
+# Cria a tabela 'destinos' e suas colunas.
+CREATE TABLE viagens.destinos (
+	id INT COMMENT 'Identificador único do destino',
+	nome VARCHAR(255) NOT NULL UNIQUE COMMENT 'Nome do destiono',
+	descricao VARCHAR(255) NOT NULL COMMENT 'Descrição do destino'
+);
+
+
+# Cria a tabela 'reservas' e suas colunas.
+CREATE TABLE viagens.reservas (
+	id INT COMMENT 'Identificador único da reserva',
+	id_usuario INT COMMENT 'Referência ao ID do usuário que fez a reserva',
+	id_destino INT COMMENT 'Referência ao ID do destino da reserva',
+	data DATE COMMENT 'Data da reserva',
+	status VARCHAR(50) DEFAULT 'pendente' COMMENT 'Status da reserva (confirmada, pendente, cancelada, etc.)'
+);
