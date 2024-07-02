@@ -6,5 +6,5 @@
     ],
     "java.dependency.showMembers": true,
     "java.dependency.syncWithFolderExplorer": true,
-    "java.dependency.packagePresentation": "hierarchical"
+    "java.dependency.packagePresentation": "hierarchical",
 }

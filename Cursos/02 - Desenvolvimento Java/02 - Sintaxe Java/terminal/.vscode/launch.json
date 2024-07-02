@@ -1,0 +1,41 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "InputComScanner",
+            "request": "launch",
+            "mainClass": "InputComScanner",
+            "projectName": "terminal_dbc5c368"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "MinhaClasse",
+            "request": "launch",
+            "mainClass": "MinhaClasse",
+            "projectName": "terminal_dbc5c368"
+        },
+        {
+            "type": "java",
+            "name": "TerminalArgumentos",
+            "request": "launch",
+            "mainClass": "TerminalArgumentos",
+            "projectName": "terminal_dbc5c368",
+            "args": [
+                "Fabrício",
+                "dos Santos Moreira",
+                "19",
+                "1.85"
+            ]
+        }
+    ]
+}
