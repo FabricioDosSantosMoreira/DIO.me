@@ -5,42 +5,44 @@ import java.util.List;
 
 
 public class ListaTarefa {
+    
+    // Atributo da classe 'ListaTarefa'
+    private List<Tarefa> listaTarefas;
 
-    private List<Tarefa> tarefas;
-
+    // Construtor da classe 'ListaTarefa'
     public ListaTarefa() {
-        this.tarefas = new ArrayList<>();
+        this.listaTarefas = new ArrayList<>();
     }
 
+    // Métodos da classe 'ListaTarefa'
     public void adicionarTarefa(String descricao) {
-        this.tarefas.add(new Tarefa(descricao));
+        this.listaTarefas.add(new Tarefa(descricao));
     }
 
     public void removerTarefa(String descricao) { 
-        if (!this.tarefas.isEmpty()) {
-            List<Tarefa> tarefasParaRemover = new ArrayList<>();
+        if (!this.listaTarefas.isEmpty()) {
+            List<Tarefa> listaTarefasParaRemover = new ArrayList<>();
 
-            for (Tarefa t : this.tarefas) {
+            for (Tarefa t : this.listaTarefas) {
                 if (t.getDescricao().equalsIgnoreCase(descricao))  {
-                    tarefasParaRemover.add(t);
+                    listaTarefasParaRemover.add(t);
                 }
             }
 
-            this.tarefas.removeAll(tarefasParaRemover);
-
+            this.listaTarefas.removeAll(listaTarefasParaRemover);
         } else {
             System.out.println("\nA lista está vazia!");
         }
     }
 
     public int qtdTotalTarefas() {
-        return this.tarefas.size();
+        return this.listaTarefas.size();
     }
 
     public void exibirDescricoesTarefas() {
-        if (!this.tarefas.isEmpty()) {
+        if (!this.listaTarefas.isEmpty()) {
             System.out.println("\n| Lista de tarefas: ");
-            for (Tarefa t : this.tarefas) {
+            for (Tarefa t : this.listaTarefas) {
                 System.out.println("| Tarefa: " + t.getDescricao());
             }
         } else {

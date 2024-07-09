@@ -2,19 +2,19 @@ package List.Exercicios.Basico.CarrinhoDeCompras;
 
 public class Item {
 
-    // Atributos
+    // Atributos da classe 'Item'
     private String nome;
     private double preco;
     private int quantidade;
 
-    // Construtor
+    // Construtor da classe 'Item'
     public Item(String nome, double preco, int quantidade) {
         this.nome = nome;
         this.preco = preco;
         this.quantidade = quantidade;
     }
 
-    // Getters e Setters
+    // Getters e Setters da classe 'Item'
     public String getNome() {
         return nome;
     }
@@ -38,5 +38,4 @@ public class Item {
     public void setQuantidade(int quantidade) {
         this.quantidade = quantidade;
     }
-  
 }

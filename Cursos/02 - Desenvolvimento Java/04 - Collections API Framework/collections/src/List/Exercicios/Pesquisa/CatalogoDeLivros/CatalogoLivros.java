@@ -5,13 +5,16 @@ import java.util.List;
 
 
 public class CatalogoLivros {
-
+    
+    // Atributo da classe 'CatalogoLivros'
     private List<Livro> catalogo;
 
+    // Construtor da classe 'CatalogoLivros'
     public CatalogoLivros() {
         this.catalogo = new ArrayList<>();
     }
 
+    // Métodos da classe 'CatalogoLivros'
     public void adicionarLivro(String titulo, String autor, int anoPublicacao) {
         this.catalogo.add(new Livro(titulo, autor, anoPublicacao));
     }
@@ -28,7 +31,6 @@ public class CatalogoLivros {
         } else {
             System.out.println("\nO catálogo de livros está vazio!");
         }
-
         return livrosEncontrados;
     }
 
@@ -45,7 +47,6 @@ public class CatalogoLivros {
         } else {
             System.out.println("\nO catálogo de livros está vazio!");
         }
-
         return livroEncontrado;
     }
     
@@ -61,7 +62,6 @@ public class CatalogoLivros {
         } else {
             System.out.println("\nO catálogo de livros está vazio!");
         }
-
         return livrosEncontrados;
     }
 }

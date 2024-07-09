@@ -1,9 +1,9 @@
 // ├───┬───> Exercício: Carrinho de Compras
 // │   │
 // │   └───>    Crie uma classe chamada "CarrinhoDeCompras" que representa um carrinho de compras online. 
-// │        O carrinho deve ser implementado como uma lista de itens. Cada item é representado por uma 
-// │        classe chamada "Item" que possui atributos como nome, preço e quantidade.
-// │        Implemente os seguintes métodos:
+// │         O carrinho deve ser implementado como uma lista de itens. Cada item é representado por uma 
+// │         classe chamada "Item" que possui atributos como nome, preço e quantidade.
+// │         Implemente os seguintes métodos:
 // │
 // │            * adicionarItem(String nome, double preco, int quantidade): Adiciona um item ao carrinho com o nome, preço e quantidade especificados.
 // │            * removerItem(String nome): Remove um item do carrinho com base no seu nome.
@@ -22,31 +22,34 @@ public class Main {
         // Instânciando um objeto da classe 'CarrinhoDeCompras'
         CarrinhoDeCompras carrinhoDeCompras = new CarrinhoDeCompras();
 
-        // Adicionando itens à 'carrinhoDeCompras'
+        // Adicionando itens
         carrinhoDeCompras.adicionarItem("item 1", 10.0, 10);
         carrinhoDeCompras.adicionarItem("item 2", 20.0, 20);
         carrinhoDeCompras.adicionarItem("item 3", 30.0, 30);
 
-        // Exibindo o valor total de itens no 'carrinhoDeCompras'
+        // Exibindo o valor total de itens
         System.out.println("\nO valor dos itens é: " + carrinhoDeCompras.calcularValorTotal());
 
-        // Exibindo os itens no 'carrinhoDeCompras'
+        // Exibindo os itens
         carrinhoDeCompras.exibirItens();
 
-        // Removendo um item do 'carrinhoDeCompras'
+        // Removendo um item
         carrinhoDeCompras.removerItem("Item 1");
 
-        // Exibindo os itens no 'carrinhoDeCompras'
+        // Exibindo o valor total de itens
+        System.out.println("\nO valor dos itens é: " + carrinhoDeCompras.calcularValorTotal());
+
+        // Exibindo os itens
         carrinhoDeCompras.exibirItens();
 
-        // Exibindo o valor total de itens no 'carrinhoDeCompras'
-        System.out.println("\nO valor dos itens é: " + carrinhoDeCompras.calcularValorTotal());
-        
-        // Removendo um itens do 'carrinhoDeCompras'
+        // Removendo itens
         carrinhoDeCompras.removerItem("Item 2");
         carrinhoDeCompras.removerItem("Item 3");
 
-        // Exibindo o valor total de itens no 'carrinhoDeCompras'
+        // Exibindo o valor total de itens
         System.out.println("\nO valor dos itens é: " + carrinhoDeCompras.calcularValorTotal());
+
+        // Exibindo os itens
+        carrinhoDeCompras.exibirItens();
     }
 }

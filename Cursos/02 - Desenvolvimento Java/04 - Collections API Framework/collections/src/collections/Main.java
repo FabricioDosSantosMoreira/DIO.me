@@ -1,3 +1,5 @@
+package collections;
+
 // /Uma coleção (collection) é uma estrutura de dados que serve para agrupar muitos elementos 
 // em uma única unidade; estes elementos precisam ser objetos.
 
@@ -80,3 +82,31 @@
 // fila.add("A");
 // fila.add("B");
 // fila.add("C");
+
+
+import java.util.IdentityHashMap;
+
+public class Main {
+
+    public static void main(String[] args) {
+        IdentityHashMap a = new IdentityHashMap<>();
+        
+    }
+
+}
+
+// Ta faltando varias collections
+// Collection	Ordering	Random Access	Key-Value	Duplicate Elements	Null Element	Thread Safety
+// ArrayList	✅	✅	❌	✅	✅	❌
+// LinkedList	✅	❌	❌	✅	✅	❌
+// HashSet	❌	❌	❌	❌	✅	❌
+// TreeSet	✅	❌	❌	❌	❌	❌
+// HashMap	❌	✅	✅	❌	✅	❌
+// TreeMap	✅	✅	✅	❌	❌	❌
+// Vector	✅	✅	❌	✅	✅	✅
+// Hashtable	❌	✅	✅	❌	❌	✅
+// Properties	❌	✅	✅	❌	❌	✅
+// Stack	✅	❌	❌	✅	✅	✅
+// CopyOnWriteArrayList	✅	✅	❌	✅	✅	✅
+// ConcurrentHashMap	❌	✅	✅	❌	❌	✅
+// CopyOnWriteArraySet	❌	❌	❌	❌	✅	✅

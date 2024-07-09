@@ -1,7 +1,7 @@
 // ├───┬───> Exercício: Soma de Números
 // │   │
 // │   └───>    Crie uma classe chamada "SomaNumeros" que possui uma lista de números inteiros como atributo.
-// │        Implemente os seguintes métodos:
+// │         Implemente os seguintes métodos:
 // │
 // │            * adicionarNumero(int numero): Adiciona um número à lista de números.
 // │            * calcularSoma(): Calcula a soma de todos os números na lista e retorna o resultado.
@@ -21,21 +21,21 @@ public class Main {
         // Instânciando um objeto da classe 'SomaDeNumeros'
         SomaDeNumeros somaDeNumeros = new SomaDeNumeros();
 
-        // Adicionando numeros à 'somaDeNumeros'
+        // Adicionando numeros
         somaDeNumeros.adicionarNumero(2);
         somaDeNumeros.adicionarNumero(22);
         somaDeNumeros.adicionarNumero(222);
 
-        // Encontrando o maior número em 'somaDeNumeros'
+        // Encontrando o maior número
         int maiorNumero = somaDeNumeros.encontrarMaiorNumero();
         System.out.println("O maior número da lista é: " + maiorNumero);
         
-        // Encontrando o menor número em 'somaDeNumeros'
+        // Encontrando o menor
         int menorNumero = somaDeNumeros.encontrarMenorNumero();
         System.out.println("O menor número da lista é: " + menorNumero);
 
-        // Calculando a soma total entre os números em 'somaDeNumeros'
-        int soma = somaDeNumeros.calcularSoma();
-        System.out.println("A soma total da lista é: " + soma);
+        // Calculando a soma total entre os números
+        int somaTotal = somaDeNumeros.calcularSoma();
+        System.out.println("A soma total de números na lista é: " + somaTotal);
     }
 }

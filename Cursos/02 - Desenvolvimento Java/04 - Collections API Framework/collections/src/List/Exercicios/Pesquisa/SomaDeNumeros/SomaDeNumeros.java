@@ -6,31 +6,33 @@ import java.util.List;
 
 public class SomaDeNumeros {
 
-    List<Integer> numeros;
+    // Atributo da classe 'SomaDeNumeros'
+    List<Integer> listaNumeros;
 
+    // Construtor da classe 'SomaDeNumeros'
     public SomaDeNumeros() {
-        this.numeros = new ArrayList<>();
+        this.listaNumeros = new ArrayList<>();
     } 
 
+    // Métodos da classe 'SomaDeNumeros'
     public void adicionarNumero(int numero) {
-        this.numeros.add(numero);
+        this.listaNumeros.add(numero);
     }
 
     public int calcularSoma() {
         int soma = 0;
         
-        for (Integer numero : numeros) {
+        for (Integer numero : listaNumeros) {
             soma += numero;
         }
-
         return soma;
     }
 
     public int encontrarMaiorNumero() {
         int maiorNumero = Integer.MIN_VALUE;
 
-        if(!this.numeros.isEmpty()) {
-            for (Integer numero : this.numeros) {
+        if(!this.listaNumeros.isEmpty()) {
+            for (Integer numero : this.listaNumeros) {
                 if (numero >= maiorNumero) {
                     maiorNumero = numero;
                 }
@@ -38,15 +40,14 @@ public class SomaDeNumeros {
         } else {
             System.out.println("\nA lista de números está vazia!");
         }
-
         return maiorNumero;
     }
 
     public int encontrarMenorNumero() {
         int menorNumero = Integer.MAX_VALUE;
 
-        if(!this.numeros.isEmpty()) {
-            for (Integer numero : this.numeros) {
+        if(!this.listaNumeros.isEmpty()) {
+            for (Integer numero : this.listaNumeros) {
                 if (numero <= menorNumero) {
                     menorNumero = numero;
                 }
@@ -54,14 +55,12 @@ public class SomaDeNumeros {
         } else {
             System.out.println("\nA lista de números está vazia!");
         }
-
         return menorNumero;
     }
 
     public void exibirNumeros() {   
-
-        if(!this.numeros.isEmpty()) {
-            System.out.println("\n| Lista de números: " + this.numeros);
+        if(!this.listaNumeros.isEmpty()) {
+            System.out.println("\n| Lista de números: " + this.listaNumeros);
         } else {
             System.out.println("\nA lista de números está vazia!");
         }

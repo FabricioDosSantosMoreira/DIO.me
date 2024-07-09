@@ -2,15 +2,15 @@ package List.Exercicios.Basico.ListaDeTarefas;
 
 public class Tarefa {
 
-    // Atributo
+    // Atributo da classe 'Tarefa'
     private String descricao;
     
-    // Construtor
+    // Construtor da classe 'Tarefa'
     public Tarefa(String descricao) {
         this.descricao = descricao;
     }
 
-    // Getter e Setter
+    // Getter e Setter da classe 'Tarefa'
     public String getDescricao() {
         return descricao;
     }
