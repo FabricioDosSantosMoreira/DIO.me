@@ -11,6 +11,7 @@ public class Celular{
 
         IPhone iphone = new IPhone();
 
+        // Testando os métodos do Reprodutor
         iphone.aumentarVolume(20);
         iphone.diminuirVolume(20);
 
@@ -21,9 +22,15 @@ public class Celular{
         iphone.reproduzir();
 
 
+        // Testando os métodos do Telefone
         iphone.atender("123456789");
         iphone.ligar("123456789");
         iphone.iniciarCorreioDeVoz();
 
+
+        // Testando os métodos do Navegador
+        iphone.adicionarNovaAba();
+        iphone.atualizarPagina();
+        iphone.exibirPagina("https://www.teste.com");
     }
 }

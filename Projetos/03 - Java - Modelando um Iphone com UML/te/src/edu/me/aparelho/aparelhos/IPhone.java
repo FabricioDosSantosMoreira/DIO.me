@@ -2,6 +2,7 @@ package edu.me.aparelho.aparelhos;
 
 import java.util.Random;
 
+import edu.me.aparelho.navegador.Navegador;
 import edu.me.aparelho.reprodutor.Reprodutor;
 import edu.me.aparelho.reprodutor.util.Midia;
 import edu.me.aparelho.reprodutor.util.Musica;
@@ -9,7 +10,7 @@ import edu.me.aparelho.reprodutor.util.Video;
 import edu.me.aparelho.telefone.Telefone;
 
 
-public class IPhone implements Reprodutor, Telefone {
+public class IPhone implements Reprodutor, Telefone, Navegador {
 
     private Midia midiaAtual;
     private int volume = 10;
@@ -87,4 +88,20 @@ public class IPhone implements Reprodutor, Telefone {
         System.out.println("Correio de voz reproduzindo!");
     }
 
+
+    // NavegadorWeb do Iphone
+    @Override
+    public void exibirPagina(String url) {
+        System.out.println("Página exibida!");
+    }
+
+    @Override
+    public void adicionarNovaAba() {
+       System.out.println("Aba adicionada!");
+    }
+
+    @Override
+    public void atualizarPagina() {
+        System.out.println("Página atualizada");
+    }
 }
