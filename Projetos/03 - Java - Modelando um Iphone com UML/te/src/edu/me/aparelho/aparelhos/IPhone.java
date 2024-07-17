@@ -1,45 +1,90 @@
 package edu.me.aparelho.aparelhos;
 
-import edu.me.aparelho.reprodutor.ReprodutorMusica;
-import edu.me.aparelho.reprodutor.ReprodutorVideo;
+import java.util.Random;
+
+import edu.me.aparelho.reprodutor.Reprodutor;
+import edu.me.aparelho.reprodutor.util.Midia;
+import edu.me.aparelho.reprodutor.util.Musica;
+import edu.me.aparelho.reprodutor.util.Video;
+import edu.me.aparelho.telefone.Telefone;
 
 
-public class IPhone implements ReprodutorMusica, ReprodutorVideo {
+public class IPhone implements Reprodutor, Telefone {
 
-    @Override
+    private Midia midiaAtual;
+    private int volume = 10;
+
+
+    public void Iphone() {}
+
+
+    // Reprodutor do Iphone
     public void reproduzir() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'reproduzir'");
+        if (this.midiaAtual != null) {
+            System.out.println(this.midiaAtual.getTitulo()  + " Está reproduzindo!");
+        } else {
+            System.out.println("Nenhuma mídia foi selecionada!");
+        }
     }
 
-    @Override
     public void pausar() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'pausar'");
+        if (this.midiaAtual != null) {
+            System.out.println(this.midiaAtual.getTitulo()  + " Está pausada!");
+        } else {
+            System.out.println("Nenhuma mídia foi selecionada!");
+        }
     }
 
-    @Override
     public void aumentarVolume(int volume) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'aumentarVolume'");
+        volume = this.volume + volume;
+
+        System.out.println("Volume aumentado de: [" + this.volume + "] para: [" + volume + "]");
+        this.volume = volume;
     }
 
-    @Override
     public void diminuirVolume(int volume) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'diminuirVolume'");
+        volume = this.volume - volume;
+
+        System.out.println("Volume diminuido de: [" + this.volume + "] para: [" + volume + "]");
+        this.volume = volume;
     }
 
     @Override
-    public void selecionarVideo(String video) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'selecionarVideo'");
+    public void selecionarVideo(Video video) {
+        System.out.println("Video selecionado!");
+        this.midiaAtual = video;
     }
 
     @Override
-    public void selecionarMusica(String musica) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'selecionarMusica'");
+    public void selecionarMusica(Musica musica) {
+        System.out.println("Música selecionada!");
+        this.midiaAtual = musica;
     }
-    
+
+    // Telefone do Iphone
+    @Override
+    public void atender(String numero) {
+        System.out.println("Número [" + numero + "] foi atendido!");
+    }
+
+    @Override
+    public void ligar(String numero) {
+        Random random = new Random();
+        boolean atendido = false;
+
+        while(atendido == false) {
+            if(random.nextInt(3) == 1) {
+                atendido = true;
+                System.out.println("Telefone atendido!");
+                break;
+            };
+            System.out.println("Discando número: [" + numero + "]");
+        }
+    }
+
+    @Override
+    public void iniciarCorreioDeVoz() {
+        System.out.println("Correio de voz reproduzindo!");
+    }
+
 }

@@ -1,7 +1,10 @@
 package edu.me.aparelho.reprodutor;
 
-public interface ReprodutorVideo extends ReprodutorMidia {
+import edu.me.aparelho.reprodutor.util.Video;
 
-    public void selecionarVideo(String video);
-    
+
+public interface ReprodutorVideo {
+
+    public void selecionarVideo(Video video);
+
 }
