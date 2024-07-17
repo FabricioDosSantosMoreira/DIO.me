@@ -1,3 +1,5 @@
+import java.sql.Struct;
+
 public abstract class Conta implements IConta {
 
     // Atributos
