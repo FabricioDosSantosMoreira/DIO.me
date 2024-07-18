@@ -12,7 +12,7 @@
 	<artifactId>java-project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot</name>
-	<description>Conexão com Postgres</description>
+	<description>JPA Repository</description>
 	<url/>
 	<licenses>
 		<license/>
