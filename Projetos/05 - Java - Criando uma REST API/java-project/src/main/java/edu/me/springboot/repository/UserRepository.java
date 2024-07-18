@@ -4,8 +4,6 @@ package edu.me.springboot.repository;
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.stereotype.Repository;
-
-import edu.me.springboot.handler.BusinessException;
 import edu.me.springboot.handler.RequiredFieldException;
 import edu.me.springboot.model.User;
 
