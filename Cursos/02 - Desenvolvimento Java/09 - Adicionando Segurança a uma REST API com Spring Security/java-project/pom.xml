@@ -11,8 +11,8 @@
 	<groupId>edu.me.springboot</groupId>
 	<artifactId>java-project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Spring Boot REST API</name>
-	<description>Spring Boot REST API</description>
+	<name>Spring Boot Security</name>
+	<description>Spring Boot Security</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
