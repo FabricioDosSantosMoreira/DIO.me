@@ -4,6 +4,9 @@ package edu.me.springboot.repository;
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.stereotype.Repository;
+
+import edu.me.springboot.handler.BusinessException;
+import edu.me.springboot.handler.RequiredFieldException;
 import edu.me.springboot.model.User;
 
 
@@ -11,6 +14,14 @@ import edu.me.springboot.model.User;
 public class UserRepository {
 
     public void save(User user) {
+
+        if(user.getLogin() == null) {
+            throw new RequiredFieldException("login");
+        }
+
+        if(user.getPassword() == null) {
+            throw new RequiredFieldException("password");
+        }
 
         if(user.getId() == null) {
             System.out.println("\n[SAVE] - Saving user");
@@ -47,5 +58,5 @@ public class UserRepository {
         System.out.println("\n[FIND/username] - Searching user");
         return new User("teste", "teste");
     }
-    
+
 }
