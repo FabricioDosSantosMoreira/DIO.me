@@ -12,6 +12,9 @@ public class JWTObject {
     private Date expiration; // Data de expiração do Token
     private List<String> roles; // Perfis de acesso
 
+    public JWTObject() {
+    }
+
     public String getSubject() {
         return subject;
     }

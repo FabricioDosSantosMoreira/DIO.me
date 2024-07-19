@@ -29,11 +29,7 @@ public class JWTFilter extends OncePerRequestFilter {
             throws ServletException, IOException {
         
         // Obtém o token da request com AUTHORIZATION
-        String token =  request.getHeader(JWTCreator.HEADER_AUTHORIZATION);
-
-        System.out.println("primeiro token" + token);
-        System.out.println("primeiro token" + SecurityConfig.PREFIX);
-        System.out.println("primeiro token" + SecurityConfig.KEY);
+        String token = request.getHeader(JWTCreator.HEADER_AUTHORIZATION);
 
         // Testa implementação só esta validando a integridade do token
         try {
@@ -42,15 +38,14 @@ public class JWTFilter extends OncePerRequestFilter {
 
                 List<SimpleGrantedAuthority> authorities = authorities(tokenObject.getRoles());
 
+                System.out.println("\nAuthorities: " + authorities);
+                
                 UsernamePasswordAuthenticationToken userToken =
-                        new UsernamePasswordAuthenticationToken(
-                                tokenObject.getSubject(),
-                                null,
-                                authorities);
+                    new UsernamePasswordAuthenticationToken(tokenObject.getSubject(), null, authorities);
 
                 SecurityContextHolder.getContext().setAuthentication(userToken);
 
-            }else {
+            } else {
                 SecurityContextHolder.clearContext();
             }
             filterChain.doFilter(request, response);

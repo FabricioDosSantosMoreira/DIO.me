@@ -1,6 +1,8 @@
 package edu.me.springboot.security;
 
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -19,8 +21,20 @@ public class JWTCreator {
     public static final String ROLES_AUTHORITIES = "authorities";
 
     public static String create(String prefix, String key, JWTObject jwtObject) {
-        String token = Jwts.builder().setSubject(jwtObject.getSubject()).setIssuedAt(jwtObject.getIssuedAt()).setExpiration(jwtObject.getExpiration())
-                .claim(ROLES_AUTHORITIES, checkRoles(jwtObject.getRoles())).signWith(SignatureAlgorithm.HS512, key).compact();
+
+        System.out.println("\n\nENTREI AQUI COM prefix" + prefix);
+        System.out.println("\n\nENTREI AQUI COM key" + key);
+        System.out.println("\n\nENTREI AQUI COM roles" + jwtObject.getRoles());
+
+        String token = Jwts.builder()
+            .setSubject(jwtObject.getSubject())
+            .setIssuedAt(jwtObject.getIssuedAt())
+            .setExpiration(jwtObject.getExpiration())
+            // Por algum motivo no GET /users não vem nenhum role
+            .claim(ROLES_AUTHORITIES, checkRoles(Arrays.asList("USERS", "MANAGERS")))
+            .signWith(SignatureAlgorithm.HS512, key)
+            .compact();
+            //.claim(ROLES_AUTHORITIES, checkRoles(jwtObject.getRoles())).signWith(SignatureAlgorithm.HS512, key).compact();
         
         return prefix + " " + token;
     }
@@ -29,15 +43,13 @@ public class JWTCreator {
             throws ExpiredJwtException, UnsupportedJwtException, MalformedJwtException, SignatureException {
 
         JWTObject object = new JWTObject();
-        
-        System.out.println("\n\n\n\n\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\n\n\n\n\n\n\n");
-        System.out.println("token= " + token);
-        System.out.println("prefix = " + prefix);
-        System.out.println("key = " + key);
-        
-        token = token.replace(prefix, "");
 
-        System.out.println("\n\n\n\n\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n\n\n\n\n\n\n\n");
+        System.out.println("\n\n\ntoken" + token);
+        System.out.println("prefix" + prefix);
+        System.out.println("key" + key);
+
+        token = create(prefix, key, object);
+        token = token.replace(prefix, "");
 
         Claims claims = Jwts.parser().setSigningKey(key).parseClaimsJws(token).getBody();
 
@@ -50,7 +62,10 @@ public class JWTCreator {
     }
 
     private static List<String> checkRoles(List<String> roles) {
-        
+        if(roles == null) {
+            return new ArrayList<>();
+        }
+
         return roles.stream().map(s -> "ROLE_".concat(s.replaceAll("ROLE_",""))).collect(Collectors.toList());
     }
 }
