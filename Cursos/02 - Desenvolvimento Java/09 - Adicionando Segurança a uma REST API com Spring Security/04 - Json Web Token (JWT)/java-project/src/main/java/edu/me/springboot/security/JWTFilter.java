@@ -31,9 +31,13 @@ public class JWTFilter extends OncePerRequestFilter {
         // Obtém o token da request com AUTHORIZATION
         String token =  request.getHeader(JWTCreator.HEADER_AUTHORIZATION);
 
+        System.out.println("primeiro token" + token);
+        System.out.println("primeiro token" + SecurityConfig.PREFIX);
+        System.out.println("primeiro token" + SecurityConfig.KEY);
+
         // Testa implementação só esta validando a integridade do token
         try {
-            if(token!=null && !token.isEmpty()) {
+            if(token != null && !token.isEmpty()) {
                 JWTObject tokenObject = JWTCreator.create(token, SecurityConfig.PREFIX, SecurityConfig.KEY);
 
                 List<SimpleGrantedAuthority> authorities = authorities(tokenObject.getRoles());

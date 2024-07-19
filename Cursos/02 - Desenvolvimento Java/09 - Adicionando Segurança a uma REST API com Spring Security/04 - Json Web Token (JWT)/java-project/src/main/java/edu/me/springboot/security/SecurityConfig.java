@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 
 @Configuration
-@ConfigurationProperties(prefix = "securit.config")
+@ConfigurationProperties(prefix = "security.config")
 public class SecurityConfig {
 
     public static String PREFIX;

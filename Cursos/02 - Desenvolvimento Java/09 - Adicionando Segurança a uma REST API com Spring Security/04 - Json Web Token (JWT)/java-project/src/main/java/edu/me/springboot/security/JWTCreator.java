@@ -29,8 +29,15 @@ public class JWTCreator {
             throws ExpiredJwtException, UnsupportedJwtException, MalformedJwtException, SignatureException {
 
         JWTObject object = new JWTObject();
-
+        
+        System.out.println("\n\n\n\n\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\n\n\n\n\n\n\n");
+        System.out.println("token= " + token);
+        System.out.println("prefix = " + prefix);
+        System.out.println("key = " + key);
+        
         token = token.replace(prefix, "");
+
+        System.out.println("\n\n\n\n\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n\n\n\n\n\n\n\n");
 
         Claims claims = Jwts.parser().setSigningKey(key).parseClaimsJws(token).getBody();
 
