@@ -1,4 +1,4 @@
-package edu.me.domain;
+package edu.me;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

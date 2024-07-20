@@ -1,4 +1,8 @@
 spring:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
   datasource:
     url: jdbc:h2:mem:db
     username: dev

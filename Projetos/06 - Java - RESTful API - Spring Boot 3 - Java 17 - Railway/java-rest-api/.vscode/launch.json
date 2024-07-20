@@ -5,11 +5,11 @@
             "type": "java",
             "name": "Application",
             "request": "launch",
-            "mainClass": "edu.me.domain.Application",
+            "mainClass": "edu.me.Application",
             "projectName": "java-rest-api",
             "vmArgs": "-Dspring.profiles.active=dev",
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal"
-        },
+        }
     ]
 }
