@@ -18,7 +18,7 @@ Neste repositório, você encontrará uma coleção dos códigos de cursos, desa
 
 - **Desafio 1**: Criando um Sistema Bancário com Python
 - **Desafio 2**: Otimizando o Sistema Bancário com Funções
-- **Desafio 3**: Modelando o Sistema Bamcário com POO
+- **Desafio 3**: Modelando o Sistema Bancário com POO
 
 ## Contribuição
 
