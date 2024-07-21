@@ -1,15 +1,32 @@
-{
+{   
     "version": "0.2.0",
     "configurations": [
         {
             "type": "java",
-            "name": "Application",
+            "name": "Launch Dev",
             "request": "launch",
             "mainClass": "edu.me.Application",
             "projectName": "java-rest-api",
             "vmArgs": "-Dspring.profiles.active=dev",
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prd",
+            "request": "launch",
+            "mainClass": "edu.me.Application",
+            "projectName": "java-rest-api",
+            "vmArgs": "-Dspring.profiles.active=prd",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "env": {
+                "PGHOST": "PGHOSTHERE",
+                "PGPORT": "PGPORTHERE",
+                "PGDATABASE": "PGDBHERE",
+                "PGUSER": "PGUSERHERE",
+                "PGPASSWORD": "PGPASSHERE"
+            }
         }
     ]
 }

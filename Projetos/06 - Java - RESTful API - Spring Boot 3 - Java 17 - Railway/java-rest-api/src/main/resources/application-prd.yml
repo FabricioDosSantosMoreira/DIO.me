@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+    username: ${PGUSER}
+    password: ${PGPASSWORD}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate # OBS: Se for a primeira vez use crete, se não use validate
+      dialect: org.hibernate.dialect.PostgreSQLDialect
