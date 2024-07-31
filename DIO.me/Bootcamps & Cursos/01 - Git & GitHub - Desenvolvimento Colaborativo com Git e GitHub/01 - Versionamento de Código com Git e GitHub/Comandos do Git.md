@@ -24,7 +24,7 @@
     <tr>
       <td>Git commit</td>
       <td>É utilizado para salvar as alterações <br> feitas nos arquivos do repositório.</td>
-      <td align="left"> <code>$ git commit -m "UPDATE: DIO.me"</code></td>
+      <td align="left"> <code>$ git commit -m "[UPDATE] - DIO.me"</code></td>
     </tr>
     <tr>
       <td>Git push</td>
@@ -292,8 +292,17 @@
 
 
 ## 🔗 Fontes:
-- <h2><a href="https://web.dio.me/home/"><img align="center" width="20px" src="./util/dio.webp"></a><a href="https://web.dio.me/home"> Digital Inovation One (DIO)</a></h2>
+- <h2>
+    <a href="https://web.dio.me/home/"><img align="center" width="20px" src="./util/dio.webp"></a>
+    <a href="https://web.dio.me/home"> Digital Inovation One (DIO)</a>
+</h2>
 
-- <h2><a href="https://github.com/"><img align="center" width="20px" src="./util/github.svg"></a><a href="https://github.com/"> GitHub</a></h2>
+- <h2>
+    <a href="https://github.com/"><img align="center" width="20px" src="./util/github.svg"></a>
+    <a href="https://github.com/"> GitHub</a>
+</h2>
 
-- <h2><a href="https://git-scm.com/"><img align="center" width="20px" src="./util/git.svg"></a><a href="https://git-scm.com/"> Git</a></h1>
+- <h2>
+    <a href="https://git-scm.com/"><img align="center" width="20px" src="./util/git.svg"></a>
+    <a href="https://git-scm.com/"> Git</a>
+</h1>
