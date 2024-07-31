@@ -1,8 +1,8 @@
-# My
+# My .gitignore template
 *.pdf
 
 
-# Python .gitignore template
+# Python's .gitignore template
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -130,7 +130,7 @@ dmypy.json
 cython_debug/
 
 
-# Java .gitignore template
+# Java's .gitignore template
 
 # Compiled class file
 *.class
