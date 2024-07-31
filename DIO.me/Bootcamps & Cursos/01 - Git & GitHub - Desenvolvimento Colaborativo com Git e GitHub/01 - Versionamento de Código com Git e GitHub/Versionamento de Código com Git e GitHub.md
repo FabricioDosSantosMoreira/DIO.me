@@ -5,7 +5,9 @@
   <a href="https://github.com/">
     <img align="center" width="50px" src="./util/github.svg">
   </a>
-  <span><strong>Versionamento de Código com Git e GitHub</strong></span>
+  <span>
+    <strong>Versionamento de Código com Git e GitHub</strong>
+  </span>
 </h1>
 
 
@@ -76,14 +78,32 @@ O GitHub é uma plataforma de hospedagem de código que utiliza o Git para contr
 
 ## 🔗 Fontes:
 
-- <h2><a href="https://web.dio.me/home/"><img align="center" width="25px" src="./util/dio.webp"></a><a href="https://web.dio.me/home"> Digital Inovation One (DIO)</a></h2>
+- <h2>
+  <a href="https://web.dio.me/home/"><img align="center" width="25px" src="./util/dio.webp"></a>
+  <a href="https://web.dio.me/home"> Digital Inovation One (DIO)</a>
+</h2>
 
-- <h2><a href="https://subversion.apache.org/"><img align="center" width="25px" src="./util/subversion.svg"></a><a href="https://subversion.apache.org/"> Subversion</a></h2>
+- <h2>
+  <a href="https://subversion.apache.org/"><img align="center" width="25px" src="./util/subversion.svg"></a>
+  <a href="https://subversion.apache.org/"> Subversion</a>
+</h2>
 
-- <h2><a href="https://www.mercurial-scm.org/"><img align="center" width="25px" src="./util/mercurial.svg"></a><a href="https://www.mercurial-scm.org/"> Mercurial</a></h2>
+- <h2>
+  <a href="https://www.mercurial-scm.org/"><img align="center" width="25px" src="./util/mercurial.svg"></a>
+  <a href="https://www.mercurial-scm.org/"> Mercurial</a>
+</h2>
 
-- <h2><a href="https://www.perforce.com/"><img align="center" width="25px" src="./util/perforce.svg"></a><a href="https://www.perforce.com/"> Perforce</a></h2>
+- <h2>
+  <a href="https://www.perforce.com/"><img align="center" width="25px" src="./util/perforce.svg"></a>
+  <a href="https://www.perforce.com/"> Perforce</a>
+</h2>
 
-- <h2><a href="https://github.com/"><img align="center" width="25px" src="./util/github.svg"></a><a href="https://github.com/"> GitHub</a></h2>
+- <h2>
+  <a href="https://github.com/"><img align="center" width="25px" src="./util/github.svg"></a>
+  <a href="https://github.com/"> GitHub</a>
+</h2>
 
-- <h2><a href="https://git-scm.com/"><img align="center" width="25px" src="./util/git.svg"></a><a href="https://git-scm.com/"> Git</a></h1>
+- <h2>
+  <a href="https://git-scm.com/"><img align="center" width="25px" src="./util/git.svg"></a>
+  <a href="https://git-scm.com/"> Git</a>
+</h1>
