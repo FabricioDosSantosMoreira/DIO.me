@@ -293,16 +293,16 @@
 
 ## 🔗 Fontes:
 - <h2>
-    <a href="https://web.dio.me/home/"><img align="center" width="20px" src="./util/dio.webp"></a>
+    <a href="https://web.dio.me/home/"><img align="center" width="25px" src="./util/dio.webp"></a>
     <a href="https://web.dio.me/home"> Digital Inovation One (DIO)</a>
 </h2>
 
 - <h2>
-    <a href="https://github.com/"><img align="center" width="20px" src="./util/github.svg"></a>
+    <a href="https://github.com/"><img align="center" width="25px" src="./util/github.svg"></a>
     <a href="https://github.com/"> GitHub</a>
 </h2>
 
 - <h2>
-    <a href="https://git-scm.com/"><img align="center" width="20px" src="./util/git.svg"></a>
+    <a href="https://git-scm.com/"><img align="center" width="25px" src="./util/git.svg"></a>
     <a href="https://git-scm.com/"> Git</a>
 </h1>
