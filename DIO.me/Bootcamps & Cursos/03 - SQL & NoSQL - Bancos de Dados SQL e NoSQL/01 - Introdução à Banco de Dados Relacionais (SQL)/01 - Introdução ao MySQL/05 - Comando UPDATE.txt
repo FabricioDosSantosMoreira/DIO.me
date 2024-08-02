@@ -1,0 +1,53 @@
+- - - - - > Comando 'UPDATE':
+ 	
+        O comando 'UPDATE' é utilizado em SQL (Structured Query Language) 
+	para modificar os dados existentes em uma tabela em um banco de dados. 
+    Ele permite atualizar um ou mais registros com novos valores levando 
+    em conta uma condição específica.
+
+
+- - - - > Sintaxe:
+
+    ***OBS NUNCA fazer 'UPDATE' sem clausura 'WHERE'
+    -> UPDATE {{tabela}}  // Atualiza uma tabela com novos valores
+       SET
+            {{coluna1}} = {{novo_valor1}},
+            {{coluna2}} = {{novo_valor2}}
+       WHERE
+            {{condição}};
+
+
+- - - - > Exemplos: 
+
+Atualiza o 'id' do usuário que tem o 'email' igual a 'teste@gmail.com':
+UPDATE viagens.usuarios
+SET id = 11000
+WHERE email = 'teste@gmail.com';
+
+Seleciona o usuário com o 'id' igual a 11000:
+SELECT * FROM viagens.usuarios
+WHERE id = 11000;
+
+Atualiza o 'id' do usuário que tem o 'email' igual a 'teste@gmail.com':
+UPDATE viagens.usuarios
+SET id = 1
+WHERE email = 'teste@gmail.com';
+
+Seleciona o usuário com o 'id' igual a 1:
+SELECT * FROM viagens.usuarios
+WHERE id = 1;
+
+
+Atualiza o 'id_destino' do usuário que tem o 'id_usuario' igual a 1:
+SET SQL_SAFE_UPDATES = 0; # Desativar o modo de atualização segura temporariamente, pois a tabela 'reservas' não possui uma PK ainda
+
+UPDATE viagens.reservas 
+SET id_destino = 10 
+WHERE id_usuario = 1;
+
+SET SQL_SAFE_UPDATES = 1; # Reativar o modo de atualização segura
+
+
+Seleciona a reserva com o 'id_destino' igual a 10:
+SELECT * FROM viagens.reservas
+WHERE id_destino = 10;

@@ -1,0 +1,26 @@
+- - - - - > Comando 'DELETE':
+ 
+        comando 'DELETE' é utilizado em SQL (Structured Query Language) 
+	para remover dados específicos de uma tabela em um banco de dados.
+
+
+- - - - > Sintaxe:
+
+    ***OBS NUNCA fazer 'DELETE' sem clausura 'WHERE'
+    -> DELETE FROM {{tabela}}  // Deleta da tabela algum dado
+       WHERE {{condição}};
+
+
+- - - - > Exemplos: 
+
+Seleciona o destino com o nome igual a 'Destino teste':
+SELECT * FROM viagens.destinos
+WHERE nome = 'Destino teste';
+
+Deleta o destino onde o nome é Destino teste':
+DELETE FROM viagens.destinos
+WHERE nome = 'Destino teste';
+
+Seleciona o destino com o nome igual a 'Destino teste':
+SELECT * FROM viagens.destinos
+WHERE nome = 'Destino teste';

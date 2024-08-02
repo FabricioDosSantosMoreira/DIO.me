@@ -1,0 +1,47 @@
+- - - - - > ÍNDICES DE BUSCA:
+
+   		Índices são estruturas de dados que melhoram a velocidade das operações de busca e 
+	recuperação de dados em uma tabela. Eles funcionam como um índice em um livro, 
+	permitindo acesso rápido às linhas baseadas nos valores das colunas indexadas. 
+	A criação de índices é crucial para otimizar o desempenho das consultas, 
+	especialmente em tabelas grandes.
+
+
+- - - - > Sintaxe: 
+
+ 	-> CREATE INDEX {{nome_do_indice}}  // Criando um índice
+ 	   ON {{tabela}} ({{coluna_1}}, {{coluna_2}}, ...);
+
+		
+ 	-> CREATE UNIQUE INDEX {{nome_do_indice}}  // Criando um índice único
+       ON {{tabela}} ({{coluna}});
+
+- - - > Opções:
+
+ 		Ao criar índices de busca em um banco de dados, você pode usar diversas opções para definir as
+	propriedades desses índices. Aqui estão algumas das opções mais comuns:
+
+		-> UNIQUE: Garante que todos os valores em uma coluna indexada sejam únicos.
+		-> FULLTEXT: Permite pesquisas avançadas em texto, disponível em alguns SGBDs como MySQL.
+		-> SPATIAL: Usado para otimização de consultas geoespaciais, disponível em alguns SGBDs como MySQL.
+		-> BTREE: Estrutura de índice padrão em muitos SGBDs, ideal para operações de busca e ordenação.
+		-> HASH: Utilizado para pesquisas rápidas de igualdade, mas não é adequado para operações de ordenação.
+
+
+- - - - > Exemplos:
+
+Visualizando o plano de execução da conusulta:
+EXPLAIN
+	SELECT * FROM viagens.usuarios WHERE nome = 'João Silva';
+
+Cria um índice na coluna 'nome' da tabela 'usuarios' para acelerar buscas por nome:
+CREATE INDEX idx_nome 
+ON viagens.usuarios (nome);
+
+Cria um índice único na coluna 'id' da tabela 'usuarios' para garantir que todos os IDs sejam únicos:
+CREATE UNIQUE INDEX idx_id
+ON viagens.usuarios (id);
+
+Remove o índice 'idx_id' da tabela 'usuarios':
+DROP INDEX idx_id 
+ON viagens.usuarios;

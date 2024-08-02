@@ -1,0 +1,46 @@
+- - - - - > Comando 'UPDATE':
+
+	    Os comandos 'UPDATE' no MongoDB são utilizados para modificar os dados existentes de uma
+	coleção. É necessário fornecer uma condição que pode combinar outros operadores para 
+	atualizar as coleções. No contexto do MongoDB, o comando 'UPDATE' é substituído pelos 
+	métodos 'updateOne()', 'updateMany()' e 'replaceOne()'.
+
+
+- - - - > Sintaxe:
+
+    ***OBS NUNCA fazer 'UPDATE' sem clausura 'WHERE'
+	-> db.{{coleção}}.updateOne(  // Atualiza um único documento que atende à condição especificada
+        	{{ {condição} }},                            
+        	{ $set: { {{campo_1}}: {{novo_valor_1}}, ... } }  
+       );
+
+	-> db.{{coleção}}.updateMany(  // Atualiza múltiplos documentos que atendem à condição especificada
+            { {{condição}} },    
+            { $set: {{{campo_1}}: {{novo_valor_1}}, ... } }  
+       );
+
+    -> db.usuarios.replaceOne(  // Substitui um único documento que atende à condição especificada
+            { {{condição}} },      
+            { {{novo_documento}} } 
+       );
+
+
+- - - - > Exemplos:
+
+Atualiza o campo 'id' do usuário com o 'email' igual a 'ana@example.com':
+db.usuarios.updateOne(
+    { email: 'ana@example.com' }, 
+    { $set: { id: 11000 } }
+);
+
+Atualiza o campo 'email' de todos os usuários com 'nome' igual a 'Rafael Costa':
+db.usuarios.updateMany(
+    { nome: 'Rafael Costa' }, 
+    { $set: { email: 'rafael_costa@example.com' } } 
+);
+
+Substitui completamente o documento do usuário com 'email' igual a 'eduardo@example.com':
+db.usuarios.replaceOne(
+    { email: 'eduardo@example.com' }, 
+    { id: 1000, nome: 'Eduardo', email: 'eduardo@example.com', data_nascimento: ISODate("2020-01-01T00:00:00Z"), endereco: 'Avenida AA, 579, Cidade X, Estado Y' } 
+);

@@ -1,0 +1,15 @@
+- - - - - > Comando 'CREATE DATABASE':
+
+		O comando 'CREATE DATABASE' é utilizado em SQL (Structured Query Language)
+	para criar um novo banco de dados.
+	
+
+- - - - > Sintaxe: 
+
+	-> CREATE DATABASE {{nome_do_banco}};  // Cria um banco de dados
+
+
+- - - - > Exemplo:
+
+Cria o banco de dados 'viagens':
+CREATE DATABASE viagens;

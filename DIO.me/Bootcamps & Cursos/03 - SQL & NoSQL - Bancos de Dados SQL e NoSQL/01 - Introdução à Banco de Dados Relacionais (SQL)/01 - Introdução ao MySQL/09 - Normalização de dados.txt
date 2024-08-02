@@ -1,0 +1,34 @@
+- - - - - > NORMALIZAÇÃO:
+
+  	    Normalização de dados é o processo de organizar os dados em um banco de dados para 
+	reduzir redundâncias e melhorar a integridade dos dados. Em geral, a normalização 
+	envolve a divisão de grandes tabelas em tabelas menores e a definição de 
+	relacionamentos entre elas.
+
+
+- - - - > Exemplos:
+
+Adiciona novas colunas na tabela 'usuarios':
+ALTER TABLE viagens.usuarios
+ADD COLUMN rua VARCHAR(100) COMMENT 'Rua do usuário',
+ADD COLUMN numero VARCHAR(10) COMMENT 'Número do endereço',
+ADD COLUMN cidade VARCHAR(50) COMMENT 'Cidade do usuário',
+ADD COLUMN estado VARCHAR(20) COMMENT 'Estado do usuário';
+
+Seleciona todas as colunas da tabela 'usuarios':
+SELECT * FROM viagens.usuarios;
+
+Copia e normaliza os dados da coluna 'endereco' para as novas colunas:
+UPDATE viagens.usuarios
+SET rua = SUBSTRING_INDEX(SUBSTRING_INDEX(endereco, ',', 1), ',', -1),
+    numero = SUBSTRING_INDEX(SUBSTRING_INDEX(endereco, ',', 2), ',', -1),
+    cidade = SUBSTRING_INDEX(SUBSTRING_INDEX(endereco, ',', 3), ',', -1),
+    estado = SUBSTRING_INDEX(endereco, ',', -1)
+WHERE endereco IS NOT NULL AND id > 0;
+  
+Remove a antiga coluna 'endereco':
+ALTER TABLE viagens.usuarios
+DROP COLUMN endereco; 
+
+Seleciona todas as colunas da tabela 'usuarios':
+SELECT * FROM viagens.usuarios;

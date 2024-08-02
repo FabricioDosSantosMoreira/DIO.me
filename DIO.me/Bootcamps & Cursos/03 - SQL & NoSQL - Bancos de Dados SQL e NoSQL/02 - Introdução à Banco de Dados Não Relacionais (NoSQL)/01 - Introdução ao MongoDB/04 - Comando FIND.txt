@@ -1,0 +1,153 @@
+- - - - - > Comando 'FIND':
+
+		Os comandos 'FIND' no MongoDB são utilizados para buscar documentos que atendam
+	a critérios específicos. É possível combinar filtros com operadores lógicos e 
+	expressões regulares para consultas mais avançadas. No contexto do MongoDB, o 
+	comando 'FIND' é substituído pelos métodos 'find()', 'findOne()', 
+	'findOneAndUpdate()' e 'findOneAndDelete()'.
+	   
+
+- - - - > Sintaxe:
+
+  	-> db.{{coleção}}.find({{filtro}}, {{projeção}});  // Encontra múltiplos documentos que atende à condição especificada
+
+	-> db.{{coleção}}.findOne({{filtro}}, {{projeção}});  //  Encontra um único documento que atende à condição especificada
+
+	-> db.{{coleção}}.findOneAndUpdate({{filtro}}, {{documento}}, {{opções}});  // Encontra um único documento que atende à condição especificada e o atualiza 
+
+	-> db.{{coleção}}.findOneAndDelete({{filtro}}, {{opções}});	 // Encontra um único documento que atende à condição especificada e o exclui
+
+- - - > Opções: 
+
+		São parâmetros adicionais que podem ser passados para modificar o comportamento da operação.
+
+	-> Opções em 'findOneAndUpdate':
+	    {
+            returnNewDocument: true,  // Retorna o documento atualizado
+            upsert: true  // Insere um novo documento se nenhum correspondente for encontrado
+        }
+	
+    -> Opções em 'findOneAndDelete':
+  	    {
+            sort: { campo_1: 1 }  // Ordenação dos documentos para determinar qual deletar
+        }
+
+- - - > Projeção:
+
+	   	É utilizada para especificar quais campos devem ser retornados nos documentos que 
+    correspondem ao filtro. Isso otimiza o desempenho, retornando apenas os campos necessários.
+       
+    	{
+  	 		campo_1: 1,  // Inclui 'campo_1'
+  	 		campo_2: 0   // Exclui 'campo_2'
+       	}
+
+- - - > Filtro:
+
+		O filtro é um critério usado para selecionar documentos específicos dentro de uma coleção. 
+    Os filtros são definidos usando documentos que especificam quais campos devem ser comparados 
+    e quais valores devem ser correspondidos. É possível utilizar operadores de comparação e 
+    lógicos para criar filtros. Entre eles:
+
+       	-> Operadores de comparação:
+			-> $eq: Igual a.      Exemplo: { campo: { $eq: valor } }
+			-> $ne: Diferente de. Exemplo: { campo: { $ne: valor } }
+			-> $gt: Maior que. Exemplo: { campo: { $gt: valor } }
+			-> $lt: Menor que. Exemplo: { campo: { $lt: valor } }
+			-> $gte: Maior ou igual a. Exemplo: { campo: { $gte: valor } }
+			-> $lte: Menor ou igual a. Exemplo: { campo: { $lte: valor } }
+			-> $in: Valor está dentro de um array.      Exemplo: { campo: { $in: [valor1, valor2, ...] } }
+			-> $nin: Valor não está dentro de um array. Exemplo: { campo: { $nin: [valor1, valor2, ...] } }
+
+		-> Operadores lógicos:
+			-> $and: Todos os filtros devem ser verdadeiros.  Exemplo: { $and: [ { filtro1 }, { filtro2 } ] }
+			-> $or: Pelo menos um filtro deve ser verdadeiro. Exemplo: { $or: [ { filtro1 }, { filtro2 } ] }
+			-> $not: Inverte o resultado de um filtro.        Exemplo: { campo: { $not: { $operator: valor } } }
+			-> $nor: Nenhum dos filtros deve ser verdadeiro.  Exemplo: { $nor: [ { filtro1 }, { filtro2 } ] }
+
+		-> Outros operadores:
+			-> $exists: Verifica se um campo existe ou não. Exemplo: { campo: { $exists: true } }
+			-> $type: Filtra documentos por tipo de dado do campo. Exemplo: { campo: { $type: "tipo" } }
+			-> $regex: Utiliza expressões regulares para filtragem de texto. Exemplo: { campo: { $regex: "padrão", $options: "i" } }
+
+
+- - - - > Exemplos:
+
+Seleciona todos os documentos da coleção 'usuarios':
+db.usuarios.find({});
+
+Seleciona todos os documentos da coleção 'destinos':
+db.destinos.find({});
+
+Seleciona todos os documentos da coleção 'reservas':
+db.reservas.find({});
+
+Seleciona apenas o 'nome' e o 'email' de todos os documentos da coleção 'usuarios':
+db.usuarios.find({}, { nome: 1, email: 1, _id: 0 });
+
+Seleciona todos os documentos da coleção 'usuarios' onde 'nome' é 'Ana Oliveira':
+db.usuarios.find({ nome: 'Ana Oliveira' });
+
+Seleciona todos os documentos da coleção 'usuarios' onde 'id' é igual a 1 e 'nome' possui os caracteres 'Teste':
+db.usuarios.find({ id: 1, nome: /Teste/ });
+
+Seleciona todos os documentos da coleção 'usuarios' onde 'id' é igual a 1 ou 'nome' possui os caracteres 'Eduardo':
+db.usuarios.find({ $or: [{ id: 1 }, { nome: /Eduardo/ }] });
+
+Seleciona todos os documentos da coleção 'usuarios' onde 'nome' possui o padrão 'Ed_ar__':
+db.usuarios.find({ nome: /Ed.ar../ });
+
+Seleciona um documento da coleção 'usuarios' onde 'nome' é 'Ana Oliveira':
+db.usuarios.findOne({ nome: 'Ana Oliveira' });
+
+Seleciona um documento da coleção 'reservas' onde 'id' é igual a 1:
+db.reservas.findOne({ id: 1 });
+
+Atualiza o 'email' do usuário onde 'nome' é 'Teste' e retorna o documento atualizado:
+db.usuarios.findOneAndUpdate(
+	{ nome: 'Teste' },
+	{ $set: { email: 'novoemail@example.com' } },
+	{ returnNewDocument: true }
+);
+
+Atualiza o 'status' de uma reserva onde 'id' é 1 e retorna o documento original:
+db.reservas.findOneAndUpdate(
+	{ id: 1 },
+	{ $set: { status: 'confirmada' } },
+	{ returnNewDocument: false }
+);
+
+Deleta um documento da coleção 'usuarios' onde 'nome' é 'Teste' e retorna o documento deletado:
+db.usuarios.findOneAndDelete({ nome: 'Teste' });
+
+Seleciona as reservas feitas por um usuário específico, incluindo informações sobre o destino, data e status:
+db.reservas.aggregate([
+	{
+	$lookup: {
+		from: 'usuarios',
+		localField: 'id',
+		foreignField: 'id',
+		as: 'usuario'
+		}
+	},
+		{ $unwind: '$usuario' },
+		{ $match: { 'usuario.nome': 'Ana Oliveira' } },
+	{
+		$lookup: {
+			from: 'destinos',
+			localField: 'id',
+			foreignField: 'id',
+			as: 'destino'
+		}
+	},
+		{ $unwind: '$destino' },
+	{
+		$project: {
+			nome: '$usuario.nome',
+			id: 1,
+			destino: '$destino.nome',
+			data: 1,
+			status: 1
+		}
+	}
+]);

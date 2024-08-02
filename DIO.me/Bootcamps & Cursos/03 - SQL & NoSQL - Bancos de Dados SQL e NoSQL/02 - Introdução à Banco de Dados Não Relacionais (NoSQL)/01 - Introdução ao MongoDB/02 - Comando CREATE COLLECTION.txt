@@ -1,0 +1,69 @@
+- - - - - > Comando 'CREATE COLLECTION':
+
+	    No MongoDB, a criação de coleções é implícita. Ou seja, a coleção é criada 
+	automaticamente quando você insere o primeiro documento. Porém é possível 
+	explicitar a criação de uma coleção.
+
+
+- - - - > Sintaxe:
+
+	-> db.createCollection({{nome}}, {{opções}});  // Cria uma coleção
+
+- - - > Opções:
+
+	As opções é um documento que especifica opções adicionais para a coleção. Entre elas:
+
+	    -> capped: Booleano, indica se a coleção é uma coleção 'capped' (limitada a um tamanho fixo). O valor padrão é false.
+
+	    -> size: Número, especifica o tamanho máximo, em bytes, para uma coleção 'capped'. Este campo é obrigatório se 'capped' for true.
+
+	    -> max: Número, especifica o número máximo de documentos permitidos em uma coleção 'capped'.
+
+	    -> validator: Documento, especifica regras de validação para a coleção.
+
+	    -> validationLevel: String, especifica o nível de validação ("off", "strict", "moderate").
+
+	    -> validationAction: String, especifica a ação de validação ("error", "warn").
+
+
+- - - - > Exemplos:
+
+Criação de uma coleção 'usuarios' sem opções adicionais:
+db.createCollection("reservas");
+
+Criação de uma coleção 'destinos' sem opções adicionais:
+db.createCollection("destinos");
+
+Criação de uma coleção 'capped' com tamanho máximo de 1 MB:
+db.createCollection("logs", { capped: true, size: 1048576 });
+
+Criação de uma coleção com validação de esquema:
+db.createCollection("usuarios", {
+    validator: {
+        $jsonSchema: {
+            bsonType: "object",
+            required: ["nome", "email", "data_nascimento", "endereco"],
+            properties: {
+                nome: {
+                    bsonType: "string",
+                    description: "O campo 'nome' é obrigatório e deve ser uma string"
+                },
+                email: {
+                    bsonType: "string",
+                    pattern: "^.+@.+$",
+                    description: "O campo 'email' é obrigatório e deve ser uma string no formato de email"
+                },
+                data_nascimento: {
+                    bsonType: "date",
+                    description: "O campo 'data_nascimento' é obrigatório e deve ser uma data"
+                },
+                endereco: {
+                    bsonType: "string",
+                    description: "O campo 'endereco' é obrigatório e deve ser uma string"
+                }
+            }
+        }
+    },
+    validationLevel: "strict",
+    validationAction: "error"
+});

@@ -1,0 +1,81 @@
+- - - - - > FUNÇÕES AGREGADAS:
+
+ 				  Funções agregadas são utilizadas para realizar cálculos e 
+		 	  obter resumos sobre conjuntos de dados. Elas operam sobre um 
+ 			 grupo de valores e retornam um único valor agregado. 
+
+
+- - - - > Sintaxe:
+
+ 	-> SELECT 
+    		{{função_agregada}} ({{coluna}})
+ 	   FROM {{tabela}}
+ 	   WHERE {{condição}};  // Nem sempre uma condição é necessária
+
+- - - > Opções:
+
+		Entre as opções de funções agregadas estão:
+			-> COUNT: Retorna o número de linhas que correspondem ao critério.
+			-> SUM: Retorna a soma dos valores de uma coluna.
+			-> AVG: Retorna a média dos valores de uma coluna.
+			-> MIN: Retorna o menor valor de uma coluna.
+			-> MAX: Retorna o maior valor de uma coluna.
+
+
+- - - - > Exemplos:
+
+Conta o número total de usuários:
+SELECT COUNT(*) AS total_usuarios FROM viagens.usuarios;
+
+Conta o número total de usuários que têm pelo menos uma reserva:
+SELECT COUNT(*) AS total_usuarios_com_reservas
+FROM viagens.usuarios AS u
+INNER JOIN viagens.reservas AS r ON u.id = r.id_usuario;
+
+Calcula a idade média dos usuários com base na diferença de anos entre a data de nascimento e a data atual:
+SELECT AVG(TIMESTAMPDIFF(YEAR, data_nascimento, CURRENT_DATE())) AS idade
+FROM viagens.usuarios;
+
+Calcula a soma das idades dos usuários com base na diferença de anos entre a data de nascimento e a data atual:
+SELECT SUM(TIMESTAMPDIFF(YEAR, data_nascimento, CURRENT_DATE())) AS soma_idades
+FROM viagens.usuarios;
+
+Encontra a maior idade entre os usuários com base na diferença de anos entre a data de nascimento e a data atual:
+SELECT MAX(TIMESTAMPDIFF(YEAR, data_nascimento, CURRENT_DATE())) AS maior_idade
+FROM viagens.usuarios;
+
+Encontra a menor idade entre os usuários com base na diferença de anos entre a data de nascimento e a data atual:
+SELECT MIN(TIMESTAMPDIFF(YEAR, data_nascimento, CURRENT_DATE())) AS menor_idade
+FROM viagens.usuarios;
+
+Conta o número de reservas para cada destino:
+SELECT COUNT(*) AS qtd_reservas, id_destino
+FROM viagens.reservas
+GROUP BY id_destino;
+
+Conta o número de reservas para cada destino e ordena pelo número de reservas em ordem decrescente:
+SELECT COUNT(*) AS qtd_reservas, id_destino
+FROM viagens.reservas
+GROUP BY id_destino
+ORDER BY qtd_reservas DESC;
+
+Conta o número de reservas para cada destino e ordena pelo número de reservas em ordem ascendente e id do destino em ordem ascendente:
+SELECT COUNT(*) AS qtd_reservas, id_destino
+FROM viagens.reservas
+GROUP BY id_destino
+ORDER BY qtd_reservas ASC, id_destino ASC;
+
+Conta o número de reservas feitas por cada usuário e ordena em ordem decrescente:
+SELECT id_usuario, COUNT(*) AS total_reservas
+FROM viagens.reservas
+GROUP BY id_usuario
+ORDER BY total_reservas DESC;
+
+Encontra o destino com a maior e menor quantidade de reservas:
+SELECT d.nome AS destino, COUNT(*) AS total_reservas
+FROM viagens.reservas r
+JOIN viagens.destinos d ON r.id_destino = d.id
+GROUP BY d.nome
+HAVING COUNT(*) = (SELECT MAX(total_reservas) FROM (SELECT COUNT(*) AS total_reservas FROM viagens.reservas GROUP BY id_destino) AS subquery)
+   OR COUNT(*) = (SELECT MIN(total_reservas) FROM (SELECT COUNT(*) AS total_reservas FROM viagens.reservas GROUP BY id_destino) AS subquery);
+   

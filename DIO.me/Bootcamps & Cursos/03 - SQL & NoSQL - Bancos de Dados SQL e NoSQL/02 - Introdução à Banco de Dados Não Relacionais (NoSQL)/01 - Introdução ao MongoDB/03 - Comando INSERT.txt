@@ -1,0 +1,114 @@
+- - - - - > Comando 'INSERT':
+
+	    Os comandos 'INSERT' no MongoDB são utilizados para inserir documentos em uma coleção. 
+	No contexto do MongoDB, o comando 'INSERT' é substituído pelos métodos 'insertOne()' e 'insertMany()'.
+
+
+- - - - > Sintaxe:
+
+	-> db.collection.insertOne({{documento}});  // Insere um único documento a uma coleção
+
+	-> db.collection.insertMany([{{documento1}}, {{documento2}}, ...]); // Insere vários documentos a uma coleção
+
+
+- - - - > Exemplos:
+
+Insere um documento na coleção 'usuarios':
+db.usuarios.insertOne(
+	{
+		"id": 1,
+		"nome": "Teste",
+		"email": "teste@teste.com",
+		"data_nascimento": ISODate("2005-10-10T00:00:00Z"),
+		"endereco": "Rua rua, Numero numero, Cidade cidade, Estado estado"
+	}
+);
+
+Insere um documento na coleção 'destinos':
+db.destinos.insertOne(
+	{
+		"id": 1,
+		"nome": "Destino teste",
+		"descricao": "Descrição do destino teste"
+	}
+);
+
+Insere um documento na coleção 'reservas':
+db.reservas.insertOne(
+	{
+		"id": 100,
+		"id_usuario": 1,
+		"id_destino": 1,
+		"data": ISODate("2024-10-10T00:00:00Z"),
+		"status": "pendente"
+	}
+);
+
+Insere múltiplos documentos na coleção 'usuarios':
+db.usuarios.insertMany([
+	{
+		"id": 2,
+		"nome": "Ana Oliveira",
+		"email": "ana@example.com",
+		"data_nascimento": ISODate("1987-04-18T00:00:00Z"),
+		"endereco": "Rua D, 246, Cidade Z, Estado X"
+	},
+	{
+		"id": 3,
+		"nome": "Rafael Costa",
+		"email": "rafael@example.com",
+		"data_nascimento": ISODate("1995-11-30T00:00:00Z"),
+		"endereco": "Avenida E, 135, Cidade Y, Estado Z"
+	},
+	{
+		"id": 25,
+		"nome": "Eduardo Santos",
+		"email": "eduardo@example.com",
+		"data_nascimento": ISODate("1980-03-20T00:00:00Z"),
+		"endereco": "Avenida AA, 579, Cidade X, Estado Y"
+	}
+]);
+
+Insere múltiplos documentos na coleção 'destinos':
+db.destinos.insertMany([
+	{
+    	"id": 2,
+    	"nome": "Montanha dos Ventos",
+    	"descricao": "Uma montanha majestosa com vistas panorâmicas incríveis"
+	},
+	{
+    	"id": 3,
+    	"nome": "Ilha do Sol",
+    	"descricao": "Uma ilha paradisíaca com praias de areias douradas e águas cristalinas"
+	},
+	{
+    	"id": 25,
+    	"nome": "Monte da Serenidade",
+    	"descricao": "Um monte tranquilo, perfeito para contemplação e meditação"
+	}
+]);
+
+Insere múltiplos documentos na coleção 'reservas':
+db.reservas.insertMany([
+  	{
+		"id": 1,
+		"id_usuario": 4,
+		"id_destino": 5,
+		"data": ISODate("2023-10-15T00:00:00Z"),
+		"status": "pendente"
+  	},
+  	{
+		"id": 2,
+		"id_usuario": 7,
+		"id_destino": 8,
+		"data": ISODate("2023-11-20T00:00:00Z"),
+		"status": "pendente"
+  	},
+  	{
+		"id": 25,
+		"id_usuario": 25,
+		"id_destino": 1,
+		"data": ISODate("2025-10-20T00:00:00Z"),
+		"status": "confirmada"
+  	}
+]);

@@ -1,0 +1,105 @@
+- - - - - > PRIMARY KEYS:
+
+   	    As chaves primárias (primary keys) são colunas em uma tabela que garantem a 
+    unicidade e a identificação exclusiva de cada registro na tabela. Cada tabela 
+    pode ter no máximo uma chave primária e nenhum valor nulo é permitido em uma
+    chave primária.
+
+
+- - - - > Sintaxe: 
+
+    -> CREATE TABLE {{tabela}}  // Criando uma tabela com a coluna 'id' definida como uma PK
+            (
+                id INT PRIMARY KEY AUTOINCREMENT, 
+                ...
+            );
+
+    -> ALTER TABLE {{tabela}}  // Modificando uma tabela na coluna 'id' e definindo como PK
+       MODIFY COLUMN id INT PRIMARY KEY;
+
+
+- - - - > Exemplos:
+
+Modifica a coluna 'id' na tabela 'usuarios' para uma chave primária:
+ALTER TABLE viagens.usuarios
+MODIFY COLUMN id INT AUTO_INCREMENT,
+ADD PRIMARY KEY (id);
+
+Modifica a coluna 'id' na tabela 'destinos' para uma chave primária:
+ALTER TABLE viagens.destinos
+MODIFY COLUMN id INT AUTO_INCREMENT,
+ADD PRIMARY KEY (id);
+
+Modifica a coluna 'id' na tabela 'reservas' para uma chave primária:
+ALTER TABLE viagens.reservas
+MODIFY COLUMN id INT AUTO_INCREMENT,
+ADD PRIMARY KEY (id);
+
+Seleciona todas as colunas da tabela 'reservas':
+SELECT * FROM viagens.reservas;
+
+
+
+- - - - - > FOREIGN KEYS:
+
+ 	    As chaves estrangeiras (foreign keys) são colunas em uma tabela que estabelecem 
+ 	uma relação entre essa tabela e uma tabela referenciada. Essa relação é baseada em 
+ 	valores correspondentes entre as colunas das duas tabelas. A chave estrangeira em 
+  	uma tabela é geralmente uma referência à chave primária de outra tabela.
+
+
+- - - - > Sintaxe: 
+
+    -> CREATE TABLE {{tabela}}  // Criando uma tabela com chave primária e chave estrangeira
+			(id INT PRIMARY KEY,
+			chave_estrangeira INT,
+	   FOREIGN KEY (chave_estrangeira) REFERENCES {{outra_tabela}} (id));
+
+
+    -> ALTER TABLE {{tabela}}  // Modificando uma tabela para adicionar uma chave estrangeira
+       ADD CONSTRAINT {{nome_constraint}}
+       FOREIGN KEY (id_outra_tabela)
+       REFERENCES {{outra_tabela}} (id);
+
+
+- - - - > Exemplos:
+
+Adiciona uma chave estrangeira 'id_usuario' na tabela 'reservas' referenciando a coluna 'id' da tabela 'usuarios':
+ALTER TABLE viagens.reservas
+ADD CONSTRAINT fk_reservas_usuarios
+FOREIGN KEY (id_usuario) REFERENCES viagens.usuarios (id);
+
+Adiciona uma chave estrangeira 'id_destino' na tabela 'reservas' referenciando a coluna 'id' da tabela 'destinos':
+ALTER TABLE viagens.reservas
+ADD CONSTRAINT fk_reservas_destinos
+FOREIGN KEY (id_destino) REFERENCES viagens.destinos (id);
+
+Seleciona todas as colunas da tabela 'reservas':
+SELECT * FROM viagens.reservas;
+
+Isso vai dar erro pois referencia a ids que nao existem:
+INSERT INTO viagens.reservas (id_usuario, id_destino, data)
+VALUES (1, 1, '2024-10-09');
+
+Isso vai dar certo pois referencia um id que existe:
+INSERT INTO viagens.reservas (id_usuario, id_destino, data)
+VALUES (6, 6, '2024-11-11');
+
+Remove a constraint de chave estrangeira 'fk_reservas_usuarios' da tabela 'reservas':
+ALTER TABLE viagens.reservas DROP CONSTRAINT fk_reservas_usuarios;
+
+Adiciona uma chave estrangeira 'id_usuario' na tabela reservas referenciando a coluna 'id' da tabela 'usuarios' com a ação ON DELETE CASCADE:
+ALTER TABLE viagens.reservas 
+ADD CONSTRAINT fk_reservas_usuarios
+FOREIGN KEY (id_usuario) REFERENCES viagens.usuarios (id)
+ON DELETE CASCADE;
+
+Seleciona todas as colunas da tabela 'usuarios':
+SELECT * FROM viagens.usuarios;
+
+Seleciona todas as colunas da tabela 'reservas':
+SELECT * FROM viagens.reservas;
+
+Deleta um usuário com 'id' igual a 1, e, devido ao ON DELETE CASCADE, todas as reservas associadas a esse usuário também serão deletadas:
+DELETE FROM viagens.usuarios
+WHERE id = 1;

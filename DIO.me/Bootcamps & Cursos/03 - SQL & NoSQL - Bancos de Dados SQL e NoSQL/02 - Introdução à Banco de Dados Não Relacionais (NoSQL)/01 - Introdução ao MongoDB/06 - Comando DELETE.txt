@@ -1,0 +1,21 @@
+- - - - - > Comando 'DELETE':
+		
+		Os comandos 'DELETE' no MongoDB são utilizados para remover documentos de uma coleção. 
+	No contexto do MongoDB, o comando DELETE é substituído pelos métodos 'deleteOne()' e 'deleteMany()'.
+
+
+- - - - > Sintaxe:
+
+	***OBS NUNCA fazer 'DELETE' sem clausura 'WHERE'
+    -> db.{{coleção}}.deleteOne({{condição}});  // Remove um único documento que atende à condição especificada
+
+	-> db.{{coleção}}.deleteMany({{condição}});  // Remove todos os documentos que atendem à condição especificada
+
+
+- - - - > Exemplos:
+
+Deleta um documento na coleção 'usuarios' onde o 'email' é igual a 'eduardo@example.com':
+db.usuarios.deleteOne({ email: 'eduardo@example.com' });
+
+Deleta todos os documentos na coleção 'usuarios' onde o 'id' é menor que 20000:
+db.usuarios.deleteMany({ id: { $lt: 20000 } });

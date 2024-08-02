@@ -1,0 +1,17 @@
+- - - - - > Comando 'USE':
+
+		No MongoDB, o comando 'USE' é utilizado para selecionar um banco de dados 
+	específico com o qual você deseja trabalhar. Uma vez que o banco de dados é 
+  	selecionado, todas as operações subsequentes serão realizadas nesse banco
+    de dados, a menos que outro banco de dados seja selecionado.
+
+
+- - - - > Sintaxe: 
+
+	-> use {{nome_do_banco}}; // Seleciona um banco de dados
+
+
+- - - - > Exemplo:
+
+Seleciona o banco de dados 'viagens':
+use viagens;
