@@ -1,0 +1,19 @@
+Prompts para gerar as imagens do mundo de Etheria com o Leonardo AI:
+
+    - Floresta de Luminara:
+        "Uma floresta mágica com árvores de folhas prateadas, flores luminescentes e elfos da lua caminhando sob a luz das estrelas."
+
+    - Montanhas de Thrain:
+        "Uma paisagem montanhosa com picos nevados e uma cidade anã subterrânea iluminada por forjas resplandecentes."
+
+    - Cidade de Valoria:
+        "Uma cidade medieval vibrante, com ruas de pedras brilhantes, castelos majestosos e um mercado cheio de mercadores e aventureiros."
+
+    - Grande Batalha de Luminara:
+       "Uma batalha épica em uma floresta encantada, com heróis de diferentes raças enfrentando um feiticeiro sombrio e suas criaturas das trevas."
+
+    - Ilha de Cristal:
+        "Uma ilha mágica no centro de um lago brilhante, com um grande salão de cristal onde o Conselho dos Anciões se reúne."
+
+    - Princesa Elara:
+        "Uma jovem princesa humana, com armadura reluzente e uma espada mágica, explorando uma antiga ruína repleta de mistérios."

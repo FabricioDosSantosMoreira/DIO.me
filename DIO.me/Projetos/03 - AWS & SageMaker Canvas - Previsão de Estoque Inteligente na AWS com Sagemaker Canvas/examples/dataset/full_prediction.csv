@@ -1,0 +1,1001 @@
+ExpectedShippingDays,ActualShippingDays,Carrier,YShippingDistance,XShippingDistance,InBulkOrder,ShippingOrigin,OrderDate,OrderID,ShippingPriority,OnTimeDelivery,ProductId
+11.014131546020508,11,GlobalFreight,100,-44,Bulk Order,Atlanta,9/11/20,e6eeeb9c-efe6-48db-b504-90447261f003,Express,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+14.818830490112305,15,MicroCarrier,18,-154,Single Order,Seattle,6/22/21,d1ebdb54-7334-4217-a4a5-ea8a859e14c2,Standard,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+12.13841438293457,13,GlobalFreight,-14,-389,Bulk Order,Chicago,12/25/20,f9e3549a-da76-4462-b4bc-facaa3644aec,Ground,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+15.973691940307617,17,Shipper,301,-13,Single Order,San Francisco,7/6/21,7dab66a8-b20e-4819-93a3-39ff05e144b3,Ground,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+16.051380157470703,17,Shipper,118,89,Single Order,San Francisco,4/3/21,2986e9bc-d8ea-4211-9ca3-78bea4d27485,Ground,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+12.999858856201172,20,Shipper,-290,-21,Bulk Order,Chicago,6/17/21,8523688b-34d8-45a3-baf3-e8b5bec24e4e,Standard,Late,b35af302-9875-4471-8464-9d2645c27a4d
+14.888721466064453,18,Shipper,-190,7,Single Order,Las Vegas,6/14/20,2be9d8dd-6a0d-4776-aae9-12b4e35fb7c5,Standard,Late,b35af302-9875-4471-8464-9d2645c27a4d
+14.042463302612305,14,Shipper,-17,104,Single Order,Seattle,8/17/20,52b80fb0-3f4f-4c6f-9e2f-dd2799a3f912,Air,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+13.196351051330566,14,BigBird,-94,160,Single Order,Las Vegas,4/4/21,10a50047-8e81-41e1-b3f2-f0c9f6a9a00b,Air,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+8.537261962890625,8,Shipper,115,-34,Bulk Order,Salt Lake City,3/21/20,faaaee1f-2f68-4cf5-be5d-eef34b07ded7,Express,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+14.669159889221191,19,GlobalFreight,277,20,Bulk Order,Seattle,8/23/21,59408df2-3ad1-41c6-9445-177f1a7ce612,Ground,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+15.699287414550781,19,BigBird,185,-36,Single Order,New York City,2/1/20,6d20e695-d332-447d-8d16-37347ef568b3,Ground,Late,b35af302-9875-4471-8464-9d2645c27a4d
+14.54653263092041,17,Shipper,209,-9,Bulk Order,Seattle,4/13/20,35795df4-e701-4dc8-89b3-5a4c82939522,Ground,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+14.538780212402344,20,Shipper,-38,153,Single Order,Atlanta,2/17/20,cc97956d-b0af-4df1-88b6-8140125070c7,Standard,Late,b35af302-9875-4471-8464-9d2645c27a4d
+9.636428833007812,9,MicroCarrier,-117,-30,Bulk Order,New York City,5/30/20,056afb77-02e1-4588-993e-d529f03617c1,Express,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+14.421327590942383,17,Shipper,-47,196,Single Order,Seattle,12/11/20,a6c713c1-af0e-43f9-adbb-04e2c79bb3d1,Standard,Late,b35af302-9875-4471-8464-9d2645c27a4d
+11.94842529296875,12,Shipper,91,-54,Bulk Order,Las Vegas,1/5/21,b4fdb6c1-3ffe-4cd5-9110-6b5c63936193,Express,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+14.908111572265625,15,Shipper,-98,44,Single Order,San Francisco,12/29/21,d4000494-fdd2-42ee-b4d2-cdd86b781754,Express,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+15.928457260131836,16,GlobalFreight,140,-21,Single Order,San Francisco,8/28/21,6128b2c6-9ae8-4b95-a775-6d164ed7bd5f,Air,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+14.528340339660645,14,BigBird,126,21,Single Order,Atlanta,11/18/21,ebab3556-86aa-449d-a18a-b4f21c3a6d7b,Air,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+12.021709442138672,12,MicroCarrier,-176,13,Single Order,Atlanta,2/10/21,4436688e-a295-4237-a3a8-445a7a43a286,Express,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+17.557899475097656,19,BigBird,64,-174,Single Order,Seattle,8/16/21,9146b414-0734-42e7-a6df-cb9051f2e26d,Ground,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+14.18577766418457,15,Shipper,188,-36,Single Order,San Francisco,2/15/20,11afd7ba-f248-49d6-b50e-b1361c544ba0,Air,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+12.000107765197754,12,GlobalFreight,-8,167,Bulk Order,Chicago,2/8/20,4311dd19-ca5a-4f24-8ab4-d731c49e4e32,Air,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+13.079219818115234,15,BigBird,-435,18,Single Order,Seattle,4/6/20,5de33179-9d24-42f0-bf5d-c84686f87b7c,Air,Late,b35af302-9875-4471-8464-9d2645c27a4d
+11.08691692352295,11,GlobalFreight,10,-159,Bulk Order,Atlanta,11/4/20,cdcf24fd-2e2f-424a-92b7-3c0e5de56b9e,Air,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+8.98636245727539,9,Shipper,11,-197,Bulk Order,Salt Lake City,10/22/21,f25973bd-ded0-40d1-a6a0-db427d3f6449,Express,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+15.191051483154297,17,BigBird,150,99,Single Order,New York City,2/21/21,9eebf980-3c31-4d4c-be5e-9dfc45225c98,Ground,Late,b35af302-9875-4471-8464-9d2645c27a4d
+12.052762031555176,12,BigBird,123,-52,Single Order,Seattle,6/25/20,49912aef-f42a-4257-ad1d-89e74cc33456,Express,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+13.405158996582031,13,GlobalFreight,259,-12,Single Order,Chicago,8/1/21,b44400ac-cb25-4c55-bc00-4b4b853866b8,Standard,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+17.224578857421875,17,BigBird,-8,-172,Single Order,San Francisco,1/28/21,59fef684-a644-4be7-b68c-1e4721137212,Express,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+15.825408935546875,17,BigBird,45,267,Single Order,Houston,11/10/20,5626eb93-8c1e-436e-9617-688d4874d38f,Ground,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+14.924528121948242,15,BigBird,87,-11,Single Order,Houston,9/14/20,b2216375-081c-4333-b1e0-623677c01e60,Air,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+10.077035903930664,10,GlobalFreight,-120,-36,Bulk Order,New York City,11/8/20,6affc0c1-ea6d-4788-b048-1168e1fc22ec,Express,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+11.864995956420898,13,Shipper,-228,12,Bulk Order,Houston,4/28/21,059d9695-db18-4b99-9306-2d3631d38442,Standard,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+10.8939790725708,11,BigBird,175,-11,Bulk Order,Salt Lake City,7/5/21,b18490cc-2a03-4dca-9178-a849023f66f3,Express,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+4.877553939819336,5,GlobalFreight,59,-47,Bulk Order,Salt Lake City,7/24/21,952a3d87-39b6-4fab-b581-4a3763d1135c,Express,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+14.646078109741211,15,MicroCarrier,176,9,Single Order,Chicago,2/20/20,0614bd24-5a9e-40a4-812e-f0c28436f4db,Standard,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+13.008366584777832,14,GlobalFreight,-27,-336,Bulk Order,New York City,7/1/20,a344ad9e-4ee1-4323-ae74-a45fabd0474d,Standard,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+10.964641571044922,11,Shipper,47,35,Bulk Order,New York City,11/19/20,ec0a2226-cd66-4001-80ae-0b14c46dfa96,Express,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+13.083629608154297,15,MicroCarrier,-73,-244,Bulk Order,Atlanta,10/23/20,698c381d-6633-4508-9c52-fb94281f80c9,Standard,Late,b35af302-9875-4471-8464-9d2645c27a4d
+10.63582992553711,10,GlobalFreight,-127,24,Bulk Order,Las Vegas,3/19/21,7c0e288c-ebc4-48c6-893d-7361bf4955ef,Air,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+15.904884338378906,16,BigBird,-111,28,Single Order,Seattle,3/12/21,504a4634-d0e0-44bf-9098-29cd18b68ded,Air,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+6.269559860229492,6,MicroCarrier,-99,-49,Bulk Order,Salt Lake City,7/20/20,6b55ff81-0527-4256-b938-3cbd523a397d,Air,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+14.618385314941406,20,Shipper,-42,120,Bulk Order,San Francisco,8/20/21,fa2e4727-5058-43ad-ba1c-02d065c1f531,Ground,Late,b35af302-9875-4471-8464-9d2645c27a4d
+15.05612564086914,16,GlobalFreight,-20,267,Single Order,Atlanta,3/24/21,7344fa86-dbcb-4889-a35d-27d779c36f0d,Standard,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+15.890840530395508,19,Shipper,247,-13,Single Order,San Francisco,11/12/21,5dd0f0d7-9b85-47f1-8192-4508b0a7ecb0,Ground,Late,b35af302-9875-4471-8464-9d2645c27a4d
+14.88473892211914,19,MicroCarrier,152,132,Bulk Order,Seattle,1/8/20,c84374bc-7c0b-477a-98f6-ed8f2bcb384d,Ground,Late,b35af302-9875-4471-8464-9d2645c27a4d
+17.12973403930664,28,BigBird,150,-63,Single Order,New York City,8/23/20,25e1029d-6fd8-47ad-a47c-083ccac78071,Ground,Late,b35af302-9875-4471-8464-9d2645c27a4d
+13.005941390991211,14,Shipper,16,173,Bulk Order,Las Vegas,3/13/21,6db82a26-2eba-414f-b78a-d9094e00f33a,Ground,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+14.39346694946289,17,Shipper,-217,34,Bulk Order,Seattle,12/26/20,c08011b3-f233-4276-9030-f22dd0e32910,Ground,Late,b35af302-9875-4471-8464-9d2645c27a4d
+13.174445152282715,19,Shipper,151,104,Bulk Order,San Francisco,10/28/20,2c842b63-4883-4bbe-a069-8ce83787e3a0,Standard,Late,b35af302-9875-4471-8464-9d2645c27a4d
+14.12603759765625,18,Shipper,22,-242,Bulk Order,Atlanta,11/20/20,035c4905-da7d-4f86-965d-e77f868b3da0,Ground,Late,b35af302-9875-4471-8464-9d2645c27a4d
+13.339527130126953,16,Shipper,8,210,Bulk Order,Houston,7/18/20,fc7a2381-0779-4013-a207-2233cedabd21,Standard,Late,b35af302-9875-4471-8464-9d2645c27a4d
+10.981386184692383,11,MicroCarrier,-53,104,Bulk Order,New York City,2/21/21,756db21a-16ed-479e-957f-7a95eba29357,Air,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+12.006223678588867,12,BigBird,109,-18,Bulk Order,New York City,12/8/20,b00c46e5-8122-4ad7-97f2-982ed72ad126,Air,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+9.16145133972168,9,Shipper,90,30,Bulk Order,Salt Lake City,1/18/21,7f1039df-1270-4ee1-a6f2-dacad03fd9d7,Air,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+14.88543701171875,16,MicroCarrier,270,-27,Single Order,Las Vegas,4/3/21,732816bb-7507-46ef-9a4d-e882f6ee877a,Standard,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+13.985918045043945,14,MicroCarrier,129,13,Single Order,San Francisco,9/14/21,f08a4d35-fe49-4e4a-ac0a-a42af974ba0c,Express,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+11.010459899902344,11,MicroCarrier,-11,115,Bulk Order,Atlanta,3/31/21,4deca94e-f069-425b-9965-c0d6704b9e81,Express,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+13.205728530883789,14,GlobalFreight,-148,102,Single Order,Salt Lake City,5/19/21,63fae436-69fa-46ec-9fb7-7e3e56a7b3c7,Express,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+15.046635627746582,16,BigBird,-9,295,Single Order,Atlanta,3/27/20,afead8f6-f244-41d6-884e-577ff886ed9c,Ground,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+15.337373733520508,23,GlobalFreight,98,146,Single Order,Chicago,5/18/20,1bba7492-eeb9-497e-bacf-67c5cb365c9e,Ground,Late,b35af302-9875-4471-8464-9d2645c27a4d
+11.01284122467041,11,MicroCarrier,-22,-124,Bulk Order,Atlanta,9/19/21,b0d594d8-1e8b-4cc6-ab33-f797d20f6af0,Express,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+13.994559288024902,14,BigBird,-86,56,Single Order,Las Vegas,9/19/20,bcd12616-32ab-49d8-8f2a-5b9080345115,Air,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+12.950410842895508,13,MicroCarrier,11,-175,Single Order,Houston,7/23/21,6c768cf3-dc7c-41fb-9580-338b357b2a24,Express,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+8.637091636657715,8,Shipper,-29,130,Bulk Order,Salt Lake City,3/2/21,300e5355-05e1-4ef4-b330-96485ef36e77,Express,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+14.141082763671875,18,MicroCarrier,-226,-44,Single Order,Las Vegas,7/12/20,76faf8ff-a6c3-4b0e-8f27-7b5764e38730,Air,Late,b35af302-9875-4471-8464-9d2645c27a4d
+16.2598876953125,17,BigBird,-200,-8,Single Order,Houston,3/23/21,ce6a84e6-7254-4446-acc1-308fa495d474,Standard,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+15.389201164245605,22,Shipper,-14,-202,Single Order,Atlanta,11/12/21,3020fe4b-035b-4f38-846e-5f97c4288c61,Ground,Late,b35af302-9875-4471-8464-9d2645c27a4d
+13.271173477172852,14,GlobalFreight,-116,-14,Bulk Order,Seattle,8/5/20,12583691-7772-4fa5-9fe9-a6a556262263,Ground,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+15.027013778686523,16,MicroCarrier,-142,87,Single Order,Chicago,10/5/20,d6cf3823-d58c-4fb6-b491-92e8917862fe,Ground,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+14.190235137939453,15,Shipper,-175,-39,Single Order,Chicago,9/24/20,07dd4c3c-0114-43db-8af5-c2527ef26a9b,Standard,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+15.774914741516113,20,MicroCarrier,-195,-7,Single Order,Seattle,9/14/20,6b738227-aa64-4e11-a2e3-74ab49b6f507,Ground,Late,b35af302-9875-4471-8464-9d2645c27a4d
+11.996420860290527,12,GlobalFreight,-105,64,Bulk Order,Houston,10/17/21,400374de-49cf-437c-924c-4c0e68b8323f,Standard,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+14.26534652709961,15,Shipper,-178,-14,Single Order,Seattle,3/11/21,f5dfe0bf-6a4e-4ed4-8311-e21f7d0adde6,Standard,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+14.78635025024414,15,BigBird,132,20,Single Order,Las Vegas,9/10/21,b1d8d186-1232-487f-83b9-d2572fdc448e,Standard,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+15.65512466430664,18,BigBird,-30,-251,Single Order,Houston,3/26/21,3150613f-3d86-41e9-b9de-52b97350b25e,Standard,Late,b35af302-9875-4471-8464-9d2645c27a4d
+15.017508506774902,17,GlobalFreight,100,100,Single Order,Houston,5/28/21,74c61a4d-e9f7-4ec0-b27f-f641c24e5c22,Standard,Late,b35af302-9875-4471-8464-9d2645c27a4d
+12.090484619140625,12,Shipper,18,97,Single Order,Las Vegas,3/29/20,7e73154c-ce16-4993-a6fa-0b6dae8fc2a4,Express,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+12.04655647277832,12,GlobalFreight,-44,-129,Bulk Order,Las Vegas,5/26/21,8d1e064f-6587-4b7d-8e9c-560d58b0fc11,Air,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+13.414318084716797,16,BigBird,143,46,Single Order,San Francisco,1/1/21,bae8c88d-1ae6-4db7-b8d8-8bc6fde3b9ce,Air,Late,b35af302-9875-4471-8464-9d2645c27a4d
+13.961254119873047,16,BigBird,239,18,Single Order,San Francisco,12/10/20,5d75e143-53ea-49a8-80be-38f11b6d3970,Air,Late,b35af302-9875-4471-8464-9d2645c27a4d
+14.002725601196289,14,Shipper,-77,-10,Single Order,Las Vegas,2/6/21,e26d58e9-122b-4443-87c8-e1a92bbb8ff7,Express,On Time,b35af302-9875-4471-8464-9d2645c27a4d
+13.45530891418457,23,GlobalFreight,90,81,Bulk Order,Seattle,8/13/21,d8f52443-139e-4867-a996-6e60dfd250ab,Ground,Late,b35af302-9875-4471-8464-9d2645c27a4d
+16.68980598449707,17,BigBird,-50,85,Single Order,Atlanta,8/28/20,3387a3cb-44fc-492a-b99d-98b489b97146,Express,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+13.112665176391602,14,MicroCarrier,-30,141,Bulk Order,San Francisco,7/28/20,7973a54a-5b24-4275-903e-496a9388b8fa,Ground,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+14.276437759399414,15,MicroCarrier,162,-22,Single Order,Atlanta,3/16/20,3d65f6bd-30f9-4fc5-a34a-891ac82bc2cd,Standard,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+14.332849502563477,18,GlobalFreight,-191,16,Bulk Order,Houston,10/15/20,772005d1-9511-466d-99ac-42bebc010f5c,Ground,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+12.039352416992188,12,GlobalFreight,-98,50,Bulk Order,Houston,4/6/20,097e8c39-643b-474d-8591-ce7872a348b4,Standard,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+12.049592971801758,12,BigBird,-17,-108,Single Order,Salt Lake City,8/16/21,3182af2a-0e86-4e14-a762-58e1a6818682,Air,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+14.150766372680664,15,BigBird,176,20,Single Order,Atlanta,2/10/20,6873fab6-d0f7-4362-9bc7-c0c805be6249,Air,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+13.939406394958496,16,MicroCarrier,292,7,Bulk Order,Seattle,11/18/20,c40ba512-aa02-4914-9bd4-1e2bdd49f789,Ground,Late,f1cb3845-019a-4fa9-99f3-111c03158514
+15.869925498962402,16,BigBird,-85,-85,Single Order,Las Vegas,3/20/21,9938fe01-6d17-474f-93df-7a2b8ee463eb,Air,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+12.986663818359375,14,Shipper,-184,22,Bulk Order,Houston,4/14/20,55a6ceae-459b-4a8c-affe-254542c311d0,Standard,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+16.018171310424805,22,BigBird,-43,319,Single Order,Seattle,2/27/21,6acf1b64-5227-4fe9-aeaa-6374e0557c3c,Ground,Late,f1cb3845-019a-4fa9-99f3-111c03158514
+13.120404243469238,13,BigBird,21,-149,Single Order,New York City,2/21/20,d2bff0b7-4568-45c7-8775-7623242b1432,Standard,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+13.05116081237793,13,MicroCarrier,42,79,Single Order,Seattle,4/8/20,499353aa-f88a-4273-ba0a-144bc209b97b,Air,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+13.973634719848633,15,Shipper,41,144,Bulk Order,Chicago,2/11/20,50d148cb-8a24-4420-a284-2361835e7893,Ground,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+10.1746826171875,10,BigBird,75,-69,Bulk Order,Atlanta,1/10/20,621704b0-a122-41e5-a6d7-2a27333d894e,Express,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+15.972087860107422,16,MicroCarrier,-45,78,Single Order,San Francisco,5/27/20,f16cd037-bbb7-4ea3-9126-4f1cb1e828f7,Standard,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+13.004427909851074,13,MicroCarrier,-58,-20,Single Order,Atlanta,2/13/21,a2c3d2b9-a0cf-440e-b5b4-3fb602ac7587,Express,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+14.173635482788086,18,Shipper,92,-170,Bulk Order,Las Vegas,2/16/21,478449ee-19f9-4496-9f2b-c37accff1e61,Ground,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+13.008522987365723,13,BigBird,51,94,Single Order,New York City,12/1/21,4c87f572-40b1-4add-8403-ac42367d44a3,Express,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+15.149560928344727,16,Shipper,172,24,Single Order,Chicago,12/15/20,bef1eafa-9da4-4f83-9a17-87e5eb70f37a,Ground,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+13.037118911743164,13,MicroCarrier,-63,-67,Single Order,Houston,4/11/21,8fb247d6-d0f5-401f-9761-e12c388b2a57,Air,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+13.037059783935547,13,BigBird,-111,-10,Single Order,Atlanta,5/3/21,020f0b54-0cb7-4616-ae22-790788c90e39,Air,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+13.481161117553711,14,BigBird,-52,179,Single Order,Atlanta,1/30/21,7d196d62-e050-43aa-bfab-99fd2f4dbbee,Express,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+11.966686248779297,12,BigBird,-221,-13,Single Order,New York City,10/22/20,68c76afd-befe-4edf-887d-a1fea1e36820,Express,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+12.776590347290039,20,GlobalFreight,-144,-54,Bulk Order,Seattle,9/17/20,3c2a9237-ff83-4cf0-a2f7-e5236096d90b,Ground,Late,f1cb3845-019a-4fa9-99f3-111c03158514
+11.987685203552246,12,Shipper,27,-187,Single Order,Chicago,4/8/21,ffce8a74-6b09-4605-9f4e-9115c55fdb2e,Express,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+9.131484985351562,9,Shipper,110,-10,Bulk Order,Salt Lake City,9/12/21,fb5c4332-f7e6-4039-b0a5-8076841797df,Express,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+10.099841117858887,10,MicroCarrier,178,-48,Bulk Order,Salt Lake City,1/29/21,5e2d9719-8859-4c23-b62e-135f20aef05f,Air,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+13.230306625366211,20,MicroCarrier,-33,-193,Bulk Order,San Francisco,2/7/21,bd9114f7-af62-403d-971a-312d48c0e297,Standard,Late,f1cb3845-019a-4fa9-99f3-111c03158514
+16.843311309814453,18,MicroCarrier,108,-171,Single Order,San Francisco,2/18/21,87bba790-de35-42c2-8c4a-e93e5eb46dec,Ground,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+9.309125900268555,9,Shipper,64,50,Bulk Order,New York City,9/29/20,defeda15-ea12-4f18-9e4c-39f48e0996df,Express,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+14.218412399291992,19,MicroCarrier,50,-102,Bulk Order,Houston,8/29/20,6a268633-c384-4108-8233-6b467a1cad9f,Ground,Late,f1cb3845-019a-4fa9-99f3-111c03158514
+12.999773025512695,13,MicroCarrier,-138,-43,Single Order,Las Vegas,11/8/21,106b154d-3492-4361-8f58-60e19e2d9426,Express,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+12.09695053100586,12,MicroCarrier,62,-74,Single Order,Atlanta,11/14/21,95f447c2-e2cc-4e97-a637-2c37b66739a6,Express,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+14.803068161010742,16,GlobalFreight,13,359,Bulk Order,Seattle,7/15/21,6e23f502-bbfb-45c4-b436-3ffc76715579,Ground,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+13.96119499206543,16,BigBird,38,-188,Bulk Order,Atlanta,3/11/20,a8807396-4bca-4abc-9db6-af4d384d52df,Ground,Late,f1cb3845-019a-4fa9-99f3-111c03158514
+14.93667984008789,20,BigBird,-197,14,Single Order,Las Vegas,8/11/20,3934896c-d222-4893-8bcf-153e6bd47578,Standard,Late,f1cb3845-019a-4fa9-99f3-111c03158514
+15.766776084899902,17,BigBird,-17,204,Single Order,Atlanta,3/12/21,3fc48cd6-6050-4ac7-a412-70ffa4b4f7b2,Standard,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+14.793323516845703,16,GlobalFreight,-12,213,Bulk Order,Houston,8/17/21,75285146-beec-4585-8b69-35895c9c4f3c,Ground,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+13.654621124267578,17,MicroCarrier,-250,-8,Bulk Order,New York City,9/6/21,35a58132-732c-4f82-a8ec-8606efd1c9d1,Standard,Late,f1cb3845-019a-4fa9-99f3-111c03158514
+13.00507926940918,14,Shipper,135,92,Bulk Order,Las Vegas,9/16/20,55948237-51a6-4b04-983c-734a6e449884,Standard,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+13.411636352539062,16,GlobalFreight,39,-245,Bulk Order,Salt Lake City,12/2/21,cb2ccbc8-7804-4d53-8ae0-5ffbda79527e,Standard,Late,f1cb3845-019a-4fa9-99f3-111c03158514
+13.120302200317383,15,Shipper,32,-273,Bulk Order,Chicago,4/18/20,3ea2bbf2-c4ef-4f65-a8af-1269495137b5,Standard,Late,f1cb3845-019a-4fa9-99f3-111c03158514
+13.598382949829102,19,BigBird,316,13,Single Order,Las Vegas,9/26/21,681e2b1e-5a47-4360-81f8-0e77d24be1cb,Air,Late,f1cb3845-019a-4fa9-99f3-111c03158514
+14.889659881591797,15,Shipper,44,-148,Single Order,San Francisco,5/17/20,8aedba9f-5cd1-4083-9afd-0c1068689028,Express,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+13.159112930297852,14,GlobalFreight,10,233,Single Order,New York City,1/12/20,f01130fc-1c2b-4c99-a8e6-5ec86a62ae10,Air,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+14.089520454406738,20,Shipper,80,-101,Bulk Order,New York City,11/25/21,f233f96c-7fe4-4124-815f-c1d855c41d11,Ground,Late,f1cb3845-019a-4fa9-99f3-111c03158514
+11.139007568359375,11,GlobalFreight,-149,-37,Bulk Order,Houston,5/3/20,090b4dba-6b1c-4d3c-936d-28f6b3335263,Ground,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+15.189383506774902,16,GlobalFreight,164,-23,Single Order,Chicago,1/31/21,d5f36f04-1230-4c6a-bb10-6173258b1176,Standard,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+12.787946701049805,13,GlobalFreight,10,90,Bulk Order,Chicago,7/21/21,bfd9a7a2-0cfa-417f-9233-6d9d9c95a412,Standard,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+14.039894104003906,16,Shipper,-144,-45,Bulk Order,Houston,12/11/20,27c75efe-3bd9-4d3a-9b9c-26538e4c22b0,Ground,Late,f1cb3845-019a-4fa9-99f3-111c03158514
+14.020263671875,15,MicroCarrier,74,152,Bulk Order,Atlanta,7/18/20,4e1920f4-2eff-4455-a321-f0a07450bb73,Ground,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+13.304944038391113,17,MicroCarrier,-247,-49,Bulk Order,San Francisco,1/20/21,23e26c94-dd42-4039-8ab4-8b166f2a232e,Standard,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+14.671679496765137,15,MicroCarrier,8,216,Single Order,Seattle,5/26/21,c805d284-8bd0-447c-9a7a-a599e027eb6c,Air,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+10.012002944946289,10,MicroCarrier,7,-194,Bulk Order,New York City,2/6/20,3b7660b2-f501-4cd3-91c6-3c4253297b79,Express,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+12.047370910644531,12,MicroCarrier,29,-89,Bulk Order,Chicago,11/29/20,0357f0a6-9b23-4dfd-b0d4-cb42ad7bcffb,Air,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+12.055595397949219,12,BigBird,70,129,Single Order,New York City,12/26/21,f5961f34-4dba-4381-a84d-e3b2ce30edfd,Air,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+15.949567794799805,16,Shipper,-89,48,Single Order,Houston,6/21/21,53d86ce0-e10b-46e0-bfa4-362ee3c4ddab,Express,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+10.259605407714844,13,Shipper,-203,70,Bulk Order,Salt Lake City,4/9/21,3be3daaa-fa7b-4385-b7cf-46bd048e42f8,Express,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+13.02446174621582,14,Shipper,9,194,Bulk Order,Las Vegas,4/28/21,1496b25b-d50c-4d05-9aab-796336a2cf18,Ground,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+14.340043067932129,15,BigBird,136,62,Single Order,Seattle,2/24/21,c8c08d2c-6cb4-4a00-b75e-b640b198ed53,Air,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+9.103052139282227,9,MicroCarrier,33,-82,Bulk Order,Salt Lake City,1/27/20,d9ce44ef-bc11-4e50-97de-91919f932475,Express,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+10.951835632324219,11,Shipper,-15,124,Bulk Order,New York City,2/1/21,0b0cf275-78b5-408a-8f92-0a00bcc5aa16,Express,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+10.934600830078125,11,BigBird,35,130,Bulk Order,Salt Lake City,1/7/20,ba894ad0-5fdf-47df-ae7d-46c7c5f5be39,Express,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+13.574703216552734,16,BigBird,-82,136,Single Order,Chicago,5/13/21,03b78c1c-027a-4a7d-83a1-a1f4d3c1c519,Air,Late,f1cb3845-019a-4fa9-99f3-111c03158514
+15.411971092224121,21,MicroCarrier,45,-205,Single Order,Las Vegas,6/13/20,a88ae1fd-2325-450e-ba27-269838b9116e,Ground,Late,f1cb3845-019a-4fa9-99f3-111c03158514
+15.902710914611816,16,BigBird,37,-82,Single Order,Houston,3/24/20,a3015079-a4e5-406a-8783-82c11573cafb,Air,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+13.848657608032227,14,GlobalFreight,-165,-54,Single Order,Houston,5/12/21,adda595b-5f9c-4668-9248-d1afe281731b,Air,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+12.065704345703125,12,MicroCarrier,8,142,Single Order,Atlanta,11/14/20,573f5838-9764-440d-9a05-60227afc7401,Express,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+14.977462768554688,19,BigBird,-155,-99,Single Order,Houston,12/8/21,f5d1846a-0db7-47b9-b5ca-f4e011330412,Standard,Late,f1cb3845-019a-4fa9-99f3-111c03158514
+12.91323471069336,13,BigBird,36,-100,Bulk Order,New York City,4/28/20,f0ad3b4b-7569-4b2d-80b1-7bf6ea14a9a6,Standard,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+12.862985610961914,13,MicroCarrier,-69,81,Bulk Order,Las Vegas,7/22/20,f86b7290-7a64-4eb7-be43-74c72f0ce15c,Ground,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+6.785225868225098,7,MicroCarrier,155,9,Bulk Order,Salt Lake City,5/22/21,ebcc84b7-299e-4454-889e-25719f7b7b39,Express,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+10.001028060913086,10,MicroCarrier,-177,8,Bulk Order,New York City,5/8/21,4277b603-17c3-4b4b-9393-35e0d096645d,Express,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+14.098302841186523,14,GlobalFreight,74,55,Single Order,Seattle,7/25/21,3c5b3469-161e-4b6f-bb36-a488acc98860,Standard,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+13.696453094482422,19,MicroCarrier,38,243,Bulk Order,Las Vegas,10/2/21,f8e168f0-de0b-4f77-844c-dffd529441b5,Standard,Late,f1cb3845-019a-4fa9-99f3-111c03158514
+10.104796409606934,10,GlobalFreight,7,-168,Bulk Order,New York City,2/7/20,e3af339e-f2e0-484d-b28d-261730057960,Air,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+15.797327041625977,16,MicroCarrier,36,98,Single Order,Seattle,5/8/21,6f044e6b-a216-4b6e-a4dd-a43fba778695,Standard,On Time,f1cb3845-019a-4fa9-99f3-111c03158514
+13.198535919189453,15,GlobalFreight,-81,76,Bulk Order,Chicago,5/6/20,605b898d-e70c-47e4-85ba-d6e2cc46c10b,Ground,Late,571440c6-37cd-4774-bc4c-cdba7b41b6be
+14.989107131958008,15,Shipper,123,-20,Single Order,San Francisco,1/22/21,a45383c2-6b9c-4ece-b620-a030cbb93c04,Express,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+11.204717636108398,11,GlobalFreight,81,46,Bulk Order,Las Vegas,8/22/20,ed6cb2c5-e104-4407-a389-9271bd861165,Ground,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+13.989481925964355,22,GlobalFreight,29,231,Bulk Order,Chicago,2/19/20,dabfdc82-34c2-4fd5-8a77-4a571637f87d,Ground,Late,571440c6-37cd-4774-bc4c-cdba7b41b6be
+13.132699966430664,14,BigBird,16,231,Single Order,Seattle,3/31/21,25f73870-04f7-4507-a1bd-d563d0195218,Air,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+9.582448959350586,9,Shipper,93,45,Bulk Order,Salt Lake City,8/9/21,a8be4823-ff37-449c-8f96-5dfa184b96d2,Air,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+4.133849620819092,4,GlobalFreight,115,-45,Bulk Order,Salt Lake City,12/27/21,9c56ef23-16b2-4a6a-8ef1-a1a3a984e415,Express,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+14.83853530883789,15,Shipper,-20,-156,Single Order,Seattle,2/4/21,77907328-3c04-463c-afbd-11265ed9b4eb,Express,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+12.974384307861328,14,GlobalFreight,-33,-211,Bulk Order,Atlanta,2/11/20,cb49976f-c16d-4e93-9313-8276245e3e77,Ground,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+13.00018310546875,14,GlobalFreight,190,-72,Bulk Order,San Francisco,6/30/21,dddb4fbc-5537-4c99-99a0-e5f3264561c2,Ground,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+14.904733657836914,21,GlobalFreight,-90,-128,Single Order,Las Vegas,2/15/21,856ed2c5-45cb-4f6a-b43c-3f7a2b89048d,Standard,Late,571440c6-37cd-4774-bc4c-cdba7b41b6be
+16.740962982177734,17,BigBird,165,45,Single Order,Seattle,9/11/20,7760e6cf-d25f-43b9-96ff-af2c46f99a13,Air,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+14.515999794006348,22,GlobalFreight,-96,-88,Bulk Order,Seattle,2/9/20,9efd5a20-c9e6-49d3-be7e-f2511acb1c56,Ground,Late,571440c6-37cd-4774-bc4c-cdba7b41b6be
+15.8622465133667,16,BigBird,-38,-79,Single Order,Atlanta,2/3/20,479fcc8d-a801-4b79-858a-6b18c47ab0a2,Express,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+15.30617904663086,17,Shipper,29,339,Single Order,Houston,10/8/20,e278e01c-ae45-41c0-91d0-01e0be8fa2f6,Ground,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+8.024084091186523,8,GlobalFreight,173,-8,Bulk Order,Salt Lake City,7/31/21,e35c0d13-9b4f-427e-b639-fa32c60c6cba,Air,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+15.010522842407227,16,BigBird,261,22,Single Order,Houston,4/5/20,f1622e21-b04e-4a04-96a9-1293f6a912c6,Standard,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+12.0245361328125,12,GlobalFreight,-105,-26,Bulk Order,Las Vegas,5/21/20,29614abb-0006-4460-8cde-e3edfb55b3a1,Standard,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+15.046624183654785,16,MicroCarrier,-37,365,Single Order,Seattle,2/14/20,9bd0eb4a-49e7-474d-a3ad-ef4629a0ee40,Ground,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+14.259400367736816,15,GlobalFreight,22,116,Bulk Order,San Francisco,1/6/20,f56de359-79f9-4cd1-b13b-ac478768e0a4,Ground,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+14.088556289672852,15,GlobalFreight,124,26,Bulk Order,Houston,2/9/20,8449c70d-72ad-4f8d-a7a4-fd7a91afab86,Ground,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+10.980104446411133,11,MicroCarrier,183,-18,Bulk Order,Las Vegas,7/24/21,f6bef495-119e-4b2c-ba0a-12d5a8916788,Express,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+13.48256778717041,13,GlobalFreight,-183,30,Bulk Order,Houston,3/26/21,6fbacf2f-766c-4461-b614-5edcb1d21a5f,Standard,Late,571440c6-37cd-4774-bc4c-cdba7b41b6be
+14.975292205810547,15,Shipper,-102,51,Single Order,Houston,1/3/20,126efbc8-53d4-4f3e-ad6f-2d5765768859,Express,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+14.789949417114258,16,MicroCarrier,-305,-18,Bulk Order,Chicago,6/10/20,a4d98c0f-472f-4bee-bb37-9d6440c7ebd2,Ground,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+12.860456466674805,12,GlobalFreight,212,35,Bulk Order,Chicago,8/31/20,b497621d-fa39-485f-98e9-0c8a314bfffc,Standard,Late,571440c6-37cd-4774-bc4c-cdba7b41b6be
+13.048551559448242,14,MicroCarrier,-153,-61,Bulk Order,Chicago,1/16/21,c381b165-f821-4be8-b7df-20e94e381de2,Standard,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+11.962518692016602,12,BigBird,-54,190,Single Order,New York City,1/1/21,79a6676c-6253-43c8-83dc-dd6eee36a42b,Express,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+13.54519271850586,14,BigBird,176,22,Single Order,San Francisco,9/29/21,16550762-75ad-45ff-80ae-ee3a34227d17,Express,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+8.085819244384766,8,MicroCarrier,-18,-104,Bulk Order,Salt Lake City,10/21/21,fa133f27-9b51-4da8-b490-1c9f50029b4f,Express,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+14.303825378417969,18,GlobalFreight,-231,11,Bulk Order,Atlanta,10/2/20,a4a1fc2e-4243-49f3-a1a9-e7642fbe655e,Ground,Late,571440c6-37cd-4774-bc4c-cdba7b41b6be
+13.210723876953125,18,MicroCarrier,237,-21,Bulk Order,Houston,5/8/21,e696c540-9d98-4901-85bd-d0231137586c,Standard,Late,571440c6-37cd-4774-bc4c-cdba7b41b6be
+14.818817138671875,16,MicroCarrier,-14,269,Bulk Order,Atlanta,8/30/21,1588a6a7-64b4-4002-b5ed-1e0eb70365b4,Ground,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+16.015975952148438,17,BigBird,57,253,Single Order,Las Vegas,9/27/21,3cc19590-b310-4af5-b2f7-a67a106747e5,Ground,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+14.932337760925293,16,Shipper,95,-155,Single Order,Las Vegas,2/6/20,8600478f-409f-4487-bb16-d509433cc973,Standard,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+6.872625350952148,7,GlobalFreight,49,114,Bulk Order,Salt Lake City,4/26/21,49b6376b-fb50-4b22-8813-bd7216ad2059,Express,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+15.733718872070312,17,BigBird,45,139,Single Order,Atlanta,1/11/20,3c104bb2-3584-4d7c-85db-719108da25b1,Standard,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+12.369522094726562,13,MicroCarrier,72,-138,Bulk Order,Houston,3/13/20,462bd48c-8964-40c7-8e9c-b15e0d757c70,Standard,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+12.848772048950195,13,BigBird,-11,155,Bulk Order,New York City,6/21/20,4ff6339c-49bb-41f4-879c-8a82f5505f73,Ground,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+11.030364036560059,11,GlobalFreight,42,-109,Bulk Order,Atlanta,5/23/21,48593561-ad9d-4658-9c55-a413d9cdbddf,Air,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+14.9149169921875,15,GlobalFreight,52,64,Single Order,San Francisco,8/19/21,9577d69a-0a8d-4d23-ad01-eb5f538e2d2e,Air,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+13.036197662353516,14,BigBird,-98,-92,Bulk Order,Chicago,11/4/20,8d5108f4-5d3e-4942-91db-0fdfd8907364,Ground,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+12.019918441772461,12,GlobalFreight,-20,-112,Bulk Order,Chicago,8/14/20,89bdecb3-127e-4224-a2a1-21bcc589212f,Standard,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+14.890460014343262,16,Shipper,234,13,Bulk Order,San Francisco,8/7/20,48c7a5d3-4e6b-41e2-887d-0bb8cb9c0d30,Ground,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+14.067428588867188,14,BigBird,-90,-28,Single Order,Las Vegas,11/26/21,8459e1b4-3c75-4286-b1cf-cb898c30c543,Express,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+13.17739486694336,13,BigBird,30,72,Single Order,New York City,9/12/20,294620d9-1a78-4344-91e0-b9ae4c1fd443,Standard,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+15.885669708251953,18,MicroCarrier,-30,182,Single Order,Seattle,12/16/20,6f3e08c3-a0e5-4a84-b9a9-4a06aa3410a1,Ground,Late,571440c6-37cd-4774-bc4c-cdba7b41b6be
+16.191884994506836,17,BigBird,-151,-8,Single Order,San Francisco,2/29/20,a86818fa-aa4c-43da-b0e3-50dcebdb8679,Ground,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+16.638757705688477,18,BigBird,-52,-168,Single Order,Atlanta,10/14/21,469284fd-9fda-4582-ac67-2e7e884f4f23,Ground,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+16.54869842529297,18,BigBird,163,110,Single Order,Salt Lake City,2/7/20,a06238a6-4cd9-4730-96ac-f617e420227a,Ground,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+12.261923789978027,13,BigBird,-89,-184,Single Order,Houston,3/16/21,5b39a7a0-4daf-4404-a524-fe81709a6465,Express,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+13.85609245300293,16,GlobalFreight,25,300,Bulk Order,Seattle,1/29/21,55cb8def-d932-4840-896a-af4ce73276f1,Ground,Late,571440c6-37cd-4774-bc4c-cdba7b41b6be
+13.967843055725098,18,GlobalFreight,144,69,Bulk Order,Las Vegas,1/19/20,4c520566-1ad9-4e37-b6a9-b20d3d79fe3b,Ground,Late,571440c6-37cd-4774-bc4c-cdba7b41b6be
+14.037123680114746,15,Shipper,26,189,Single Order,Atlanta,4/4/21,5acac5c9-7cab-4be5-8cc9-d013e03ef738,Standard,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+10.019525527954102,10,Shipper,-43,-131,Bulk Order,Salt Lake City,11/10/21,340ec8be-2ace-4355-8c0f-54c66f291a76,Express,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+16.095314025878906,17,Shipper,-103,155,Single Order,Seattle,3/10/20,6b3f5391-f3e2-4cc6-b838-3f07300181f4,Ground,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+13.038032531738281,14,GlobalFreight,112,91,Bulk Order,Las Vegas,11/28/21,b695b155-2489-40a3-84bf-5915c0a373fb,Ground,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+12.0486421585083,12,BigBird,-80,56,Single Order,New York City,8/26/20,263c2b0c-9b87-4565-b485-a146d9a55674,Express,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+12.930177688598633,13,GlobalFreight,119,18,Bulk Order,Las Vegas,11/30/20,8a193b54-fc66-4ea3-a3f2-7d52289295f4,Air,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+12.837098121643066,13,MicroCarrier,146,-31,Bulk Order,Houston,5/8/20,dd76d60c-e829-4ab3-a306-ef6ee33c60b2,Air,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+12.77461051940918,22,GlobalFreight,160,-30,Bulk Order,New York City,12/6/20,6d7a8771-b276-4730-966e-b97635d4b9fc,Air,Late,571440c6-37cd-4774-bc4c-cdba7b41b6be
+15.279218673706055,22,BigBird,-8,175,Single Order,Chicago,3/31/21,b3e239d4-ebce-437d-a959-7aeb41e06c29,Ground,Late,571440c6-37cd-4774-bc4c-cdba7b41b6be
+14.008268356323242,15,Shipper,-63,105,Bulk Order,Las Vegas,4/15/21,cdc6b187-a5e7-4ee9-9a92-6fe3f7337498,Ground,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+11.886247634887695,11,GlobalFreight,-85,43,Bulk Order,Las Vegas,11/28/21,02448d20-ac42-4ef8-9f69-04c6af9e57c9,Air,Late,571440c6-37cd-4774-bc4c-cdba7b41b6be
+12.985052108764648,14,Shipper,19,225,Bulk Order,Houston,2/8/21,122acb4a-2d54-43c8-8a3a-3dcb06b757d1,Standard,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+5.270066261291504,5,MicroCarrier,11,-152,Bulk Order,Salt Lake City,11/26/20,7e4ad2ed-c1b3-45a7-867e-0a8beb1795bc,Express,Late,571440c6-37cd-4774-bc4c-cdba7b41b6be
+14.87232780456543,17,MicroCarrier,-66,-198,Single Order,Atlanta,10/20/21,b8a1c80b-ab8f-4514-854a-7e757e832500,Standard,Late,571440c6-37cd-4774-bc4c-cdba7b41b6be
+13.951101303100586,14,MicroCarrier,149,-26,Single Order,Houston,12/6/20,d40ce079-6dab-4da1-a745-b1c47ec0d5dd,Standard,On Time,571440c6-37cd-4774-bc4c-cdba7b41b6be
+15.300922393798828,16,BigBird,92,140,Single Order,San Francisco,10/20/20,fd1d8e68-ae28-4cb9-b42e-0c7b15b28a1b,Air,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.30428695678711,15,Shipper,-176,63,Single Order,Chicago,8/17/20,24ae1dab-22d6-4468-8cb7-e6375570e092,Air,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+14.781414985656738,16,GlobalFreight,-10,-309,Bulk Order,Houston,2/16/20,d60204bd-a5b0-4b77-8320-e3fbb5a54eb8,Ground,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.062288284301758,14,MicroCarrier,188,-29,Bulk Order,Seattle,4/16/21,642171dd-9aee-4eab-bf29-190855e73c86,Standard,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+14.976667404174805,15,Shipper,20,-107,Single Order,San Francisco,5/27/20,da7eac46-d7ab-4a9c-91b6-73d12eed7d70,Express,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.201894760131836,15,GlobalFreight,-153,-102,Single Order,New York City,11/19/21,3b7f3b55-7aaf-494c-b9a3-c02fcd5b2a25,Air,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.402336120605469,14,Shipper,9,-174,Single Order,Atlanta,6/4/20,9678902d-0d3b-4a24-b434-936f13b23612,Air,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+12.026354789733887,12,GlobalFreight,-87,-22,Bulk Order,Atlanta,5/24/20,4c4b7c99-da7c-45d0-a38e-d2a6d2e775fd,Air,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.934914588928223,15,GlobalFreight,-167,-13,Bulk Order,New York City,2/19/21,4aa5f39b-35f4-4107-9b89-d3c68c3abc05,Ground,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+15.190878868103027,16,BigBird,-44,-112,Single Order,Salt Lake City,12/10/21,89bed137-041c-4f3d-9570-24f1b39c9a4e,Ground,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+16.982242584228516,18,Shipper,205,16,Single Order,San Francisco,12/22/20,691bebde-6981-4af4-a891-c4ac29f4a79a,Ground,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+12.050621032714844,12,BigBird,-97,29,Single Order,New York City,4/30/21,d851c581-1b57-486c-884c-ca4bf7f07883,Express,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+10.114038467407227,10,Shipper,21,-86,Bulk Order,Salt Lake City,8/21/21,09f1d2c0-0f92-467b-8d6b-fa8dd9ee8ccd,Standard,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+12.888006210327148,13,BigBird,-166,-21,Single Order,Atlanta,3/14/20,812b60c6-f5dd-4da6-984d-e848d662e76a,Express,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+7.365921974182129,7,Shipper,-159,-13,Bulk Order,Salt Lake City,6/1/21,a2636713-0ccd-49fc-bd6f-55294367a6ab,Express,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.577278137207031,14,GlobalFreight,-186,-9,Bulk Order,Seattle,12/20/21,978ad77b-05f1-46ea-82ef-1773d8dbe487,Standard,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+12.597896575927734,13,MicroCarrier,-52,63,Bulk Order,Chicago,3/7/21,90f24ca7-6b77-43b8-a709-b14c414fef16,Standard,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+12.024162292480469,12,GlobalFreight,110,-19,Bulk Order,Las Vegas,4/7/20,b65950f8-0e4d-40a9-a4bd-806d24552ce0,Air,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+12.594830513000488,14,GlobalFreight,-337,64,Bulk Order,Salt Lake City,4/9/21,7ff668c4-f2e7-490f-bd10-619198638582,Air,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+11.977088928222656,12,MicroCarrier,51,-79,Bulk Order,Houston,8/8/20,37816d51-e131-415d-9347-0095f6f5028c,Express,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.274519920349121,20,GlobalFreight,15,244,Bulk Order,Chicago,8/10/21,e5485bc8-c908-4d9b-b912-63cdec8769d6,Ground,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+15.943103790283203,18,BigBird,-29,188,Single Order,Las Vegas,1/13/21,269283a4-ae19-496b-a9fe-47d8efb7569b,Ground,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+12.138111114501953,13,BigBird,-29,255,Bulk Order,Salt Lake City,3/15/20,be8baa15-708c-4698-9ea8-5a14e76a39fb,Ground,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.962884902954102,15,Shipper,246,-14,Bulk Order,Atlanta,12/24/21,1dcf9771-840b-496e-b369-18d3cb27ead6,Ground,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+14.58551025390625,19,Shipper,-91,123,Bulk Order,Chicago,4/3/21,2ca4840c-9fef-40e0-90f8-7667c8cb3402,Ground,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+14.12173843383789,15,Shipper,213,-43,Single Order,Las Vegas,6/1/21,f06fb34c-9dd9-444c-90a1-3f0f0ff9a058,Standard,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+12.009965896606445,12,MicroCarrier,-105,59,Bulk Order,Las Vegas,5/13/21,b223b5a1-ba54-4bc6-b4b7-02533599090e,Air,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+11.961858749389648,12,Shipper,167,10,Bulk Order,Houston,12/22/21,d7db400b-a557-432c-8b67-3b135c38f591,Express,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+15.107156753540039,16,Shipper,208,27,Single Order,Seattle,5/12/20,8df4b0e0-d2a4-4412-96c4-573f527a4f48,Ground,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+14.939327239990234,15,MicroCarrier,-50,96,Single Order,Chicago,8/2/20,578c589f-4ccb-40e6-a091-a7d5cdb3a807,Air,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.411676406860352,20,Shipper,-55,151,Bulk Order,San Francisco,9/14/21,4318be18-91f3-42f1-bc11-db9b334ea687,Standard,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.994070053100586,21,MicroCarrier,199,41,Single Order,New York City,8/21/21,28a6528a-e6e0-474e-aa9a-4a7a1ccf8324,Air,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+15.052364349365234,16,BigBird,10,-233,Single Order,Atlanta,5/19/21,f92f83ab-197f-4407-8563-a663a96f501d,Ground,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.937166213989258,14,MicroCarrier,-141,10,Single Order,Seattle,3/12/20,1cd816ff-6f9c-486f-b6a1-ff4f123a2a68,Air,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+7.071179389953613,7,MicroCarrier,69,-62,Bulk Order,Salt Lake City,2/28/20,4ca4fdf8-2fb0-47a7-9f24-306b0b66ffb2,Express,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+14.028484344482422,14,BigBird,15,-127,Single Order,Atlanta,6/25/20,27f1b039-6e87-4873-afba-58d3f93efe5d,Air,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.911161422729492,13,BigBird,-103,-40,Single Order,Salt Lake City,5/26/20,b4648ec7-0207-4339-a8a2-575c5fdac25c,Air,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+14.891963005065918,15,BigBird,-111,27,Single Order,Chicago,6/12/21,e3e600c5-8c13-4de3-9ef4-fa915fc6e0b0,Air,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.318984985351562,23,Shipper,79,-121,Bulk Order,Seattle,7/21/20,75e686c6-4589-4961-991b-59190bc55957,Standard,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+6.832490921020508,7,GlobalFreight,52,-70,Bulk Order,Salt Lake City,8/17/21,ff341cf2-509d-4006-9339-78fb7b4ec08a,Air,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+16.519405364990234,17,Shipper,163,18,Single Order,San Francisco,2/1/21,2bd38c60-bad5-46fc-89b9-f36e88caab05,Air,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+11.968015670776367,12,BigBird,92,-8,Bulk Order,New York City,7/25/21,b6cd9f67-0089-4bb5-9c6d-dccb357180d8,Air,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+15.848844528198242,19,Shipper,-190,50,Single Order,San Francisco,7/15/21,240ad708-64b2-4e4e-a41a-8a3d46bcd35f,Ground,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+14.53156852722168,21,MicroCarrier,-183,-8,Bulk Order,Houston,5/30/20,662934aa-9966-4b82-8d2e-769741845590,Ground,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+14.23851490020752,15,Shipper,-46,-225,Single Order,Seattle,9/20/21,10beb165-2785-4712-aa99-f99c144b3783,Air,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+14.206888198852539,15,BigBird,-245,-16,Single Order,Seattle,5/16/20,d238966f-1cc3-40c7-be8c-e0ab41165845,Air,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+12.843125343322754,12,GlobalFreight,75,-35,Bulk Order,Seattle,9/27/21,49b61a99-0a69-4f8c-bfa6-6ff8168651f5,Air,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+14.052591323852539,15,BigBird,190,47,Bulk Order,Atlanta,8/31/20,dcf55e2f-5b8a-418a-b22a-39a9cbaab4d7,Ground,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.978248596191406,14,BigBird,112,8,Single Order,Houston,5/26/20,1b16157b-f0bd-47c8-8682-92a2c399b1bb,Express,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.021072387695312,14,Shipper,256,-15,Bulk Order,Seattle,1/28/21,9f566992-96f5-4c90-86e5-990b5468d8d7,Standard,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+11.043659210205078,11,GlobalFreight,65,90,Bulk Order,Las Vegas,7/13/20,e1435374-84a7-4291-938c-2721f90b180b,Air,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+11.001981735229492,11,Shipper,-39,-91,Bulk Order,Atlanta,10/12/20,a77d0286-ee30-4cd1-8f7c-3f874897493d,Express,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.952693939208984,13,MicroCarrier,90,-52,Single Order,Las Vegas,11/22/20,a9af6b48-b12c-4b90-aa5f-e2019cc8944d,Express,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+11.02413558959961,11,MicroCarrier,155,17,Bulk Order,New York City,9/14/21,1f55c7b5-6798-4149-920a-9e9b012a0b71,Standard,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+10.009231567382812,10,Shipper,-124,-19,Bulk Order,Salt Lake City,6/6/21,b8de2716-3428-465b-80aa-550696f23edd,Express,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.064250946044922,14,Shipper,55,-112,Bulk Order,Atlanta,9/16/21,72d2f453-d302-4689-85d6-134c6b7eb540,Ground,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+12.959718704223633,13,BigBird,98,28,Single Order,Salt Lake City,11/9/21,a8093186-7a8a-48a7-89d8-465dbc9c6b70,Express,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+12.006778717041016,12,BigBird,125,-15,Bulk Order,Salt Lake City,1/4/20,2eee9459-1799-40fa-a5d6-58623f1d696f,Standard,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.001319885253906,14,GlobalFreight,-168,82,Bulk Order,San Francisco,4/16/21,f9e33cbf-ca9e-4161-8e75-8cb85dbc1ded,Ground,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.99930191040039,16,BigBird,-186,43,Single Order,San Francisco,3/23/20,a56b3b51-4dff-4ed9-b68d-d309a41ef8c7,Air,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.01657485961914,13,MicroCarrier,-115,34,Single Order,Houston,1/11/21,7fba6f02-de4e-47cc-9a89-dc179e38cd02,Express,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+11.04857349395752,11,GlobalFreight,-113,-14,Bulk Order,Atlanta,1/21/20,e097d197-3a68-4149-8624-155c64ded396,Air,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+8.093008995056152,8,Shipper,157,39,Bulk Order,Salt Lake City,10/29/21,e07079eb-a42f-4d4a-957a-0ea89d1d88fa,Express,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+14.163715362548828,16,Shipper,10,-215,Single Order,Houston,10/3/20,e7e33cce-2058-4168-8b14-86425e235918,Standard,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+10.163628578186035,10,Shipper,-8,-138,Bulk Order,Atlanta,10/20/21,103a5808-0805-46d8-b14c-c8deefcb76ec,Express,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+12.850509643554688,19,Shipper,-46,-156,Bulk Order,San Francisco,8/25/21,b7b3578b-96cd-44d6-b6ac-a83b39f36615,Air,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.989299774169922,14,MicroCarrier,-43,91,Single Order,Las Vegas,12/30/21,74d67281-8c66-42b3-9433-57371770e38f,Express,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+15.093181610107422,16,MicroCarrier,-130,109,Single Order,Chicago,3/13/20,125b948e-f937-4f8c-ba09-512004b3314a,Ground,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.022016525268555,14,MicroCarrier,-34,-185,Bulk Order,Chicago,5/21/21,2049a5ed-8e17-4413-859e-8e8507fc31fb,Standard,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+14.918075561523438,15,Shipper,10,-125,Single Order,San Francisco,2/19/21,44531937-24ca-4a43-84ea-640cea16c46c,Express,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+14.970735549926758,15,GlobalFreight,-51,71,Single Order,Seattle,6/7/20,0e5dc69d-81a8-4ecf-a595-596334078b3a,Standard,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+14.673595428466797,14,BigBird,144,17,Single Order,Seattle,6/4/20,d8e568d7-46cb-482e-be4a-149e12d31392,Air,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+12.012205123901367,12,BigBird,-75,125,Single Order,New York City,6/3/21,047c8021-a1d5-48ed-ad23-3114cb286333,Express,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+14.851306915283203,16,BigBird,-248,-16,Bulk Order,Houston,10/19/20,8aa3663a-a409-4fe5-a6fd-91a05f7c00a0,Ground,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.938789367675781,14,MicroCarrier,144,-17,Single Order,Chicago,10/19/20,38275202-d05a-4240-87cb-b93f9a463453,Standard,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+8.248520851135254,8,Shipper,-133,18,Bulk Order,Salt Lake City,2/5/20,bf68040e-469e-4abe-98cd-af0efc0e1dae,Express,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+15.068243026733398,18,GlobalFreight,114,70,Single Order,Atlanta,11/24/21,f012bed3-0b9b-4207-8d4d-ee162b50b1f1,Standard,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.132745742797852,14,GlobalFreight,-53,-110,Bulk Order,Chicago,11/15/20,350b7369-f875-4702-9a9b-111c2d06ebdf,Standard,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.858963012695312,19,BigBird,51,-199,Single Order,San Francisco,2/19/21,209c8131-0547-4910-82a2-b7c0f1dee043,Air,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+12.837360382080078,12,MicroCarrier,61,-146,Bulk Order,Chicago,4/6/21,3535d8be-c6b7-4f43-91a3-e3239f3c71de,Standard,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.222633361816406,17,GlobalFreight,12,231,Bulk Order,Atlanta,7/21/21,aa8d1449-5149-4b2a-a29b-ded5a0e6ec28,Ground,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+14.953882217407227,16,BigBird,-205,71,Single Order,Chicago,4/27/20,acf299e3-e2fd-45f3-b777-ab63215aaa30,Air,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+12.943631172180176,14,GlobalFreight,-33,265,Bulk Order,Chicago,6/26/21,4042ad99-0025-4dc3-bd23-9401ccc9aaa9,Ground,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+8.25851058959961,8,MicroCarrier,175,32,Bulk Order,Salt Lake City,2/29/20,2831ca39-d416-4281-9075-d833fa6f7698,Express,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+16.77725601196289,18,BigBird,-281,28,Single Order,Atlanta,11/30/21,40716f15-af6b-45ca-97fb-f8c6e394e9c2,Ground,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.848718643188477,19,GlobalFreight,-190,26,Bulk Order,Houston,10/29/21,7564f5ea-8f9a-490c-aca6-15036b8e09e9,Ground,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+14.801196098327637,16,Shipper,-63,-171,Bulk Order,San Francisco,2/14/21,b5742cad-3909-4e38-a37d-dd5d0d116d27,Ground,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+11.118950843811035,11,Shipper,110,53,Single Order,Salt Lake City,7/20/21,6ba1779d-35b1-4110-8062-487cf474aa8f,Express,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+12.101631164550781,13,Shipper,11,200,Bulk Order,Atlanta,2/11/20,16e780fb-087b-4658-b60d-6308f452218e,Ground,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.146581649780273,14,MicroCarrier,116,-15,Bulk Order,San Francisco,2/17/21,419ed57e-1a96-4762-b11a-b597cf7d1022,Standard,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+15.739980697631836,20,Shipper,-12,-192,Single Order,Chicago,12/30/20,fc34fbf7-5479-4a2e-931e-ae3c231b3c48,Ground,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+12.240631103515625,20,Shipper,-26,-390,Bulk Order,Seattle,11/18/20,1f629d06-03ea-44b8-9527-83c44629cf65,Air,Late,23c21966-e2b2-4967-b92b-60b4d89d877d
+14.941499710083008,15,Shipper,-112,46,Single Order,San Francisco,11/19/21,710408eb-0a64-40d4-bd35-1a331580594d,Air,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+12.540690422058105,13,GlobalFreight,-28,204,Bulk Order,Houston,9/9/20,729eee9f-150e-41e0-ac65-3945faf4c25a,Standard,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.928881645202637,15,MicroCarrier,-97,97,Bulk Order,Las Vegas,7/30/21,4461f981-4fd3-403d-bb68-7c63b99acce6,Standard,On Time,23c21966-e2b2-4967-b92b-60b4d89d877d
+13.971376419067383,13,MicroCarrier,-102,37,Single Order,Houston,10/20/21,ebe78743-04ad-4a44-94eb-ee9ccf511468,Air,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+15.942829132080078,16,Shipper,30,116,Single Order,Seattle,11/29/20,970d92e3-95be-4593-81c1-15581d04e437,Air,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+13.045684814453125,17,Shipper,-266,-16,Bulk Order,Chicago,4/7/21,1d7aabba-78ae-43b5-9f80-c1c3f21547bf,Standard,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+10.054465293884277,10,Shipper,40,-93,Bulk Order,Salt Lake City,5/12/21,d00862cb-b52c-4394-ba8c-50c5d97a754a,Air,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+11.984613418579102,13,Shipper,55,-142,Bulk Order,Chicago,10/24/21,6d2f13c0-f517-4bf7-a778-159f1479df9e,Standard,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+14.138428688049316,15,BigBird,-436,-8,Single Order,Las Vegas,1/17/20,78b66c53-5338-4b6d-86ee-e6b8e7c563d8,Express,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+16.591876983642578,17,Shipper,14,119,Single Order,Seattle,9/15/20,8e86aeae-6481-43ab-98dc-9ee4701224f7,Standard,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+13.86479377746582,15,MicroCarrier,-9,-190,Bulk Order,Atlanta,9/20/21,20a9c8e4-78b5-4998-8af8-100838773047,Standard,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+17.77635383605957,18,BigBird,-35,-93,Single Order,Seattle,6/22/21,334d2084-7159-42be-89f3-bacc0f4856af,Express,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+15.826939582824707,23,GlobalFreight,-12,-152,Single Order,Seattle,8/28/21,834630c6-6e2d-453f-ab1f-8baec189e257,Ground,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+12.62060546875,13,MicroCarrier,61,-140,Bulk Order,Seattle,6/20/20,d5e21f82-f4ce-4f74-badf-19936e7b34cd,Standard,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+14.023275375366211,14,GlobalFreight,-122,-10,Single Order,Las Vegas,10/31/21,d1cb7876-8cd4-4f9e-9405-d11051be0990,Air,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+13.01646900177002,12,MicroCarrier,77,-34,Single Order,Las Vegas,10/9/20,3882f633-a9f9-4d3d-bdb7-0b15e1589cd9,Express,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+4.946516036987305,5,GlobalFreight,127,18,Bulk Order,Salt Lake City,3/8/21,54b57a84-3925-4490-94a2-d558c98efc26,Express,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+14.186994552612305,23,GlobalFreight,212,-35,Single Order,New York City,11/6/20,64f665d3-0dc6-4f91-8171-4256a998d234,Standard,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+13.01668643951416,12,MicroCarrier,-48,192,Single Order,Houston,8/21/21,38a4988f-45ca-4322-9e55-9a5c86fba7bb,Air,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+15.204588890075684,16,GlobalFreight,-82,-112,Single Order,Las Vegas,2/22/20,19b7ac9d-13bc-424d-949f-8d4129012a8c,Standard,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+14.558609008789062,23,BigBird,-77,-187,Bulk Order,Las Vegas,11/4/20,d9a9b6e8-02c8-4c35-8092-f0eaf0f1f459,Ground,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+14.635464668273926,17,MicroCarrier,58,-212,Bulk Order,Seattle,12/5/20,b1804db2-f8e5-49ff-9810-a48e9a544188,Ground,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+15.203134536743164,18,MicroCarrier,-60,209,Single Order,Houston,6/1/20,bfd8b0b5-1382-4f9c-9494-50eb9c1e12ee,Standard,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+14.322815895080566,15,BigBird,170,-34,Single Order,Seattle,6/6/21,d7f496c5-f37a-4d12-b05d-2a872faf3409,Standard,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+13.72776985168457,16,MicroCarrier,262,23,Bulk Order,Seattle,11/2/20,9d838138-d4bc-44d9-a69b-bb34da571e95,Standard,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+16.001815795898438,16,MicroCarrier,50,65,Single Order,San Francisco,11/25/21,711ed266-631e-4357-9d95-201badea0950,Air,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+14.764404296875,16,GlobalFreight,240,9,Bulk Order,Chicago,4/29/20,ce43c3b6-4b72-4850-93cb-7c8c0afb00e0,Ground,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+12.97358512878418,13,BigBird,81,79,Single Order,Salt Lake City,5/1/21,cc2f9240-9b03-45e4-8abe-420631fc2e39,Express,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+14.529031753540039,16,GlobalFreight,176,61,Single Order,New York City,4/11/20,8b923df7-9d20-46b5-bef8-69ab7c9bf1a4,Standard,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+13.999900817871094,13,Shipper,110,-47,Single Order,Las Vegas,1/28/20,aec287b5-de26-4e6e-89cd-942fb89b4979,Express,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+13.34038257598877,16,MicroCarrier,246,-18,Bulk Order,San Francisco,11/20/21,cf0dcab5-a08c-4b57-95bb-c062eafc82ee,Standard,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+13.07271671295166,19,Shipper,-136,-79,Bulk Order,Atlanta,11/5/21,1ad26053-cd80-4e59-85b1-c4c1d527acdb,Standard,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+6.991447448730469,7,GlobalFreight,92,8,Bulk Order,Salt Lake City,3/10/21,16a2e056-a332-4c8b-b733-fa28ee1dbd8d,Air,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+13.148008346557617,15,MicroCarrier,-74,287,Single Order,San Francisco,4/19/20,d3228ec1-9b48-4d28-bb91-511108976fac,Express,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+13.990013122558594,15,MicroCarrier,-49,-201,Bulk Order,Atlanta,7/15/21,c55f0728-6ef2-47bc-b1c7-28a0b60c472f,Ground,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+15.356338500976562,19,MicroCarrier,-210,-15,Single Order,Chicago,8/4/20,3cb39227-3b48-46aa-88c0-fc037f36726e,Ground,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+14.161429405212402,17,Shipper,15,-249,Bulk Order,Houston,1/13/21,720ea069-636f-48c9-b8c1-d4fd579ccdbd,Ground,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+13.040307998657227,13,GlobalFreight,-53,74,Single Order,Las Vegas,8/5/21,877803dd-24da-40af-857d-7b23238921af,Air,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+12.59056568145752,17,Shipper,-19,-186,Bulk Order,Houston,8/26/21,0e5539bf-a060-40d7-9071-17a3cc1276ee,Standard,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+14.82359504699707,16,GlobalFreight,7,-236,Bulk Order,Seattle,9/22/20,24d8de55-9386-489d-b523-f97240c3b62e,Ground,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+14.162847518920898,17,GlobalFreight,-136,-79,Bulk Order,Las Vegas,6/27/20,8291e151-5789-439f-8f26-95007665013c,Ground,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+13.532553672790527,14,Shipper,-13,321,Single Order,Chicago,1/25/20,b950da57-e662-49b1-abc9-3c7e6b5711a9,Standard,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+12.956419944763184,14,Shipper,-57,141,Bulk Order,Atlanta,9/2/20,8008c22d-8bdb-4704-abd9-ab055f5f69e1,Air,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+13.014996528625488,14,GlobalFreight,195,-20,Bulk Order,Houston,4/25/20,0c8ec36a-aa67-4500-8368-03fd1e0e33f6,Ground,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+15.301715850830078,21,Shipper,-221,34,Single Order,Seattle,11/30/21,d00cab87-a687-426c-863b-90e67b3dbb64,Standard,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+12.92570686340332,17,Shipper,-55,212,Bulk Order,San Francisco,2/26/21,03f6938f-ba74-4ead-84fe-9fb8748cbad5,Air,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+14.045369148254395,14,MicroCarrier,52,-41,Single Order,San Francisco,7/31/20,a2e119ac-ee4b-457f-939b-0522cfa8e3f3,Express,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+15.935138702392578,16,Shipper,117,-8,Single Order,Chicago,1/18/20,9fc0771e-f642-467c-897b-5ed784468687,Express,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+9.964751243591309,10,Shipper,-193,-12,Bulk Order,Salt Lake City,7/17/21,7f6304ff-3556-41f7-86a3-db43d8ea50d6,Express,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+14.040197372436523,14,BigBird,-103,59,Single Order,Las Vegas,11/13/21,b81f7e6e-164d-43a7-85fd-4eae4895da3b,Air,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+14.08601188659668,21,Shipper,75,-101,Bulk Order,Atlanta,11/2/20,d555fe03-11da-4fc5-af2a-5e5b6c24e43b,Ground,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+16.162004470825195,19,BigBird,-257,21,Single Order,Atlanta,3/16/21,a1011580-173e-4d17-92c9-1f7fc353df6f,Ground,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+10.966402053833008,11,BigBird,76,-44,Bulk Order,Salt Lake City,10/21/21,9ed93d0a-3943-4b4c-83ea-8d2b07e04959,Air,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+10.940971374511719,10,Shipper,41,-121,Bulk Order,New York City,10/27/20,0831b884-33d9-4a52-8b93-ae97bed73129,Standard,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+12.92906379699707,13,GlobalFreight,147,-39,Bulk Order,Seattle,1/14/20,a28dae78-8079-47ea-a66e-3258c5d77da5,Air,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+13.833700180053711,15,MicroCarrier,-101,-126,Bulk Order,Las Vegas,9/24/20,138c391e-021a-46e5-80c8-061e4671cff0,Standard,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+13.639120101928711,13,GlobalFreight,161,-25,Bulk Order,Seattle,1/16/20,3f61b711-f746-47e0-9935-84a1cb4480aa,Standard,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+10.985321044921875,11,BigBird,8,-225,Single Order,Salt Lake City,1/12/21,05d065f3-ac9a-41d6-88e0-66aabf9547c4,Express,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+15.393699645996094,18,BigBird,295,-23,Single Order,Las Vegas,2/9/21,05bc7e98-388e-46a8-880e-6680ddf98453,Ground,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+11.992427825927734,12,GlobalFreight,39,-217,Bulk Order,Chicago,11/13/20,17fcf3c1-d744-41f0-99bb-15257e1919c5,Ground,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+14.744765281677246,14,BigBird,8,82,Single Order,Atlanta,7/28/21,ffc7a5de-a459-4d2d-b709-9e9748fbf94f,Standard,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+10.95157241821289,11,Shipper,94,65,Bulk Order,Salt Lake City,3/30/20,fef1e7ac-ed37-48f6-a369-506977379326,Air,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+14.81027889251709,15,BigBird,-66,-88,Single Order,Salt Lake City,6/8/20,dde64a10-f038-4e2c-b5bf-3f276fa3198b,Standard,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+13.61301040649414,19,BigBird,37,-219,Single Order,Atlanta,8/16/21,4d1d7148-59d2-4916-ac7a-54e543fb7a05,Express,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+13.04660415649414,13,BigBird,56,53,Single Order,Seattle,8/23/21,a5fffd7e-45a7-4467-95e8-124a68318afc,Express,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+14.864084243774414,15,BigBird,-66,98,Single Order,Houston,5/11/20,fed6c306-2e11-433b-9257-17c815b87f59,Express,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+10.064032554626465,10,Shipper,-54,-64,Bulk Order,Salt Lake City,7/12/21,4f1a1d8c-c6a2-402d-985e-e3d4c15a6cee,Air,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+8.667678833007812,8,GlobalFreight,197,-36,Bulk Order,Salt Lake City,3/4/20,7d7369bc-7b13-4268-8692-f92b4680736e,Standard,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+13.990938186645508,16,BigBird,-264,61,Single Order,Seattle,5/29/20,c713c8f8-8be4-45c5-8889-4d42169080ce,Air,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+12.294828414916992,14,GlobalFreight,257,-13,Bulk Order,Houston,1/27/20,50b39842-e936-4f16-853f-74454d16fbd9,Ground,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+15.032960891723633,19,Shipper,188,9,Single Order,Las Vegas,1/29/21,dce47174-1d01-40ac-b31c-a19898394f66,Standard,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+14.074106216430664,16,MicroCarrier,-44,199,Bulk Order,Seattle,11/27/21,4038e196-72e8-4287-b9f3-4fd8facf7b9b,Ground,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+13.566855430603027,15,MicroCarrier,-247,17,Bulk Order,Houston,3/14/21,ef6e02fc-85a7-479a-8e90-9f8d11777d0a,Standard,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+6.833212852478027,7,MicroCarrier,-30,-113,Bulk Order,Salt Lake City,6/15/20,11c68648-90b8-4797-bd9b-58ab5fa9ce9f,Express,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+14.516843795776367,17,MicroCarrier,-21,168,Bulk Order,Houston,12/22/21,d3fd571e-1f65-428e-8c74-71bc04ba8736,Ground,Late,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+14.787656784057617,15,GlobalFreight,29,-140,Single Order,Seattle,2/9/21,b2c3f618-db35-4e9b-a594-fee692eea352,Standard,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+14.019716262817383,14,GlobalFreight,-40,-87,Single Order,Houston,9/19/20,ac1b1cf2-bf2a-4367-9f37-d1b5f27685b9,Air,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+13.922369003295898,15,Shipper,164,-8,Bulk Order,New York City,3/9/21,5343f3d0-0ddd-4b8d-ae5b-7380b3846247,Ground,On Time,9b2ca247-ff22-4c21-9eaa-dd99a72b2fcd
+7.3415656089782715,7,GlobalFreight,14,133,Bulk Order,Salt Lake City,6/28/20,255715b0-0e8e-4785-b6d7-389e108eee50,Air,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+13.231660842895508,15,GlobalFreight,8,159,Single Order,New York City,12/29/21,0a25e7e5-ca3f-49cb-bb2d-35f313069c8e,Air,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+14.601968765258789,15,Shipper,-53,132,Single Order,Atlanta,12/16/20,a733e4d8-2dd0-4145-b2dc-31e786be2ee0,Standard,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+15.646966934204102,22,Shipper,274,23,Single Order,San Francisco,1/24/21,a3872015-176c-477e-a842-32821e527aef,Standard,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+12.30204963684082,13,GlobalFreight,213,-80,Bulk Order,Seattle,6/27/20,d0e64ddd-2bc3-4bf2-958b-8626d23d33fd,Ground,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+6.07461404800415,6,GlobalFreight,126,-78,Bulk Order,Salt Lake City,8/8/21,f277922a-cd1f-44e8-89c3-10a524574a63,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+5.053494453430176,5,GlobalFreight,49,-64,Bulk Order,Salt Lake City,3/17/20,5af89f28-b9c8-4ee1-ac08-441b497382dc,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+14.111488342285156,17,BigBird,92,-110,Bulk Order,Salt Lake City,5/21/21,62483486-8650-4fa2-89a7-e37e407d80e2,Ground,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+13.771839141845703,14,Shipper,-213,24,Single Order,Houston,12/17/21,c1dc1a4b-1b45-44c4-bcfd-0f09c3e8d7cd,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+11.95877456665039,12,BigBird,-164,-39,Bulk Order,Salt Lake City,8/23/20,96b49f87-65f3-4bd4-8c5c-733b763691f0,Standard,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+12.017898559570312,12,GlobalFreight,66,-49,Bulk Order,Las Vegas,6/29/20,bb75c440-567e-4b94-a45b-d11cb8a54808,Air,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+14.236546516418457,14,Shipper,8,187,Single Order,Las Vegas,2/11/20,e7f3e3d5-0e24-4829-ae71-ee763fde674a,Express,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+13.013587951660156,13,Shipper,-103,-48,Single Order,Atlanta,6/12/20,5671bd18-9781-49db-a847-0dfb7c0f6463,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+14.131061553955078,15,MicroCarrier,-202,-43,Single Order,Las Vegas,5/7/21,0ff7488a-102f-40c8-9632-fb724dd9e28d,Standard,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+15.874277114868164,25,Shipper,-79,-12,Single Order,San Francisco,6/30/20,9b1505dd-d21d-48fc-8701-eb8f8777f9f8,Standard,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+14.063373565673828,14,BigBird,-111,34,Single Order,New York City,6/30/20,27c343e3-5acf-4b33-a031-4a9cc3a74817,Standard,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+13.986135482788086,15,GlobalFreight,10,304,Bulk Order,Houston,8/16/21,bfdb1c9c-a1be-4e50-8ebf-8d54d6c06228,Ground,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+13.051813125610352,12,MicroCarrier,96,-42,Single Order,Chicago,8/19/21,cd6346be-36fb-425e-8395-4afd1ddb0d92,Express,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+8.248213768005371,8,MicroCarrier,-129,27,Bulk Order,Salt Lake City,2/8/21,710c31ab-8c72-4a56-941f-bc7643a7b99d,Air,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+12.764716148376465,18,Shipper,-22,188,Bulk Order,Chicago,9/30/21,7c2c85d3-ccfb-484f-9ffc-fab7a3437435,Air,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+10.999954223632812,11,Shipper,-70,69,Bulk Order,Las Vegas,10/24/21,0442692b-4b45-40e4-9da3-816f574f3dfb,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+11.037482261657715,11,BigBird,48,90,Bulk Order,Salt Lake City,1/2/21,26007400-09b2-4cc3-9b42-56a245d00a30,Standard,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+14.348265647888184,20,GlobalFreight,57,237,Single Order,Atlanta,9/7/20,7c89b37c-1e1c-49a7-ac07-f2926524827c,Standard,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+15.142852783203125,17,BigBird,-209,-8,Single Order,Houston,3/12/21,9591d03d-0b39-472b-a973-f82c309ec616,Ground,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+12.277853012084961,14,MicroCarrier,88,219,Bulk Order,San Francisco,7/5/20,b2507071-d0d2-4e88-a8b0-81d4acc58aed,Standard,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+12.330816268920898,13,BigBird,-257,-46,Single Order,Houston,10/19/20,ddd97804-11c1-46a6-9e9f-49201ef62ebf,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+12.707864761352539,17,Shipper,11,211,Bulk Order,Houston,12/29/21,f5e625bb-8dff-4039-8f5d-5310c7c53e0b,Standard,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+8.063880920410156,8,GlobalFreight,35,-114,Bulk Order,Salt Lake City,10/30/21,4ae3d6ed-c5df-419b-8347-1d3d1f394878,Air,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+15.400330543518066,17,BigBird,100,-142,Bulk Order,San Francisco,7/9/21,6e6e3702-bf73-4f9c-b1e6-779ee354c2c8,Ground,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+14.169154167175293,15,MicroCarrier,53,132,Bulk Order,Seattle,3/28/21,8b4d3d52-aebb-4423-86b5-c5bcc4116a05,Ground,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+13.10055160522461,14,GlobalFreight,-286,-61,Bulk Order,Seattle,12/8/21,582228b5-8cf0-407a-a6d6-6938e71947ff,Ground,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+15.052606582641602,16,BigBird,106,243,Single Order,Chicago,10/16/20,f91c3e8a-aaed-495a-88f4-4d6520142377,Standard,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+13.953439712524414,14,BigBird,21,-98,Single Order,Las Vegas,9/12/21,93d818f2-e9ae-4329-8c20-05b3383c71fc,Air,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+11.993793487548828,11,BigBird,-86,141,Single Order,New York City,9/28/20,03c31bd3-cad4-4d37-9964-590983456dd3,Air,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+10.032644271850586,10,MicroCarrier,161,-14,Bulk Order,New York City,7/19/20,7eb57ccf-3b65-475b-96ad-f9a5b7f12cac,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+13.030179977416992,14,BigBird,206,-50,Bulk Order,Atlanta,1/8/20,bc8e37f0-aeed-4a70-9333-a64230e946b7,Ground,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+12.914712905883789,13,Shipper,-150,-30,Single Order,Atlanta,11/16/20,df4a051c-f564-41f2-abb5-6eeac6311b29,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+12.979284286499023,13,BigBird,-11,-92,Single Order,New York City,3/23/21,744062c0-8d69-4bc1-907e-5e5a2bb00926,Air,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+10.940122604370117,11,Shipper,27,231,Bulk Order,Las Vegas,3/13/20,505614ed-56da-43b6-b03f-f801d70e1ac4,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+8.850977897644043,8,Shipper,-44,94,Bulk Order,Salt Lake City,8/13/21,3d27c77c-ca2e-409a-a4b2-2b88f2e9170d,Express,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+12.536105155944824,13,BigBird,40,-177,Bulk Order,Chicago,4/2/21,79710699-bdd1-4b92-894e-40f153479843,Air,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+12.158397674560547,13,GlobalFreight,33,246,Bulk Order,San Francisco,5/25/20,84ce216d-76a7-4949-9e03-6dfed62d0aa7,Ground,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+14.066868782043457,16,MicroCarrier,40,209,Bulk Order,Seattle,10/12/20,1f4e4d52-ed61-4c8f-a23c-2b85af9d965f,Ground,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+17.219396591186523,18,MicroCarrier,9,121,Single Order,San Francisco,1/21/20,74be626f-733a-4a63-a1ee-f2c282ccc52b,Air,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+14.77757453918457,14,Shipper,-82,-10,Single Order,Houston,11/9/21,965c3b27-8a7f-48a8-95d1-c6b5c5185212,Express,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+13.207765579223633,15,BigBird,-306,33,Single Order,Houston,2/26/21,05477c18-dc26-4379-9308-73bee9ba28e0,Air,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+13.270183563232422,15,BigBird,-10,233,Single Order,New York City,10/1/20,2dad78c7-b4fc-4123-a86b-b1f4364fbd49,Air,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+15.639422416687012,16,Shipper,9,216,Single Order,San Francisco,7/21/20,b0129ff5-7187-46a3-8118-609aef32d02d,Air,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+13.082225799560547,13,Shipper,-99,-11,Single Order,Seattle,10/30/20,171a0aea-4b75-4a50-9020-1331fdc89ffd,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+15.978713989257812,19,MicroCarrier,99,-142,Single Order,San Francisco,12/15/21,5c527999-c70e-45f8-bf78-a11b7be1754a,Ground,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+15.79704475402832,16,BigBird,13,148,Single Order,Seattle,7/26/20,b15f8b13-3f93-42fc-9a38-deef950c2f97,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+15.777831077575684,16,BigBird,41,137,Single Order,Atlanta,7/31/20,7c20696d-75e6-48d4-995d-93b9066af7be,Standard,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+10.02146053314209,10,Shipper,48,172,Bulk Order,New York City,7/5/20,be7e9db3-7d50-4f1a-aebb-90ff866cb6aa,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+15.0480318069458,19,MicroCarrier,14,458,Single Order,Houston,4/14/21,40899aef-9e4a-4324-9cd8-e74f17aa1634,Standard,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+14.141857147216797,15,Shipper,144,-186,Single Order,Chicago,6/30/21,3b3796a4-25a0-4ebd-bcec-261411344bf7,Standard,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+14.08333683013916,14,Shipper,-60,85,Single Order,Atlanta,12/1/21,00572689-382d-46e5-b66f-86e6005d49a2,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+9.990285873413086,9,MicroCarrier,75,60,Bulk Order,New York City,3/21/20,7ebadbea-4244-4662-8b46-ae2d22e6bb55,Express,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+14.907302856445312,16,BigBird,-212,-8,Bulk Order,New York City,9/28/21,9630c9d7-aaa8-4dc4-9727-ca89d7306236,Ground,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+15.987140655517578,17,BigBird,37,193,Single Order,Chicago,10/22/21,9f37a15c-15ed-448b-93eb-541d960e6c6d,Ground,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+11.02935791015625,10,MicroCarrier,-109,16,Bulk Order,Las Vegas,10/26/21,7ee1d3d1-ee52-40b3-9041-56fb0706bbc6,Express,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+15.843517303466797,18,Shipper,-50,180,Single Order,Seattle,11/10/20,504fa574-7476-4ce8-8fa2-cd343ce4f77f,Ground,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+10.086641311645508,10,GlobalFreight,13,157,Bulk Order,New York City,9/8/21,c6916601-c56a-4777-b825-0269eea3ebaa,Air,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+11.897943496704102,11,GlobalFreight,125,-21,Bulk Order,Las Vegas,10/28/21,16278902-9490-480f-8aa4-db9b78ffd555,Standard,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+14.09233283996582,15,BigBird,116,32,Bulk Order,New York City,7/18/20,8bfceeb4-a016-40cf-aebd-f4260bb1c82e,Ground,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+15.887408256530762,16,MicroCarrier,128,-55,Single Order,San Francisco,12/13/20,72f92bce-2fe2-4a82-841f-dade5f3d833d,Air,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+13.038723945617676,14,GlobalFreight,-98,-82,Bulk Order,New York City,4/23/21,6873c254-1975-4a70-84e8-be4b501d7aa3,Ground,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+14.093666076660156,14,BigBird,-66,-41,Single Order,Las Vegas,4/24/21,588e7387-150d-4479-97e0-6029612ba7f7,Standard,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+8.082433700561523,8,GlobalFreight,115,52,Bulk Order,Salt Lake City,9/11/21,5442efed-59ed-49b2-9aae-006d113873fc,Air,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+15.02025032043457,16,GlobalFreight,154,-22,Single Order,San Francisco,8/20/21,9673bb5f-cad8-4f6e-8e07-2482de29d3cb,Standard,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+13.669631958007812,14,GlobalFreight,-101,62,Bulk Order,Chicago,1/20/20,2de71a9d-5e2e-44b9-9645-a58000d70bd3,Standard,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+11.027050018310547,10,GlobalFreight,-12,-111,Bulk Order,Atlanta,7/19/21,1d88e4b3-7c0d-4b87-9a21-97ffe264aa9b,Standard,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+15.183614730834961,16,BigBird,-187,11,Single Order,Atlanta,9/25/21,53cb2110-92fb-44ed-97a7-dc9c5659818f,Ground,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+15.152576446533203,16,BigBird,-163,-64,Single Order,Houston,9/11/21,eb9ea7c4-427f-4ada-bde3-25a004e58871,Ground,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+12.986862182617188,14,GlobalFreight,31,247,Bulk Order,Chicago,10/5/21,d9970bf6-3156-49fb-9959-4a615b4450ff,Ground,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+13.920534133911133,14,BigBird,-111,103,Single Order,Atlanta,6/27/21,516ea239-43de-4c4e-9fbe-0e8c60218c34,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+14.938753128051758,15,Shipper,-131,19,Single Order,Chicago,4/6/20,c30abe27-5e8f-4afc-9ce6-085aa7c35795,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+6.9292402267456055,7,GlobalFreight,-119,-31,Bulk Order,Salt Lake City,9/8/20,db0f1bb5-8db5-40d3-8934-fe03d2496408,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+6.719032287597656,6,GlobalFreight,68,58,Bulk Order,Salt Lake City,2/15/21,fd058ed7-4528-44f0-819b-7b6ddca54b44,Express,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+13.034231185913086,14,GlobalFreight,44,197,Bulk Order,Las Vegas,12/8/20,d6a6ac1e-b5d7-4e3b-ab8f-dd2d512ac258,Standard,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+13.963103294372559,13,BigBird,74,64,Single Order,Seattle,9/30/20,b150ea11-f4b7-4a67-b030-17e0668f2609,Express,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+11.986567497253418,12,Shipper,-111,7,Bulk Order,Chicago,12/18/21,3580e922-b51a-4cc4-86fb-33abe8f48bcc,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+15.329317092895508,24,MicroCarrier,-78,-211,Bulk Order,Seattle,9/10/20,68dfb94c-f8fe-471e-b385-dd65c2893dd4,Ground,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+15.72093391418457,16,MicroCarrier,-15,209,Single Order,Chicago,11/23/20,5ff5a526-2675-49c3-9306-ae268c5d6334,Air,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+13.957991600036621,15,GlobalFreight,-268,-10,Bulk Order,Chicago,8/21/20,eccb77e9-e0b4-428f-a17f-73c00e031429,Ground,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+11.728046417236328,12,Shipper,224,-27,Bulk Order,Las Vegas,7/23/21,6f7cd47c-8537-497e-8e7c-c16a3b36e827,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+11.030885696411133,11,GlobalFreight,177,16,Bulk Order,New York City,10/1/20,f6bfdcf2-4ecd-4874-9a1d-1bc125c21150,Standard,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+13.040090560913086,13,Shipper,-34,84,Single Order,Houston,7/22/20,6122fa86-2230-4891-9b37-d8e8e91fee24,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+14.070653915405273,16,Shipper,203,11,Single Order,San Francisco,12/21/21,3d118d09-f14a-4fe6-8dc7-d7d0e6161e9d,Air,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+8.30858325958252,8,Shipper,-128,-15,Bulk Order,Salt Lake City,1/7/20,51ab4859-da74-4435-9c76-bbccac8e74fb,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+11.37677001953125,12,GlobalFreight,13,-302,Bulk Order,San Francisco,4/18/21,6f6d1bae-3cc4-45ca-9587-18bb8b1ad6a1,Standard,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+14.924277305603027,15,BigBird,-35,82,Single Order,Chicago,7/3/20,55862994-4c47-41a4-a712-e04242999e0b,Standard,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+10.058156967163086,10,Shipper,-18,-76,Bulk Order,New York City,10/8/21,1ee9b356-d29a-4b92-9509-3fe54a335663,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+14.826982498168945,17,BigBird,26,213,Single Order,Chicago,6/15/20,4d21386f-eab6-4080-a070-f19ed872de27,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+15.634902954101562,16,BigBird,-119,-174,Single Order,Seattle,8/31/21,99d3649b-f404-4959-b401-925c75abbe85,Air,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+14.937877655029297,16,MicroCarrier,-12,-287,Single Order,Las Vegas,11/5/21,1df2ec2b-98e7-4e0d-a8b1-74c5b4594132,Standard,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+13.86172103881836,15,MicroCarrier,-242,-20,Bulk Order,Seattle,10/22/21,f3e6209d-54af-4fbe-9b80-570538c799b7,Standard,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+9.944426536560059,9,Shipper,185,-8,Bulk Order,New York City,6/4/21,4a724fc9-28dc-4110-b0e6-da414bfbe27c,Express,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+11.98638916015625,12,GlobalFreight,-76,-38,Bulk Order,Seattle,10/20/21,6248a427-0f8c-42d1-b7a2-fb32c2bbc086,Standard,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+8.23865032196045,8,GlobalFreight,65,84,Bulk Order,Salt Lake City,2/6/20,8e6d249c-c211-4586-bdc5-6318391a2c03,Air,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+14.92081069946289,19,BigBird,12,-282,Single Order,Chicago,8/3/20,b0130b3d-ce01-47c2-b48c-04cd2a44b377,Standard,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+13.00977897644043,13,BigBird,-67,73,Single Order,Atlanta,5/25/20,2c3d766e-6154-4d3e-961f-db58f68522bf,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+14.250690460205078,23,GlobalFreight,191,35,Single Order,New York City,11/11/20,eca6d0a7-6483-45a0-9e5f-48353bbf36c0,Standard,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+15.89372730255127,18,Shipper,-49,-200,Single Order,Houston,2/27/20,ab280c07-49af-44ed-a957-b732e9ac0653,Ground,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+13.828899383544922,16,GlobalFreight,-90,203,Bulk Order,Chicago,4/16/21,c17b5ed8-b24a-49da-87d5-faf6c1f21dee,Ground,Late,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+6.069675445556641,6,GlobalFreight,-203,8,Bulk Order,Salt Lake City,5/18/20,f5a80580-34fb-4458-aa54-0d70c1e0b2dc,Express,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+14.829883575439453,17,Shipper,-224,-9,Single Order,Atlanta,3/7/21,027d89ee-fbd7-4cf4-bd6b-583c7a4f94f7,Standard,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+12.016111373901367,12,GlobalFreight,46,-132,Bulk Order,Houston,5/2/21,6afacdda-d952-48b7-ab7b-205434c1f4cf,Air,On Time,cf71718d-1851-44e4-bcc5-6b08a781ecbd
+15.127674102783203,16,Shipper,-103,132,Single Order,New York City,3/2/21,866f65cc-b589-41b5-a514-958448e7b957,Air,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+12.012470245361328,12,BigBird,-156,-81,Single Order,New York City,1/26/20,7d040bd5-d9c9-446b-a08a-c6c5e4aa1075,Express,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+11.008198738098145,10,Shipper,-140,17,Bulk Order,Houston,2/9/20,433912d7-667d-44ca-88e9-cb953266906a,Express,Late,855587c2-c5be-4e61-9b74-32d41eddb96c
+13.983977317810059,15,Shipper,86,-138,Bulk Order,Houston,10/11/21,df511491-17e6-4de6-8335-f0344c4e59e9,Ground,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+13.933954238891602,13,MicroCarrier,-25,-155,Single Order,Seattle,1/26/21,396f2612-a846-4f9f-b607-117566e9c7ca,Air,Late,855587c2-c5be-4e61-9b74-32d41eddb96c
+16.134765625,17,Shipper,105,133,Single Order,Seattle,12/5/21,287b2278-b413-494e-b24b-c4892e34e539,Ground,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+15.308065414428711,24,BigBird,209,16,Single Order,Atlanta,7/18/21,1fab0c64-142a-4dad-96dd-ec1ce8874531,Ground,Late,855587c2-c5be-4e61-9b74-32d41eddb96c
+12.947368621826172,14,Shipper,-108,212,Bulk Order,Chicago,3/26/20,afce3b3e-da6b-451d-b0b9-d16d62b1716d,Standard,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+15.842473983764648,17,Shipper,-248,-9,Single Order,Las Vegas,7/30/21,07b2c778-33ee-405a-8373-6ba6383ef2bb,Ground,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+12.562637329101562,13,BigBird,-33,242,Single Order,Las Vegas,3/29/20,2367c846-1dca-456a-a282-c01ca0d33392,Express,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+12.824729919433594,13,MicroCarrier,-19,-131,Bulk Order,Chicago,7/15/20,2e815ed6-62b6-4fb3-a0fd-f9e284476244,Air,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+15.300232887268066,17,Shipper,-99,93,Single Order,Seattle,12/18/20,a70fa55c-5992-4be2-8650-9c05b9fd7816,Ground,Late,855587c2-c5be-4e61-9b74-32d41eddb96c
+12.883062362670898,12,GlobalFreight,121,-28,Bulk Order,Las Vegas,12/19/20,7b0c8788-8ded-4e74-8bfa-8f858162df80,Air,Late,855587c2-c5be-4e61-9b74-32d41eddb96c
+15.558172225952148,18,MicroCarrier,-72,-106,Single Order,Houston,3/17/20,68248ebf-aca1-4d60-a9eb-0c1f09669261,Standard,Late,855587c2-c5be-4e61-9b74-32d41eddb96c
+13.228093147277832,14,GlobalFreight,18,-118,Bulk Order,San Francisco,8/13/20,70873f0c-41e8-4a0e-be58-c3e1b6a86069,Ground,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+13.403186798095703,16,Shipper,43,165,Bulk Order,San Francisco,7/3/20,b9e796af-ffca-43fb-adf0-1b61e0e0e1eb,Air,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+15.301198959350586,16,GlobalFreight,37,-199,Single Order,Houston,10/31/20,53114275-ab2c-4ead-8030-5e4f8eb18d43,Standard,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+13.93018913269043,14,MicroCarrier,169,7,Single Order,Chicago,10/7/21,6869e245-bef2-4f22-acb2-9187b036cf03,Air,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+14.912210464477539,16,MicroCarrier,-307,-24,Single Order,Houston,6/2/20,287ecf4c-64b1-451d-8340-75f72b0027ae,Standard,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+13.032236099243164,13,Shipper,128,10,Single Order,Seattle,4/24/20,401ebd78-1938-4582-99e8-10006e3201e5,Air,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+12.032262802124023,12,MicroCarrier,26,92,Bulk Order,Houston,10/29/20,bfec6d1c-27c2-4131-abb3-83f6df3d7963,Air,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+13.940034866333008,14,MicroCarrier,105,-38,Single Order,Houston,9/19/21,d0fd12a6-5ae4-49a6-883b-2291febce694,Express,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+14.785120964050293,15,BigBird,-49,-97,Single Order,Seattle,2/18/20,05c12329-62de-46df-8362-681e205a964f,Express,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+15.22201919555664,19,BigBird,151,-84,Single Order,Chicago,2/11/21,39b33264-bd5a-4b9b-8663-05fbbd22e032,Standard,Late,855587c2-c5be-4e61-9b74-32d41eddb96c
+13.302597045898438,17,GlobalFreight,180,132,Bulk Order,San Francisco,8/26/21,1d396036-7ade-45e8-9763-a3ce8481fdcf,Ground,Late,855587c2-c5be-4e61-9b74-32d41eddb96c
+11.940275192260742,12,Shipper,-15,-140,Bulk Order,New York City,9/23/20,0d0a3a03-112b-4f94-ad4d-4ec728087fc0,Air,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+10.150276184082031,10,Shipper,40,123,Bulk Order,Salt Lake City,4/17/21,3a7ee3fb-4fd4-42f0-8c96-e41752e13f7e,Air,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+9.092836380004883,8,GlobalFreight,113,11,Bulk Order,Salt Lake City,8/27/21,f6a92a24-85a5-4aed-a30e-ea3a5a801ef8,Standard,Late,855587c2-c5be-4e61-9b74-32d41eddb96c
+10.046836853027344,10,Shipper,29,159,Bulk Order,New York City,1/15/20,10ea15d5-adeb-4054-bd8b-56f06b2c1950,Express,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+16.407196044921875,19,BigBird,35,128,Single Order,Las Vegas,3/22/20,3388cf0b-6e7a-44f7-a03a-3a21776b08df,Ground,Late,855587c2-c5be-4e61-9b74-32d41eddb96c
+13.052008628845215,13,MicroCarrier,45,-114,Single Order,San Francisco,3/15/20,a12f0a43-3c35-4cdb-9ef2-2287b3b399ae,Air,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+12.040246963500977,12,Shipper,55,67,Single Order,New York City,12/10/20,b9473b52-ea5a-4d7e-90ea-4e04a3ca810c,Express,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+8.783448219299316,8,GlobalFreight,8,-178,Bulk Order,Salt Lake City,3/25/20,74256638-3916-4d88-b722-e443664f74c3,Air,Late,855587c2-c5be-4e61-9b74-32d41eddb96c
+15.49642562866211,17,BigBird,-476,14,Bulk Order,Salt Lake City,3/1/20,390d82d1-f4c4-4aa7-9f03-eccf82cbadd5,Ground,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+8.012517929077148,8,MicroCarrier,-19,-184,Bulk Order,Salt Lake City,6/26/20,e170b8c5-2087-4e22-85af-8bbe9a4b7f9a,Express,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+13.103139877319336,15,Shipper,-188,15,Bulk Order,Houston,2/2/21,f5a1280f-2f3c-432d-b539-06d4310477b9,Standard,Late,855587c2-c5be-4e61-9b74-32d41eddb96c
+14.82151985168457,16,MicroCarrier,-48,-163,Bulk Order,Seattle,12/25/21,fdb8a3e1-096a-42fe-8718-835ac225f3c4,Ground,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+14.288637161254883,17,GlobalFreight,28,250,Bulk Order,Seattle,2/19/20,7a2f442b-4f74-4a9d-8822-dd2e2a59cc90,Ground,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+17.575618743896484,18,GlobalFreight,-9,-174,Single Order,San Francisco,3/25/20,de25acea-4ec2-423e-92b3-b4182dc02a0c,Standard,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+16.045745849609375,17,BigBird,-251,9,Single Order,Seattle,5/18/21,e81195b5-20ed-4515-b94b-b410e7184d58,Ground,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+12.00527572631836,12,GlobalFreight,-119,100,Bulk Order,Las Vegas,8/6/21,cfcd3fa3-ee7e-4854-a792-291acbbc831d,Standard,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+13.481030464172363,14,GlobalFreight,92,-46,Bulk Order,Chicago,1/28/20,bd54a8a4-3c3f-4127-ac9c-57ccdc6e9088,Standard,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+15.705448150634766,17,GlobalFreight,-205,-15,Single Order,Houston,1/12/21,e20a4855-ced8-4a3b-87e0-a4dbeff805a1,Ground,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+14.014479637145996,14,MicroCarrier,32,114,Single Order,Chicago,1/28/20,18ac2db3-8fa9-4028-b1f5-55e4d6988fa9,Air,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+10.941069602966309,11,BigBird,118,55,Bulk Order,Salt Lake City,12/16/21,6cd65484-d47a-4002-863d-5cd8bf3a02c3,Express,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+11.052804946899414,11,MicroCarrier,40,88,Bulk Order,Atlanta,11/10/20,b2d9bc68-0c8e-42fe-adb2-57d6760694e9,Standard,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+10.075607299804688,10,MicroCarrier,-113,7,Bulk Order,New York City,3/7/20,b2d0d48c-a7b3-4ee2-a1d2-d1beca0934c8,Express,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+14.642623901367188,17,Shipper,-12,-330,Bulk Order,San Francisco,8/12/20,bd2e26e7-a562-4bc4-a0ac-361b251e2d1a,Ground,Late,855587c2-c5be-4e61-9b74-32d41eddb96c
+15.042253494262695,20,BigBird,48,-184,Single Order,Seattle,9/9/20,7dab314a-00d1-485f-8632-9b3dcd8ac44d,Standard,Late,855587c2-c5be-4e61-9b74-32d41eddb96c
+14.880531311035156,15,GlobalFreight,-73,-46,Single Order,Chicago,5/1/20,5ac5c5a4-1c34-4d67-aa7f-6a121ddd9251,Standard,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+15.868436813354492,17,Shipper,-381,-36,Single Order,Seattle,5/20/21,d480887e-6d30-4326-af3a-06a78ba526c3,Ground,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+15.258384704589844,17,Shipper,12,-234,Single Order,San Francisco,11/13/21,a0c579af-07a0-495b-a523-2e9215463018,Ground,Late,855587c2-c5be-4e61-9b74-32d41eddb96c
+12.017269134521484,12,BigBird,61,68,Single Order,Salt Lake City,4/11/20,0fb2e40a-d3e1-42f2-9bf4-b1962b42ae24,Express,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+14.918519973754883,15,Shipper,95,9,Single Order,Atlanta,1/31/21,49082a75-7679-4bfe-be95-38903f36b07c,Express,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+15.929502487182617,16,Shipper,51,79,Single Order,Chicago,1/3/20,1876edfb-532d-4e45-970b-b56b0dcb4449,Express,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+13.812414169311523,14,BigBird,165,-8,Single Order,Seattle,4/18/21,f251b56b-fe82-42ea-8248-4e190a5da8a0,Express,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+13.903497695922852,14,Shipper,158,-13,Single Order,Houston,9/25/21,91c524e0-f1af-4eec-b54d-95df504e8925,Express,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+13.964888572692871,22,GlobalFreight,-168,53,Single Order,New York City,6/27/21,e89588fd-1fc9-4cd2-9b59-388e8088d154,Air,Late,855587c2-c5be-4e61-9b74-32d41eddb96c
+12.003924369812012,13,Shipper,-337,-16,Bulk Order,Chicago,7/28/21,115b954d-7ea2-4a3b-95af-5d1b24b62751,Standard,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+13.025358200073242,14,Shipper,175,-97,Bulk Order,Seattle,11/12/21,ea998947-e990-4205-a52f-cd12e7333581,Standard,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+13.524396896362305,16,BigBird,-170,-116,Bulk Order,Houston,6/20/20,5e35eec9-4f9e-42e2-a285-38747fe00785,Standard,Late,855587c2-c5be-4e61-9b74-32d41eddb96c
+12.030920028686523,12,MicroCarrier,-113,12,Bulk Order,Las Vegas,1/23/20,4e1428ce-ee97-4678-89d5-aa2e58547b07,Air,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+13.884292602539062,14,Shipper,-12,169,Single Order,Atlanta,8/1/20,f1fb2bf0-4908-41cc-a444-64d110ef82a0,Express,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+13.024419784545898,12,Shipper,-14,139,Single Order,Las Vegas,7/28/20,763d46d2-7dff-4d0c-8934-791bb8ed5b9a,Express,Late,855587c2-c5be-4e61-9b74-32d41eddb96c
+10.040700912475586,9,Shipper,18,113,Bulk Order,Atlanta,2/11/21,e4815991-cf1c-4af7-b17f-2bccf07cb2cc,Express,Late,855587c2-c5be-4e61-9b74-32d41eddb96c
+13.021012306213379,13,MicroCarrier,-11,117,Single Order,Houston,5/7/20,d2ec157e-acf4-4f07-bc10-64dcdc4c1316,Express,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+14.78746223449707,17,GlobalFreight,136,167,Single Order,Las Vegas,7/9/21,78e43963-9075-4cad-8b5c-7f298cafd7f9,Standard,Late,855587c2-c5be-4e61-9b74-32d41eddb96c
+12.370773315429688,13,BigBird,33,218,Single Order,Seattle,4/7/21,f312f4f9-e03a-4ea7-a8c9-e453cfec06e9,Express,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+12.993608474731445,13,BigBird,-9,-119,Single Order,New York City,6/4/21,ba4506bd-d9a2-47d0-b373-a0e6296d3713,Air,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+16.820480346679688,19,Shipper,59,-208,Single Order,San Francisco,2/19/20,d0866e84-7dca-47d3-9bd6-1d3861e85703,Standard,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+12.054658889770508,12,BigBird,43,54,Single Order,New York City,1/7/21,9e1a08fe-8653-40f2-9d43-7ee0f468dd98,Air,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+15.081583023071289,16,BigBird,-158,-103,Single Order,New York City,2/3/20,8f7ac4d9-6cd3-4def-b427-07effa3ec029,Ground,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+11.00883674621582,10,MicroCarrier,50,-81,Bulk Order,Las Vegas,6/24/20,59560153-eae0-48c7-8567-71c2dcc4e06f,Express,Late,855587c2-c5be-4e61-9b74-32d41eddb96c
+13.717804908752441,15,MicroCarrier,-15,234,Bulk Order,Atlanta,4/28/20,d68810d0-e64f-4d73-a2f4-bbe9fda45cde,Standard,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+14.905110359191895,16,MicroCarrier,178,34,Bulk Order,Seattle,8/13/20,aa2d2439-4c8e-48c4-b5e1-c5e4879e9f33,Ground,On Time,855587c2-c5be-4e61-9b74-32d41eddb96c
+12.918366432189941,15,Shipper,-161,9,Bulk Order,Seattle,9/7/21,038d6ef4-3190-4310-bfb8-7aa9f8bfc8fa,Air,Late,855587c2-c5be-4e61-9b74-32d41eddb96c
+15.080589294433594,21,MicroCarrier,115,46,Single Order,Las Vegas,12/26/21,67f702f5-48ca-4893-b952-6ba1a9c98665,Standard,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+12.249364852905273,13,MicroCarrier,-174,-31,Bulk Order,Chicago,12/17/20,e8178f8d-4049-45cd-99d2-9fc5f2c56514,Standard,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+13.68556022644043,14,BigBird,204,-33,Single Order,Salt Lake City,5/9/20,33256474-d46f-4303-a076-5d0cfc31be42,Standard,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+12.055787086486816,12,BigBird,69,111,Single Order,New York City,1/30/21,1601fb8f-20ad-4db6-abe4-eb25e4b6c26d,Express,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+6.333256244659424,7,MicroCarrier,-156,8,Bulk Order,Salt Lake City,12/27/21,46d5f6ec-1fb5-4984-84e6-33ef9d07924a,Express,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+13.01517391204834,14,MicroCarrier,-183,30,Bulk Order,Atlanta,3/24/21,72a3bc37-097a-44e1-ade1-5729c5c8e07b,Standard,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+15.890625953674316,16,BigBird,-54,71,Single Order,Atlanta,7/20/21,4b6a5213-55eb-4497-9109-d97aeda13d1a,Standard,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+13.987506866455078,13,Shipper,125,-15,Single Order,San Francisco,1/3/20,d6583232-23fe-4ebc-b001-fe3a61dde369,Express,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+12.987556457519531,14,MicroCarrier,-185,-16,Bulk Order,New York City,5/23/20,1eebf939-6b29-4b94-88ff-be0c2f5e220b,Standard,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+10.979063034057617,11,BigBird,-36,-86,Bulk Order,New York City,3/16/20,945b0852-e6f0-4808-9faa-e5ce30941627,Air,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.008966445922852,14,GlobalFreight,-7,-117,Single Order,Atlanta,3/19/21,fafba64d-a74f-4a50-95ee-1c161af07a72,Express,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+17.72283172607422,18,Shipper,-34,-68,Single Order,San Francisco,8/16/21,972db09b-ec5f-4127-b3ea-3d2fce4ff132,Express,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+11.01224136352539,11,MicroCarrier,62,56,Bulk Order,Atlanta,4/24/21,f758e6e9-ead7-4168-ab46-29b010ae4c95,Air,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.315545082092285,15,GlobalFreight,107,-116,Single Order,Houston,10/9/21,8aca7858-64f1-4a3e-8e90-463b343a0005,Standard,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+13.853019714355469,16,GlobalFreight,-414,25,Bulk Order,Atlanta,4/23/20,341d969f-d265-4ebc-8334-cfccbc7fb410,Ground,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.182754516601562,16,MicroCarrier,185,40,Single Order,Las Vegas,11/1/20,480ed3dc-8b41-4abb-b98b-33ec91c2d339,Standard,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.081281661987305,15,GlobalFreight,152,123,Single Order,New York City,8/1/20,9406026b-c66d-43b7-a4d6-0481aff34743,Standard,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+15.205674171447754,16,Shipper,190,-7,Single Order,Seattle,1/22/21,983072f5-a343-4736-ad51-033235f561bf,Ground,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+15.850311279296875,17,BigBird,-166,-29,Single Order,New York City,6/11/21,ee725355-f9bb-4089-bff5-54f77fa9309a,Ground,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+8.898530960083008,8,BigBird,-107,59,Bulk Order,Salt Lake City,12/5/20,04292389-b1b8-4e67-9a7c-c8a3d1bd36a6,Express,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.463041305541992,22,BigBird,74,73,Single Order,Seattle,12/2/20,73e690f6-1f1c-4c3a-be68-eb921980bd0e,Air,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.910787582397461,15,BigBird,42,-76,Single Order,Seattle,1/17/21,520ca56c-dec6-43c9-aef0-c4f06bcfb721,Express,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+4.120347023010254,4,GlobalFreight,-47,127,Bulk Order,Salt Lake City,4/29/21,9d735047-93ff-4ac6-a122-2146dfcfa521,Air,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+13.003803253173828,12,BigBird,-87,-55,Single Order,Atlanta,1/29/21,7ac987b2-337b-4ee9-9b9b-e05e39f80fd5,Air,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.968280792236328,15,MicroCarrier,-37,-74,Single Order,Seattle,6/14/20,6c1bfc32-99be-433f-b3bc-ab905e8a0a1b,Air,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.006399154663086,15,GlobalFreight,176,-8,Bulk Order,San Francisco,10/12/21,70b95974-7cf7-496f-9b91-68bf2949dc1f,Ground,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+10.929159164428711,11,Shipper,-175,16,Bulk Order,Salt Lake City,12/13/21,fdfdb8f6-6565-4b2b-8202-9b5368ab6958,Air,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.466458320617676,15,Shipper,9,-206,Single Order,Seattle,3/27/20,d048f072-1a86-483d-98d0-672957b37fc9,Standard,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+11.026566505432129,11,BigBird,-16,-191,Single Order,New York City,5/12/21,d8021849-57f4-40b9-af1c-48f047ebcd5a,Express,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.762273788452148,16,Shipper,181,-31,Bulk Order,Houston,4/1/21,4f9983ca-e7aa-488f-8af8-3c01a5b42f48,Ground,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+15.591053009033203,17,BigBird,-99,139,Single Order,Houston,10/12/21,33d96a69-244d-43ae-bea4-0474e58ba378,Standard,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.142900466918945,22,BigBird,347,-9,Single Order,Atlanta,9/15/20,f6bd7c61-ed59-4e35-8ae8-06c3490a7060,Air,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+13.049065589904785,13,GlobalFreight,-50,98,Single Order,Las Vegas,9/12/21,0b4edf6d-a1f7-4e71-9093-0a0098a8e0bf,Express,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+13.144416809082031,22,BigBird,-32,154,Bulk Order,Houston,2/4/21,4233783b-e519-44a9-802a-ae36f4f24ba3,Standard,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.835914611816406,15,BigBird,82,44,Single Order,Atlanta,5/13/20,8462ee80-aa28-4f19-aff3-c07d6c9b096c,Express,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.406967163085938,15,BigBird,-54,79,Single Order,Atlanta,2/11/21,b182426b-a4b1-4e9f-90bc-cd67150d2a89,Express,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.018050193786621,14,MicroCarrier,11,-94,Single Order,Seattle,5/23/21,abf74eef-d5dd-4d3e-a0d1-fb7687765894,Air,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+8.043171882629395,8,MicroCarrier,24,88,Bulk Order,Salt Lake City,9/23/20,bd1bf143-ad08-4041-aad2-f6b6800c163e,Express,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.790576934814453,19,BigBird,-197,-25,Single Order,Seattle,3/15/21,f0509ead-f0f9-4d96-a6ad-eee918c990bc,Standard,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.48582935333252,22,Shipper,177,-22,Single Order,Houston,3/28/21,d7574a20-e881-4301-88e3-0827ff842a98,Standard,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+9.163078308105469,9,MicroCarrier,-26,-148,Bulk Order,New York City,3/5/21,0e731edd-17aa-41db-876e-c859a027dd3e,Express,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+11.98767375946045,13,Shipper,-251,76,Bulk Order,Seattle,5/20/20,43a387ca-b443-4232-ba4f-1cffd7a5a7b0,Air,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+13.891266822814941,16,GlobalFreight,-104,118,Bulk Order,Houston,8/1/20,c69af13a-c82f-4c1c-9439-e3c3b0d9dd91,Ground,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.123693466186523,22,MicroCarrier,31,-168,Bulk Order,Chicago,2/21/20,14eda50d-549f-4369-ab54-4ded867bf5fd,Ground,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+12.90999698638916,13,BigBird,18,-64,Bulk Order,New York City,1/6/21,82393b95-ccdb-445c-b7c6-9630ec9e7e35,Standard,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+15.559406280517578,18,Shipper,-52,75,Single Order,New York City,4/7/21,02770774-297e-4255-a216-a690a349082e,Standard,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+13.366291999816895,17,GlobalFreight,-341,27,Bulk Order,Seattle,7/4/21,3c957b7a-0d97-4049-8d1d-32db3d152268,Ground,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+4.185868263244629,4,GlobalFreight,30,138,Bulk Order,Salt Lake City,2/26/21,ee3baa93-3153-4259-ba03-339833e5a901,Air,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.040966987609863,14,MicroCarrier,64,-99,Single Order,Seattle,1/6/20,5ac0a9ae-cc30-46d5-abc3-92bcd86efd7c,Air,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+12.837282180786133,13,GlobalFreight,27,163,Bulk Order,Las Vegas,1/1/21,66ab535a-bc44-42d0-ac31-611ccc467ab4,Standard,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.02686882019043,15,GlobalFreight,-127,34,Bulk Order,Houston,3/31/20,0df5bae7-7173-4c7e-a03d-c57a78c5a481,Ground,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+13.203113555908203,19,Shipper,-272,19,Bulk Order,Seattle,11/6/20,d4c500d2-1bc3-4bdd-a1a8-a1680f5ec59c,Standard,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+9.938769340515137,9,Shipper,-87,40,Bulk Order,Salt Lake City,4/19/21,18366a84-1414-4bc3-9e6d-5ea243b85867,Air,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+9.059898376464844,9,MicroCarrier,11,-102,Bulk Order,Salt Lake City,5/14/21,6ab1ca34-0490-450c-90dd-0289a41d4ef9,Express,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+15.17083740234375,19,Shipper,-117,86,Single Order,San Francisco,7/18/21,8047acaa-ad84-4432-ba5d-68d5fb9379dc,Standard,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.032845497131348,14,BigBird,-20,105,Single Order,Atlanta,2/15/21,8ea33303-4364-44d4-9366-e67c6f5c2b10,Standard,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+9.992870330810547,9,GlobalFreight,-48,-76,Bulk Order,New York City,8/7/21,3096f555-4c28-4369-933d-3bb22c36327d,Air,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+13.204305648803711,14,BigBird,-33,-217,Single Order,Houston,10/21/20,cad5ddc0-c25b-4239-965a-61921886acbc,Air,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+13.194618225097656,18,Shipper,-184,-52,Bulk Order,Chicago,3/1/20,f4ff13ec-f650-4de1-8655-fc6cde87ef69,Standard,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+13.15743350982666,18,BigBird,77,134,Bulk Order,Houston,8/7/20,801c3d14-93de-4dc1-b8d2-c30cb092ea22,Standard,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+15.365679740905762,23,BigBird,15,-179,Single Order,New York City,8/1/20,2f48c251-d8ef-4797-825a-445106543156,Ground,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+15.076510429382324,18,MicroCarrier,18,216,Single Order,Atlanta,3/27/21,42ef53a3-2268-4e6f-8c5a-2e3747d9c809,Standard,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+13.357685089111328,14,BigBird,-61,-165,Single Order,Chicago,5/4/20,65385504-3e74-4565-ac05-41be652434b3,Standard,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.922540664672852,15,MicroCarrier,-18,97,Single Order,San Francisco,7/8/21,227faa63-10d0-4292-a65e-edf129f3229a,Air,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.603385925292969,16,Shipper,-175,46,Bulk Order,Chicago,1/18/20,0f629921-4288-4ad2-b9d3-07a7ed4d2e8a,Ground,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+15.933670043945312,20,Shipper,-35,241,Single Order,Seattle,2/10/21,e66f8ab7-db6b-48f4-a248-c9fc032df003,Ground,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+12.014168739318848,13,Shipper,23,-205,Bulk Order,Seattle,5/7/20,88b26ea1-f91d-4fc0-b43d-22e1018cb9ec,Air,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+11.008764266967773,11,MicroCarrier,-131,-90,Bulk Order,Houston,2/24/21,faa79d07-6f32-4132-b1a4-e0ae9249fd31,Express,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.013647079467773,14,MicroCarrier,81,41,Single Order,San Francisco,4/12/20,42d44227-5d13-4630-a4d9-6c018db6ead7,Air,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+13.881591796875,18,GlobalFreight,361,-12,Bulk Order,Seattle,12/6/20,6af453ff-1a9a-42bf-9251-0c51e89f79f1,Ground,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+6.882950782775879,7,GlobalFreight,128,30,Bulk Order,Salt Lake City,7/18/21,3a827310-1538-4bd4-a0fc-5b2a7eb1cc4a,Express,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+13.94422721862793,15,GlobalFreight,55,-105,Bulk Order,New York City,1/10/20,cfa53524-2a49-4f73-b525-d575cfd63089,Standard,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.102652549743652,15,GlobalFreight,171,-73,Single Order,New York City,5/10/20,fc29f9e6-2b3d-435a-805d-cd1da50a13a6,Standard,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.731332778930664,15,BigBird,32,-142,Single Order,Atlanta,3/2/21,6ed7b504-7d5d-4fd5-bbc8-d2db14e896cf,Express,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+12.011159896850586,12,BigBird,-93,66,Single Order,Salt Lake City,2/18/21,df343d98-55c5-4fd5-b497-bcd50398ea53,Express,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+16.732669830322266,18,BigBird,-27,-317,Single Order,Salt Lake City,8/6/20,d684519b-fd0d-465c-bf6d-6ef6186c1b00,Ground,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+17.349201202392578,18,Shipper,-256,-10,Single Order,San Francisco,11/13/21,86ba3a2d-6084-42a3-9a09-f3fb0142f4f5,Air,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.067867279052734,14,BigBird,-112,-72,Single Order,Salt Lake City,8/30/21,aac5582b-4b49-4563-bbef-0bf227610f54,Standard,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+13.431599617004395,19,GlobalFreight,-138,-63,Bulk Order,Chicago,6/5/20,720d0c5e-530c-48fa-88ad-58df84b92351,Ground,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+12.360387802124023,14,Shipper,110,-69,Bulk Order,New York City,8/3/21,7a8b7b68-1fd7-483c-a348-0ee864736631,Ground,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.801590919494629,15,MicroCarrier,-10,-153,Single Order,San Francisco,2/7/21,198fa532-d0bb-4eec-be4b-798df69c8f2b,Air,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+11.991575241088867,13,MicroCarrier,36,-252,Bulk Order,San Francisco,3/8/20,84cef475-c433-4dfa-93f2-45a8eb601772,Standard,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+15.848583221435547,16,GlobalFreight,-81,-127,Single Order,San Francisco,10/15/20,030fe2a5-3e8d-4d8a-9aaf-05deb990c9f7,Air,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+15.335105895996094,19,Shipper,-25,309,Single Order,Las Vegas,4/6/21,4943454e-f1eb-414f-87f0-8256f47b722a,Ground,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+16.741992950439453,17,Shipper,-86,17,Single Order,Chicago,12/15/21,965bf36c-ac93-415a-b2a8-d8ad83b72991,Express,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+13.858360290527344,15,GlobalFreight,13,-273,Bulk Order,Atlanta,3/2/20,302af751-d583-4017-b5dc-e4f4ddc04663,Standard,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+13.124523162841797,15,GlobalFreight,345,-18,Bulk Order,San Francisco,3/19/21,40031e33-20db-4a4d-b621-21e6edf15b23,Ground,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.543033599853516,18,Shipper,-215,78,Bulk Order,San Francisco,1/29/21,0af9ff88-f621-4eac-a859-2cd37b28fac0,Ground,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+11.897876739501953,11,GlobalFreight,-176,-13,Bulk Order,Las Vegas,9/13/21,9c12fafa-6bd1-4bdd-8f0c-b5e266104e1b,Air,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+13.954008102416992,14,BigBird,69,-49,Single Order,Salt Lake City,1/26/20,e631e042-5819-4f71-ba90-0b29ff528fb3,Air,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+13.030580520629883,18,GlobalFreight,30,114,Bulk Order,New York City,8/31/21,cfd2aba4-e9b8-4dd6-a1ea-0026d596e465,Air,Late,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+12.951443672180176,14,GlobalFreight,-17,272,Bulk Order,New York City,8/28/20,50c2a04a-0d4f-437f-9bab-25191628528f,Standard,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+14.013031005859375,15,Shipper,-191,42,Bulk Order,Houston,12/12/21,a331c9b5-80e4-43a1-9c8e-d10826d399e5,Ground,On Time,2a832c0e-9ecd-4db3-bb2e-3318b90cf18b
+15.832151412963867,17,BigBird,-197,59,Single Order,Las Vegas,2/17/20,7b64b304-f972-43f9-b117-234267ae1166,Standard,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+10.961776733398438,10,MicroCarrier,-29,178,Bulk Order,Atlanta,4/21/20,97a591de-0213-4dc1-9712-a6d33a7633eb,Express,Late,3ff32795-7034-4819-ab51-6fe2bc4bc362
+10.952903747558594,11,Shipper,-35,82,Bulk Order,Salt Lake City,8/11/20,c10af68a-f81e-46da-bacb-581c1a3ca475,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+16.289356231689453,17,BigBird,-144,-74,Single Order,Seattle,12/29/21,1fd5bede-282c-4bd2-9510-51c44b9cc731,Standard,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+15.28471565246582,16,BigBird,-49,136,Single Order,San Francisco,4/5/20,f465faab-4f0b-4476-9832-b08b7c304a86,Express,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+13.670270919799805,16,Shipper,34,-201,Bulk Order,San Francisco,11/13/21,01bf8dea-8d46-4d43-8fb1-1e9bb0d11e20,Standard,Late,3ff32795-7034-4819-ab51-6fe2bc4bc362
+10.175638198852539,10,MicroCarrier,58,-85,Bulk Order,Atlanta,11/30/20,0f258090-8e46-4c80-816e-d499d68be680,Express,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+14.811437606811523,15,BigBird,131,26,Single Order,Las Vegas,11/12/20,56f46b8e-bf08-415d-ac40-78e248e8afb1,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+14.019474029541016,14,Shipper,49,53,Single Order,Houston,7/8/20,42accf5b-1df8-4d30-ac2f-b5ff278e4426,Express,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+15.986940383911133,17,BigBird,20,318,Single Order,San Francisco,7/11/21,c04972be-afcd-4648-aab1-e5fe1f86d4a8,Ground,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+12.931404113769531,13,GlobalFreight,-97,-47,Bulk Order,Houston,11/26/20,5badb2c9-75a8-4e10-bcfb-06ea4fa98a34,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+12.055685043334961,12,GlobalFreight,-57,123,Bulk Order,Las Vegas,9/21/21,8ad91e7a-975e-4074-a01f-17082a939cb0,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+14.06839370727539,14,BigBird,140,-15,Single Order,Atlanta,11/14/21,3bf5a85e-e8e6-433b-bf5c-495c691656c5,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+14.158616065979004,18,MicroCarrier,99,-126,Bulk Order,Las Vegas,1/25/20,e6bd9f34-1813-4ab3-b36a-037383c73a56,Ground,Late,3ff32795-7034-4819-ab51-6fe2bc4bc362
+11.818294525146484,18,Shipper,-236,17,Bulk Order,Seattle,12/18/21,d2f95343-b421-4dde-be18-87e7deb50478,Air,Late,3ff32795-7034-4819-ab51-6fe2bc4bc362
+13.911073684692383,14,BigBird,141,-32,Single Order,Atlanta,1/12/21,be317589-7c43-427f-9e0a-9e8c30e3e653,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+16.884248733520508,17,Shipper,-88,-84,Single Order,Seattle,12/3/20,b00f75dc-648a-4b42-8d54-8a786712cbf4,Express,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+15.17536735534668,18,GlobalFreight,-223,9,Single Order,New York City,6/4/21,955cef24-a43d-4400-9c01-fef2d054d1ee,Standard,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+14.629938125610352,21,BigBird,8,-279,Bulk Order,Seattle,9/25/21,8b9d819e-97ed-4d12-acd6-15481072ce53,Ground,Late,3ff32795-7034-4819-ab51-6fe2bc4bc362
+15.135635375976562,18,MicroCarrier,9,-246,Single Order,New York City,5/7/21,f32f0c2f-ba60-44f1-b531-37b9a17c4910,Standard,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+15.846311569213867,16,BigBird,-86,-25,Single Order,Houston,9/29/21,07daf7b5-20ac-43be-90c0-b6f077be1875,Standard,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+13.766925811767578,16,Shipper,77,-139,Bulk Order,San Francisco,7/31/20,5abe3e31-6e72-4229-bf37-d6a55e620292,Standard,Late,3ff32795-7034-4819-ab51-6fe2bc4bc362
+13.966733932495117,20,BigBird,202,10,Single Order,Atlanta,6/11/21,6403b443-3ddf-49bc-affd-0180cae5bd4c,Express,Late,3ff32795-7034-4819-ab51-6fe2bc4bc362
+12.082598686218262,12,MicroCarrier,51,124,Single Order,Las Vegas,9/1/20,4891d515-abe0-44bb-80b6-bfec82842467,Express,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+14.568435668945312,14,Shipper,-175,-17,Single Order,Houston,8/14/20,86e2401c-ea8c-4577-9a8f-ac83816b78f5,Express,Late,3ff32795-7034-4819-ab51-6fe2bc4bc362
+13.118669509887695,15,GlobalFreight,-55,179,Bulk Order,Atlanta,2/26/20,fb740d4c-59eb-4dd6-b33f-8286371a17e6,Ground,Late,3ff32795-7034-4819-ab51-6fe2bc4bc362
+13.204778671264648,16,Shipper,9,-274,Bulk Order,Las Vegas,5/16/21,538863b0-c217-4f0d-ab14-e2413ee8cb3d,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+14.113043785095215,15,BigBird,-197,-42,Single Order,Chicago,3/28/20,492e22ea-0d4b-451f-b13e-c3c4806a90d3,Standard,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+10.98215103149414,11,Shipper,-64,-85,Bulk Order,New York City,2/27/20,280110a4-0b24-4c12-b969-74c3b0022249,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+15.13032341003418,17,BigBird,52,123,Single Order,Houston,7/21/21,bae5eb2f-eb98-4b7e-823c-f0a168dd3012,Standard,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+14.49460220336914,15,Shipper,227,10,Single Order,Seattle,4/27/21,a205a47a-35ad-4dce-b485-f43d012ff0d1,Express,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+13.99751091003418,14,Shipper,10,-109,Single Order,Chicago,5/4/20,35f1547b-9bda-4db7-8e4c-7a21c40acf4e,Express,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+16.500015258789062,18,BigBird,192,-35,Single Order,Las Vegas,7/21/21,70c5d50f-2af8-44f1-b1d7-d499d4811bd5,Standard,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+13.9188232421875,13,BigBird,26,-123,Single Order,New York City,9/22/20,43573e1b-d048-4e5a-a9b5-574173156328,Standard,Late,3ff32795-7034-4819-ab51-6fe2bc4bc362
+14.87686824798584,15,BigBird,70,-52,Single Order,Atlanta,4/1/20,96a7dcea-671f-49e9-8341-e9f599a9ddf7,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+11.04026985168457,11,GlobalFreight,101,-16,Bulk Order,New York City,7/30/20,b47d65ef-45f0-4459-bcfa-4ab7a32ae361,Standard,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+15.198037147521973,16,BigBird,-45,-109,Single Order,Houston,12/7/20,fdf108c6-1e80-4ae6-8970-054e5932a2d6,Ground,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+15.134109497070312,17,BigBird,-111,60,Single Order,Houston,2/20/21,f6707048-bd4e-4775-a1f5-3cc4ae45b6a9,Standard,Late,3ff32795-7034-4819-ab51-6fe2bc4bc362
+13.953619003295898,17,MicroCarrier,206,-44,Single Order,Las Vegas,7/16/21,ba5b307f-ed2c-4490-a5a8-b9e5f53f1d43,Air,Late,3ff32795-7034-4819-ab51-6fe2bc4bc362
+13.414351463317871,15,BigBird,153,-47,Single Order,Houston,1/12/21,7128ca1a-20b3-4ef5-aded-900814af2d7e,Air,Late,3ff32795-7034-4819-ab51-6fe2bc4bc362
+12.036844253540039,12,BigBird,-27,-72,Single Order,Salt Lake City,4/21/21,013589f2-d34a-452a-a9ce-cd640b67c9dd,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+14.010442733764648,14,Shipper,45,69,Single Order,Chicago,2/1/21,f57c202c-a258-445f-a0d0-e558380d15fa,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+11.191115379333496,10,BigBird,156,35,Single Order,Salt Lake City,5/13/20,9d054302-6d31-4a6d-ba2d-28bac2fc0726,Express,Late,3ff32795-7034-4819-ab51-6fe2bc4bc362
+13.037940979003906,14,GlobalFreight,124,75,Bulk Order,Chicago,3/12/20,74b4aa2c-351f-4873-aa87-c60f5b537921,Ground,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+9.118815422058105,9,Shipper,15,-123,Bulk Order,Salt Lake City,5/29/20,ab12f0fb-785f-418b-a45b-3814c10f647d,Express,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+12.136842727661133,13,Shipper,-54,165,Bulk Order,San Francisco,2/11/20,c24dbeb7-44fa-4da0-a3b0-0ed2e3fd6cac,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+13.117437362670898,22,Shipper,94,150,Bulk Order,Las Vegas,4/26/21,53aec283-efb5-430c-aefe-62514a49a450,Standard,Late,3ff32795-7034-4819-ab51-6fe2bc4bc362
+14.009506225585938,14,Shipper,-38,119,Single Order,Las Vegas,5/1/20,d08dd829-2121-47ff-aca7-25092063b13e,Express,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+14.399837493896484,24,Shipper,-197,-21,Single Order,Las Vegas,12/2/20,a18bf140-22d1-4984-b39e-b1eb3d03dfec,Standard,Late,3ff32795-7034-4819-ab51-6fe2bc4bc362
+16.836212158203125,17,MicroCarrier,155,58,Single Order,San Francisco,12/23/20,6fdb9aac-e9e7-400d-9f9f-6ee3668dddb8,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+14.377593994140625,15,Shipper,158,-94,Single Order,Atlanta,5/14/20,321c42d1-c386-4e1a-9cc6-ad3200904bc9,Ground,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+8.153365135192871,8,Shipper,-137,7,Bulk Order,Salt Lake City,1/14/21,7b7ec224-f38e-4a7c-87b6-d8942c4081e5,Express,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+14.577315330505371,15,MicroCarrier,-135,-64,Bulk Order,Seattle,9/4/21,5146461f-0dbf-4172-a3d1-a7f26fd1c4bc,Ground,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+3.5973927974700928,3,GlobalFreight,-9,151,Bulk Order,Salt Lake City,7/22/21,bb1ac7b4-ec72-4a5e-a5b9-1e25be778811,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+12.714380264282227,13,MicroCarrier,-18,-171,Bulk Order,Chicago,1/24/20,655481f3-2ede-4315-a8a2-23f4f7ac3b0e,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+13.924395561218262,14,BigBird,-135,-11,Single Order,New York City,10/10/21,3ea14c7e-d89e-44f7-a453-f7c4f51041a1,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+14.073429107666016,15,MicroCarrier,-267,14,Single Order,San Francisco,1/19/20,f579279f-a394-4684-a66e-142c761ff45f,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+12.005184173583984,12,GlobalFreight,-40,-84,Bulk Order,Las Vegas,9/3/21,57ec0fc3-1501-43c8-b94f-de56553c9475,Standard,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+15.784341812133789,18,BigBird,-247,22,Single Order,Atlanta,2/27/21,13073024-47dd-4c09-ab99-77a1a3a336a1,Ground,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+15.376935958862305,25,BigBird,-207,-55,Single Order,Atlanta,4/29/20,72a23c98-8e07-41e0-adeb-4893dbf20457,Ground,Late,3ff32795-7034-4819-ab51-6fe2bc4bc362
+12.010261535644531,12,MicroCarrier,92,-8,Bulk Order,Atlanta,6/14/21,227c2637-e8f4-4af8-bf71-f02a0a0eb4d5,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+14.067484855651855,15,MicroCarrier,-307,18,Single Order,New York City,10/2/21,4a5588f4-3abe-4039-a8a3-b4755b0b121e,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+13.356700897216797,14,MicroCarrier,107,84,Single Order,Salt Lake City,9/21/21,26af8efa-d26b-4454-ae02-156ae00ede11,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+12.901113510131836,13,GlobalFreight,-15,133,Bulk Order,Houston,9/16/21,486f10c9-f940-4c3b-bbac-96af11206a3b,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+14.613398551940918,17,MicroCarrier,38,-136,Bulk Order,Chicago,10/26/21,c8bc0f06-ad0e-4fda-88dd-dcc334e0326e,Ground,Late,3ff32795-7034-4819-ab51-6fe2bc4bc362
+14.00100040435791,14,GlobalFreight,-16,114,Single Order,San Francisco,8/23/21,dd709825-1d7d-416a-9c7d-a8dfddf0e545,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+15.161062240600586,16,Shipper,-74,-106,Single Order,Chicago,11/10/20,607cbac9-5ac7-464b-a35c-35b08554f114,Ground,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+10.113144874572754,10,GlobalFreight,-11,153,Bulk Order,New York City,1/29/20,c31630d8-3ba1-48d9-ba79-e9a9beb4243a,Air,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+15.846071243286133,17,BigBird,206,26,Single Order,Las Vegas,5/23/21,981c210f-2861-47a4-8175-c6556d5be808,Ground,On Time,3ff32795-7034-4819-ab51-6fe2bc4bc362
+12.051759719848633,12,Shipper,201,-107,Single Order,Chicago,12/2/21,9a03a797-e66d-4e1d-b839-437a1b225151,Express,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+11.000272750854492,11,Shipper,-131,-21,Bulk Order,Atlanta,12/26/21,7752d97a-1c8f-43d4-b660-3fd3d1845ba2,Express,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+13.198149681091309,15,GlobalFreight,10,299,Bulk Order,Seattle,1/18/21,ac12390a-fc88-4b45-9286-504af7729ab9,Ground,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+14.032257080078125,14,MicroCarrier,94,-36,Single Order,San Francisco,2/24/20,a94c703d-d01b-4cdf-a9d6-dd67dcbea461,Air,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+12.028635025024414,12,GlobalFreight,97,-81,Bulk Order,Houston,2/13/20,787ffcfa-6cfe-486f-bbab-5dcf1104352d,Air,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+14.845724105834961,24,GlobalFreight,52,224,Single Order,Atlanta,12/17/21,2b001d8c-730c-4764-8c37-1de8d2931123,Standard,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+13.053966522216797,15,MicroCarrier,-8,324,Bulk Order,Atlanta,1/11/21,d62018fa-35b0-4680-ab83-eca5297e6ae6,Standard,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+10.913895606994629,10,Shipper,151,24,Bulk Order,Salt Lake City,12/4/20,2c31f3e7-777a-4f7c-a53e-1f06a401c42e,Express,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+12.041837692260742,12,MicroCarrier,-156,-10,Single Order,Atlanta,9/26/20,46b70e76-7124-4ece-bdf1-d918be5ea58c,Express,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+16.314800262451172,17,MicroCarrier,172,-21,Single Order,San Francisco,7/14/20,af963874-c2b6-49a2-9ee4-d587a89021bf,Ground,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+13.027467727661133,13,MicroCarrier,112,41,Single Order,Houston,9/16/21,c95378f1-e6f7-4570-9803-2b01f0e43014,Express,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+13.93100357055664,13,Shipper,-86,-17,Single Order,Seattle,12/26/21,e42dbd0c-f35d-4af1-af8a-13e99a451785,Air,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+14.873689651489258,20,MicroCarrier,318,-9,Single Order,Atlanta,3/3/20,7483167b-235f-4281-939b-87c5a85dc616,Standard,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+13.975018501281738,14,GlobalFreight,-62,95,Single Order,Las Vegas,5/23/21,92b4de49-d560-4134-85fe-7c78f602454d,Express,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+13.442144393920898,18,BigBird,-29,-162,Single Order,San Francisco,1/21/21,32a36d3a-1106-4844-9bb7-6aeb1f811245,Air,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+14.461910247802734,15,MicroCarrier,26,104,Single Order,San Francisco,5/6/21,192d2590-2493-4e28-bde2-b70ecf551dec,Express,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+12.901727676391602,13,MicroCarrier,-46,170,Single Order,Las Vegas,12/14/20,5c684133-9dc0-4900-8716-5aed5ac08a68,Express,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+13.823554992675781,15,Shipper,-108,-173,Bulk Order,Chicago,11/9/20,7889851f-f627-4e14-9a4b-c464d7b0ad6a,Standard,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+12.00721549987793,12,GlobalFreight,119,30,Bulk Order,Atlanta,9/2/20,16c54668-bf6c-4e0c-a628-0e5784908b3c,Standard,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+13.138286590576172,14,BigBird,47,146,Bulk Order,Salt Lake City,1/1/20,c4d76e20-13b1-44f7-a725-f89cd2854688,Ground,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+13.902390480041504,21,BigBird,114,-98,Single Order,Las Vegas,2/13/21,7b08eead-1442-4ae7-9997-5f50b5ed33c5,Air,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+13.985807418823242,15,GlobalFreight,18,215,Bulk Order,Houston,12/9/21,16e6eb02-26ab-47d2-ad78-09405cfcaf8a,Ground,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+13.972344398498535,16,BigBird,-76,53,Bulk Order,Las Vegas,7/18/21,1c05b162-90d1-47d6-b806-2f4b03f2a45e,Ground,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+13.137229919433594,14,GlobalFreight,26,182,Bulk Order,Seattle,2/14/20,956784b0-43b0-47c5-9dfb-a208272cebd2,Ground,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+14.958166122436523,17,GlobalFreight,-187,13,Single Order,Houston,1/18/21,3bd42952-0ec5-444e-a62e-7d30c0f0400c,Standard,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+13.216949462890625,15,GlobalFreight,-11,-387,Bulk Order,Houston,10/24/21,9a3983af-4371-4fb6-9829-3dd48aa9bc75,Ground,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+12.875850677490234,13,GlobalFreight,96,-24,Bulk Order,Atlanta,2/12/20,cbeb7cd5-c503-40b5-8404-a6c47f038444,Air,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+14.018662452697754,14,MicroCarrier,-128,13,Single Order,San Francisco,5/1/20,323ada93-9f93-46de-b334-1f3ab1305768,Air,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+15.085018157958984,16,Shipper,13,-228,Single Order,Las Vegas,6/18/20,8ade2c95-ff2c-48c4-9dee-28d5c797af28,Ground,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+14.449224472045898,17,Shipper,241,8,Single Order,Houston,2/9/21,51e012cd-cd28-4623-9473-ab9e001da8ff,Standard,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+15.629895210266113,18,BigBird,-124,-142,Single Order,New York City,3/20/21,59c53821-f1eb-4818-9b34-ee95bfdac298,Ground,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+13.262985229492188,17,GlobalFreight,326,7,Bulk Order,Houston,11/16/20,d1e50277-22b6-4cb6-97e8-ffa5217390fe,Ground,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+14.795585632324219,14,MicroCarrier,-31,-116,Single Order,Chicago,6/27/21,5f136eee-d639-4599-adf5-7243ce3e1d99,Express,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+10.051816940307617,10,BigBird,-44,83,Bulk Order,Salt Lake City,2/4/21,7bf7443b-786e-404f-b0f0-c0104216faaa,Express,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+11.882930755615234,11,GlobalFreight,-68,119,Bulk Order,Chicago,8/22/21,5160adcd-5bf8-4657-8ebf-234255c09e3c,Express,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+15.876035690307617,16,MicroCarrier,54,-58,Single Order,San Francisco,5/2/21,b03cad53-e479-4e0b-aee6-450e3667d104,Air,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+13.21278190612793,14,GlobalFreight,64,205,Single Order,Atlanta,1/1/21,dda161b3-304d-4063-8828-4a6d50528c7d,Air,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+8.070587158203125,8,MicroCarrier,123,-45,Bulk Order,Salt Lake City,4/10/20,e96ea964-2303-41df-86c2-f6326e45fb91,Express,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+15.75129508972168,16,MicroCarrier,-175,-100,Single Order,San Francisco,3/14/21,2c010271-d98a-466c-ad89-89e01f21ee60,Air,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+10.006282806396484,9,GlobalFreight,-18,-229,Bulk Order,New York City,10/5/20,83c1f351-4fe2-4c56-92d2-181b55d05dea,Air,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+17.482437133789062,18,BigBird,243,-28,Single Order,San Francisco,8/5/20,c11a99cb-1099-40a6-9d76-e38f98a6eafe,Express,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+16.576444625854492,19,BigBird,128,-125,Single Order,Seattle,9/27/20,bb3dab03-6950-40ce-a026-987a232fac1b,Standard,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+13.962690353393555,13,BigBird,18,66,Single Order,New York City,7/30/21,e5520ff1-7703-462e-934f-c744e530a2c7,Express,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+14.023641586303711,14,BigBird,39,83,Single Order,Atlanta,8/15/21,ee19badf-ea39-4453-9353-2fd47efdf1ed,Express,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+12.974132537841797,14,MicroCarrier,171,-41,Bulk Order,Chicago,10/25/20,e29ec4db-ad95-4fb6-94e7-86f213df5615,Standard,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+13.527889251708984,14,MicroCarrier,-65,67,Bulk Order,Seattle,5/13/21,69fa341e-386b-408e-83fc-2462628da862,Standard,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+13.997053146362305,16,MicroCarrier,-215,-45,Single Order,Atlanta,9/25/21,62d66b67-24df-4a58-8155-60b182cae294,Air,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+9.139970779418945,9,GlobalFreight,-94,14,Bulk Order,Salt Lake City,10/23/20,78e04d5d-001d-4c3f-bc49-ed1a305ed6fc,Air,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+15.50245475769043,21,Shipper,-7,-224,Bulk Order,San Francisco,1/1/20,133cbe41-5c2c-4a8a-8dba-52b0bf6c06ae,Ground,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+10.953969955444336,11,BigBird,105,-162,Bulk Order,Salt Lake City,10/13/21,f9e28f20-7f84-4028-8bc9-5a36b3a19556,Air,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+11.96971321105957,12,GlobalFreight,27,92,Bulk Order,Las Vegas,6/28/21,7393c3c6-c330-4987-bc22-8666d4db9131,Express,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+14.060674667358398,22,BigBird,45,164,Bulk Order,New York City,8/21/21,2115b7d5-b776-4f63-8cd3-7485f4fbd4ad,Ground,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+13.984439849853516,15,MicroCarrier,-152,-38,Bulk Order,Las Vegas,3/12/21,7b8d6a5b-43a2-4493-9c1f-2f3b6f6bca9a,Ground,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+12.409496307373047,13,MicroCarrier,99,150,Bulk Order,Houston,10/15/20,e24b899e-42d1-45d9-b535-150ad3083d95,Standard,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+14.768129348754883,15,Shipper,32,-159,Single Order,Houston,11/7/20,9e3ceb92-6cab-4085-aaaf-106245146c81,Express,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+15.800467491149902,17,BigBird,-28,241,Single Order,Atlanta,2/14/20,194a5976-d89b-4270-8ce7-487873d61c70,Ground,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+13.073512077331543,15,GlobalFreight,21,282,Bulk Order,Houston,10/29/20,dbca7156-906a-49a3-97c9-4ec02f7f0efb,Ground,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+10.937721252441406,10,BigBird,133,-16,Bulk Order,Salt Lake City,2/19/21,0ea005f8-cb1c-43ef-9b93-9cd67e370621,Express,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+12.992547988891602,13,MicroCarrier,71,138,Single Order,Las Vegas,7/24/20,3ba379e7-c309-4249-afbc-b0c9a89bc5d7,Express,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+13.069385528564453,15,BigBird,270,-22,Bulk Order,Chicago,12/31/20,7db01883-1527-457e-85fd-333384efd82a,Standard,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+13.118820190429688,14,GlobalFreight,-91,89,Bulk Order,Las Vegas,2/5/20,73509044-76b2-4db1-8513-d18c1e87997d,Ground,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+11.082856178283691,11,GlobalFreight,129,-23,Bulk Order,Atlanta,12/31/20,49a3fd00-4a0c-4397-a480-4a15a30c6d5a,Air,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+13.996756553649902,14,BigBird,12,165,Single Order,Atlanta,9/30/20,0746844b-66d2-47e4-b7a0-bd508f5c274e,Standard,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+14.05320930480957,15,BigBird,-202,60,Single Order,San Francisco,3/29/20,935d9531-57f2-4097-bce3-52f558d4d2b8,Air,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+15.147475242614746,16,BigBird,-16,241,Single Order,Atlanta,5/29/20,f6564862-973b-4d46-b1fb-f5b7b938f18e,Standard,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+15.648426055908203,18,GlobalFreight,75,137,Single Order,Las Vegas,10/2/21,166ff594-1247-4ac1-af24-5d49bc69dfcf,Standard,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+14.074504852294922,14,MicroCarrier,-9,-128,Single Order,Seattle,12/2/20,4d116f5e-49d5-4f6f-b10f-a81bcfff9353,Air,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+14.957143783569336,23,GlobalFreight,138,-68,Single Order,Houston,7/23/21,cc41dee3-536a-473e-8530-3a97f8f404dd,Standard,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+15.770340919494629,16,MicroCarrier,-8,-73,Single Order,Seattle,4/8/20,38a7a412-f2da-4f22-aa81-6ede4e07e27e,Air,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+12.819883346557617,13,MicroCarrier,10,194,Bulk Order,Chicago,1/1/20,a56f3eb8-3b70-4cb5-8a0f-d72993b7e61e,Standard,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+17.466079711914062,18,MicroCarrier,150,17,Single Order,San Francisco,3/20/20,80f279ed-dbff-444a-98e7-01b222b49fc1,Standard,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+12.965993881225586,13,GlobalFreight,165,-59,Single Order,Las Vegas,2/6/20,92c75cc9-44c6-40dc-a3e7-0ad61f48a6ad,Express,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+12.987818717956543,13,BigBird,-50,-27,Single Order,Salt Lake City,7/12/21,cec4a334-f0e6-4fd1-864d-52f7a0e13099,Air,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+14.733311653137207,15,MicroCarrier,159,54,Single Order,San Francisco,10/13/21,2aa18990-432a-4582-8ec2-100427790ec9,Air,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+16.347084045410156,17,BigBird,74,79,Single Order,Las Vegas,8/1/20,cba351d2-db93-4073-9887-6717bcc5503f,Express,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+13.02066421508789,13,BigBird,101,26,Single Order,Las Vegas,1/25/21,c4a6827c-1cfc-4f0b-93b2-c18e56e464b8,Air,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+10.99713134765625,11,Shipper,155,-26,Bulk Order,Atlanta,4/30/20,a263b7f8-a2b1-4721-9ad9-171c08882879,Express,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+13.081808090209961,15,GlobalFreight,55,-173,Bulk Order,Chicago,6/27/21,e2e3bca9-d066-4828-bd3b-fd9582d5c804,Ground,Late,4070df7c-978c-473a-ae64-16aff0c2782b
+13.821928024291992,14,GlobalFreight,176,7,Single Order,Chicago,5/20/20,5f775b1b-d2bd-45e6-8ff0-544fca3d3142,Air,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+11.999664306640625,12,GlobalFreight,-36,-81,Bulk Order,Las Vegas,3/2/20,6a9df08e-c07d-4379-a813-ad0e1e77795a,Air,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+15.728227615356445,16,GlobalFreight,-197,20,Single Order,Seattle,5/31/20,0f6e1868-002a-4e63-82e6-59a19538fe67,Standard,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+12.400615692138672,13,MicroCarrier,-86,50,Bulk Order,Las Vegas,5/25/21,608a4893-f9ad-46f8-bab6-10b4695e3e71,Standard,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+13.639724731445312,16,GlobalFreight,-31,-272,Single Order,Salt Lake City,5/4/21,dbf55f5f-e407-4342-9afa-922122e99b14,Air,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+14.248621940612793,17,Shipper,238,-14,Bulk Order,Chicago,7/30/21,f45553bb-c279-461c-8da5-03ab54705f33,Ground,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+12.827964782714844,13,GlobalFreight,-164,28,Bulk Order,Houston,10/11/20,cc2cad26-8873-4ac1-914d-394627ebdd16,Ground,On Time,4070df7c-978c-473a-ae64-16aff0c2782b
+12.01596736907959,12,Shipper,33,104,Single Order,Salt Lake City,9/1/21,cc12f2b7-56db-4967-87ef-5d9892e6c33d,Express,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.043883323669434,15,GlobalFreight,-198,-60,Bulk Order,Chicago,7/29/21,7b58f6f9-53b8-4dd8-b896-a80c0c81ddb5,Ground,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+10.947587013244629,10,BigBird,-161,-28,Bulk Order,New York City,10/7/21,71aed34a-5fe3-4e2c-b88f-b55acb317c35,Air,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+8.931377410888672,8,Shipper,-114,-25,Bulk Order,Salt Lake City,2/10/20,34bea047-51d1-4d75-b3c0-7b478d1a8dd0,Express,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+12.899327278137207,17,Shipper,236,35,Bulk Order,San Francisco,8/18/21,e76a8aba-1b1c-442f-b38c-b9bcbf98478f,Air,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+14.87550163269043,15,BigBird,81,52,Single Order,Atlanta,11/27/20,ddff4f38-e21e-424f-90c6-df422fb16810,Air,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+14.288768768310547,15,MicroCarrier,-26,-162,Single Order,San Francisco,12/5/21,897f1e37-4947-4147-95b7-6ed0c4aac94a,Air,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.909456253051758,14,BigBird,-130,33,Single Order,New York City,5/8/21,ae13b1e6-0963-46c1-a1ce-229c3aba0662,Air,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.832759857177734,17,Shipper,165,-12,Bulk Order,Seattle,5/25/21,3bcd8be0-9c1f-4cb0-a1bf-0744bee94aae,Standard,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.832109451293945,18,BigBird,78,-89,Bulk Order,Las Vegas,5/9/21,30abc735-5138-46ef-9ee9-b91113975f69,Standard,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+12.989280700683594,12,BigBird,-139,-8,Single Order,New York City,6/15/21,b67e8369-be7d-4e33-985a-b3fe88d5f8de,Air,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+14.942168235778809,15,MicroCarrier,49,-127,Single Order,Las Vegas,5/24/20,91b997ed-b894-4303-9ff9-714d51eb5b0d,Express,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+15.71613597869873,21,BigBird,-235,17,Single Order,New York City,11/15/21,8e5e1848-8db0-4cc0-bb1f-f4358baa9cbd,Ground,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+12.133358001708984,13,Shipper,125,-86,Bulk Order,San Francisco,9/9/21,0a987cfa-776c-4899-b9fa-4dd84bdda264,Air,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.075843811035156,14,GlobalFreight,-167,-76,Bulk Order,Chicago,11/15/21,0aaa863c-1b2b-4691-9a62-edaef57b6390,Ground,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+12.03553295135498,12,BigBird,-14,-83,Single Order,Salt Lake City,3/17/21,2bf25523-f929-4c22-a831-97d9633938b8,Air,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+15.720991134643555,16,BigBird,62,56,Single Order,Las Vegas,6/9/20,18308ed0-9c77-41cb-8381-fabd6adcf6c7,Air,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+17.63848876953125,19,BigBird,-59,-50,Single Order,Seattle,12/3/21,01b766a2-b181-4eb4-bf43-22a2589bdd88,Ground,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+8.151169776916504,8,Shipper,-83,-57,Bulk Order,Salt Lake City,7/20/21,fa854226-228b-46e2-8b60-793d6f5c38fa,Air,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.899150848388672,21,GlobalFreight,23,235,Bulk Order,Atlanta,11/29/21,a09fd2e3-d097-4e75-97fc-19bf58e5d4ab,Ground,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+14.013240814208984,14,MicroCarrier,-32,116,Single Order,Seattle,5/24/21,0c5dad2e-529b-4056-9169-361ef073e74d,Air,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+7.639524459838867,7,Shipper,13,96,Bulk Order,Salt Lake City,4/23/20,8fec7cbb-4129-4d57-947f-a230a36f508d,Express,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+14.072339057922363,15,BigBird,35,-73,Bulk Order,Salt Lake City,4/17/20,dd1da471-5c09-4650-ab21-95e203524e76,Ground,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+11.000375747680664,11,MicroCarrier,-23,93,Bulk Order,Atlanta,5/20/21,1b1dbad3-024a-421e-bce3-740448fbd997,Express,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+6.165248870849609,6,Shipper,61,75,Bulk Order,Salt Lake City,5/16/20,8e334d4f-93da-455a-8571-4004d51ecc5e,Express,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+12.775362014770508,13,MicroCarrier,-17,107,Bulk Order,Houston,4/11/20,cc03c785-a3e9-45e6-8244-572fc789d50a,Standard,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+15.610933303833008,16,BigBird,65,79,Single Order,Chicago,6/23/21,b638205c-b6a8-4242-a013-70e531ad7ccc,Air,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+17.06996726989746,19,BigBird,-78,-68,Single Order,New York City,4/5/21,a4359d61-00c3-435a-800b-92d0e16a936d,Ground,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+11.027847290039062,11,MicroCarrier,-83,-37,Bulk Order,Atlanta,6/18/21,c6a6ebfb-991a-4d8e-936e-cf0cef7759da,Air,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+14.051406860351562,15,Shipper,96,-89,Single Order,San Francisco,11/18/21,015db789-2548-417e-a1d2-a17bae8ce1de,Express,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+15.783373832702637,21,Shipper,68,-79,Single Order,San Francisco,3/20/21,9f31a664-d229-464a-bb4d-f26acbad1e11,Standard,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+14.70600700378418,15,MicroCarrier,23,179,Single Order,Seattle,6/11/21,a6d862fc-7b0a-43c6-8491-0c81b1cd88f6,Standard,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.942020416259766,13,Shipper,-8,136,Single Order,Chicago,7/17/21,40902ad5-56b2-4952-880f-dd5ef29abb15,Express,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+12.740447998046875,17,GlobalFreight,-173,11,Bulk Order,Seattle,10/20/21,9150a0e0-b702-45bb-81c5-8b027e57c126,Ground,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+4.96784782409668,5,GlobalFreight,-107,-21,Bulk Order,Salt Lake City,12/17/20,4b948eed-0ee8-4e48-a3ab-9b76b66f1282,Express,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+12.043790817260742,12,MicroCarrier,35,-101,Bulk Order,Houston,7/29/20,4eb54b21-4bd5-43de-9c15-277b5576f7d8,Air,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+14.962862014770508,15,Shipper,8,145,Single Order,San Francisco,6/16/20,db0b7fe3-99d5-434c-aceb-c1f9cb62513d,Express,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+15.10269546508789,16,Shipper,-11,234,Single Order,Seattle,10/4/20,cf84a641-7ede-457b-a0ac-a23cbd18afe4,Standard,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+10.101284980773926,10,Shipper,-77,-68,Bulk Order,Salt Lake City,6/13/20,b160857b-6a26-4638-a511-46c21f7d2e18,Air,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.781658172607422,16,MicroCarrier,-191,-21,Bulk Order,Las Vegas,5/23/20,b71d68e0-ff19-423b-b662-c0570c61caae,Standard,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+14.040802001953125,15,BigBird,-12,156,Bulk Order,New York City,5/8/20,5b28ea6b-f8de-4b33-85ba-6d1c76bf754e,Ground,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+12.877326011657715,14,Shipper,-228,57,Bulk Order,Atlanta,4/9/20,c89a7208-3753-41b0-b49c-2b3d2fb00d4c,Air,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.586393356323242,17,Shipper,-137,91,Single Order,San Francisco,5/23/21,8bd74db6-ecbc-4826-90b7-99f2085946cb,Express,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.03635025024414,14,MicroCarrier,-80,142,Bulk Order,Chicago,3/24/20,fc349081-a168-43d0-a9d6-2a946f30ff4a,Standard,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.894207000732422,15,MicroCarrier,-128,86,Bulk Order,Las Vegas,4/20/21,14d44448-22da-408c-95f9-46071add1faf,Standard,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+10.02401351928711,10,Shipper,18,85,Bulk Order,Salt Lake City,1/24/21,3f132949-af1b-4696-b97c-b2c9fb791280,Express,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+12.92945384979248,13,GlobalFreight,29,-130,Bulk Order,Las Vegas,7/17/20,69de1778-0afa-4078-a187-69d83de831f3,Air,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+15.929708480834961,17,BigBird,249,8,Single Order,Atlanta,10/19/20,19ed20a9-deca-4486-8f30-94591c74bf89,Ground,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+14.038294792175293,15,BigBird,77,107,Bulk Order,Las Vegas,11/10/21,3c456c6d-feca-4ba2-848f-e5a4a7c2bc22,Ground,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.918146133422852,13,MicroCarrier,-156,-48,Single Order,Houston,11/18/21,ba4c8702-e9da-4bca-a1d4-31574f749583,Air,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.958850860595703,14,BigBird,16,-132,Single Order,Salt Lake City,5/2/21,9b17ce4b-64fa-486b-9203-dc744c5ded55,Standard,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+10.01064395904541,10,Shipper,7,139,Bulk Order,Salt Lake City,3/13/21,777f2077-f68c-4a87-b965-23bca62d6aaa,Express,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+15.526681900024414,23,Shipper,68,177,Single Order,Seattle,1/7/21,606da927-2f99-437f-aca6-334d4dd0bf75,Standard,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.050361633300781,13,MicroCarrier,-129,-28,Single Order,Seattle,2/13/20,615c8b2b-35d1-4405-ad29-29a3656e2d4b,Express,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+14.797515869140625,16,GlobalFreight,-152,55,Bulk Order,Seattle,2/18/20,ca935544-befa-40cb-9bd8-75bfb2cee087,Ground,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.963850975036621,13,Shipper,-134,13,Single Order,San Francisco,2/3/21,b246d9d1-5f48-4ff3-a92a-3233a3f3cb0a,Express,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+14.995962142944336,17,Shipper,217,-34,Single Order,Seattle,3/8/20,b4595cdf-d5c3-4419-930b-09d55999a9e8,Standard,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.939427375793457,16,GlobalFreight,269,29,Bulk Order,Atlanta,1/23/20,15b18551-1452-43bc-bbb4-a13ea6dcdacf,Ground,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+14.071660041809082,15,Shipper,166,68,Single Order,Las Vegas,3/5/21,118e24bf-5a2b-4599-875f-db916cbea923,Standard,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+14.379425048828125,17,MicroCarrier,-155,146,Bulk Order,Seattle,9/1/21,116e5173-2a8c-4def-9e02-ff3ccc00d0e7,Ground,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+10.22834587097168,10,GlobalFreight,24,-131,Bulk Order,New York City,10/20/20,3c738da9-76c8-4bd7-9c74-946e3d2ec570,Air,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.114980697631836,14,GlobalFreight,-11,183,Bulk Order,Atlanta,3/26/21,183558d8-d5ba-4319-a18f-11273e2a657c,Standard,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+15.062376022338867,16,BigBird,292,40,Single Order,Atlanta,10/9/21,c4c26801-a54e-4b67-bfd6-92d14371b327,Ground,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+6.819384574890137,6,Shipper,23,-188,Bulk Order,Salt Lake City,8/21/20,3b122285-6144-4c5e-b626-e3ccd34696e7,Express,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+14.952402114868164,15,Shipper,-47,-97,Single Order,Chicago,7/3/21,779d1157-4c83-4026-9376-501a07d9dc6b,Express,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+11.034127235412598,10,GlobalFreight,-129,-49,Bulk Order,Atlanta,8/24/20,bff84952-ac1f-46d7-a988-8bb2cf7260c4,Air,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+14.584651947021484,16,GlobalFreight,-69,-196,Bulk Order,Atlanta,11/28/20,90c437c6-4aff-41a3-9cef-5215f39f0d15,Ground,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+14.14171028137207,15,MicroCarrier,-72,-206,Single Order,Atlanta,1/27/20,9f7140d2-de4c-4ef0-84b0-0a4f4b01bf9d,Standard,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+15.814621925354004,18,BigBird,201,39,Single Order,New York City,6/29/20,e5255594-3eb7-458b-abb1-447f68303afa,Ground,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+15.119963645935059,16,MicroCarrier,-242,-72,Single Order,Las Vegas,11/19/21,a9736048-a87a-4c13-bbf2-1fab68f14b7d,Ground,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.04660701751709,14,BigBird,20,-180,Bulk Order,Salt Lake City,9/17/20,fae43f46-e230-4973-b98b-3589aef1427f,Ground,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+14.964828491210938,15,Shipper,30,73,Single Order,Houston,8/6/21,7156cf1b-4d39-423a-acac-65c7f21efc59,Express,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+6.7864861488342285,6,GlobalFreight,30,138,Bulk Order,Salt Lake City,6/11/21,e59e4091-58c9-4caf-a4f7-934b5e8f6a45,Air,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+15.09599494934082,17,BigBird,-91,-90,Single Order,Chicago,1/12/20,405c2bc9-4148-439c-b404-3753846637fb,Standard,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.986531257629395,14,MicroCarrier,70,82,Single Order,Houston,10/20/21,cc079db2-5e41-44d5-b5a5-e3c592a3505a,Air,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.02560806274414,14,GlobalFreight,77,-145,Bulk Order,Chicago,9/10/20,15903fb0-6d2e-4148-9a9b-4365ef70272e,Ground,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+14.703307151794434,17,Shipper,-113,-89,Bulk Order,Chicago,10/30/21,03d79b69-904e-4b07-ae63-0cedbec2c890,Ground,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+12.02705192565918,12,GlobalFreight,110,63,Bulk Order,Houston,4/5/21,1b9e7acf-4a52-4f15-9202-3ad35f8685cd,Air,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.143548011779785,14,GlobalFreight,27,220,Single Order,New York City,9/28/21,bac211ca-f95a-4148-902a-b3ac39823723,Air,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+14.037124633789062,14,MicroCarrier,-102,-23,Single Order,Chicago,10/27/20,20f8b22d-daf9-40d2-b44a-9e3c58754e60,Standard,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+14.828449249267578,19,GlobalFreight,337,-19,Single Order,Las Vegas,10/1/20,b34bed22-c2ad-4711-b14a-69502eda7fcd,Standard,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.00004768371582,14,GlobalFreight,-203,-23,Bulk Order,Chicago,11/6/20,a97059ab-14d7-40b7-b16d-097515f6248f,Ground,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+15.907878875732422,16,MicroCarrier,-113,-34,Single Order,Chicago,3/18/21,b4bb39b9-d311-4e4f-9d13-a9a35c727370,Express,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.04886531829834,14,GlobalFreight,-107,-85,Bulk Order,Houston,5/19/21,23904c99-f0d0-4dfa-8448-7dd61b36f7a5,Ground,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+15.10772705078125,16,Shipper,-191,-99,Single Order,Seattle,9/3/21,0441c86f-1be1-457e-856a-c87fa1f5c03a,Standard,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+15.859121322631836,18,MicroCarrier,-209,-47,Single Order,Seattle,7/1/21,247d5451-c278-4140-8e08-e1520e6c1b68,Ground,Late,e54161e8-84c5-46ad-af62-a0dda9905d6d
+8.16201400756836,8,Shipper,-129,-14,Bulk Order,Salt Lake City,11/12/20,0b0fb10a-4cb2-4d5a-870e-baee68fcda76,Express,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+16.164772033691406,18,MicroCarrier,8,299,Single Order,Las Vegas,9/22/21,9eabaca9-192a-4b10-bb0e-f7cdfbc705f6,Ground,On Time,e54161e8-84c5-46ad-af62-a0dda9905d6d
+13.103189468383789,14,GlobalFreight,-338,-29,Single Order,New York City,7/16/20,7b0c3e24-c98c-4768-9723-7876352403f2,Express,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+11.931167602539062,12,Shipper,84,12,Bulk Order,Las Vegas,12/26/20,2be5cc81-cbf2-4f2a-9c85-a1fe96c04997,Express,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+13.189214706420898,15,Shipper,-8,-284,Bulk Order,Houston,3/22/20,e977df0c-de33-493a-b038-433971c6e4bb,Ground,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+15.676647186279297,16,Shipper,-11,139,Single Order,San Francisco,2/9/21,b8e3a48c-0b66-4b4c-9271-4d021486397b,Express,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+10.031583786010742,10,Shipper,16,-142,Bulk Order,New York City,9/5/20,8f31af5e-77a8-4a68-a0d7-476c505137be,Express,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+13.027435302734375,13,MicroCarrier,103,-22,Single Order,Chicago,3/7/20,960ca51b-0792-4e51-9050-169b60984eab,Air,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+10.9232177734375,11,Shipper,43,-61,Bulk Order,Salt Lake City,6/1/20,5a69b30a-f911-43f2-8112-04d49b04b800,Express,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+15.929581642150879,16,MicroCarrier,97,57,Single Order,San Francisco,3/4/21,4a38f193-0a5e-430f-a574-7de9ea73ab5a,Air,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+12.934225082397461,12,MicroCarrier,223,-11,Single Order,Las Vegas,8/8/21,48c1c29e-eed0-4cb4-b247-d0e566af4151,Express,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+12.041446685791016,12,GlobalFreight,-132,-18,Bulk Order,Las Vegas,9/6/21,cb567db5-b88f-492c-9323-d06633a1318a,Air,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+11.019807815551758,11,GlobalFreight,-166,-40,Bulk Order,Atlanta,10/23/21,45c96d45-29d2-41b0-86f6-05ddd3fb19bf,Air,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+13.205327987670898,17,Shipper,-115,108,Bulk Order,Seattle,12/4/20,d2bdaaf5-9e4e-4ef4-82c5-a7cd47a50fb7,Standard,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+13.797260284423828,18,BigBird,99,-193,Single Order,Atlanta,1/8/21,5485d3f4-1830-4db4-9dc5-1ac67f775ae6,Express,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+11.199342727661133,11,BigBird,-15,-135,Single Order,Atlanta,9/5/20,afc1457b-cb7f-4e65-b4ff-8c4b04cb32a7,Express,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+14.857757568359375,14,MicroCarrier,-20,149,Single Order,San Francisco,7/31/20,d302c7b4-9dda-485c-b949-8e1656c03e89,Standard,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+13.020227432250977,14,Shipper,9,135,Bulk Order,Las Vegas,3/3/21,e7cc84bd-0625-4356-8b4d-cc3819eebd28,Standard,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+12.894817352294922,13,GlobalFreight,-16,138,Bulk Order,Seattle,5/5/20,ca1c43f4-63ee-4fc6-bec9-534806285838,Air,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+14.12417221069336,15,GlobalFreight,-241,-103,Single Order,Atlanta,12/21/21,6ace973c-e371-479a-9fc8-b8dc2a58ec24,Air,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+13.335430145263672,15,BigBird,-274,8,Single Order,Chicago,12/24/20,398f3520-82d3-4c7e-b42e-13376295c931,Express,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+13.596202850341797,22,MicroCarrier,55,-177,Bulk Order,Seattle,11/22/21,d664f154-74e9-409b-b92a-66ef5c45b222,Ground,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+18.023460388183594,19,BigBird,-115,-10,Single Order,San Francisco,6/19/21,6e1e4c8d-9e05-4367-b95f-2bf9e366bd52,Standard,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+14.101713180541992,15,GlobalFreight,12,-422,Bulk Order,New York City,1/3/20,4d507fa2-5b84-416c-b418-16436d768208,Ground,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+15.857665061950684,17,BigBird,-70,-192,Single Order,New York City,2/28/21,a4889629-ecd8-42d5-bf0a-c4b7b46a86b2,Ground,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+13.993274688720703,14,BigBird,-100,-8,Single Order,Las Vegas,10/27/20,4c54b2c4-ad76-4322-beef-09e99c03efe6,Express,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+10.906545639038086,10,BigBird,26,-69,Bulk Order,Salt Lake City,1/18/20,5a484bea-9181-40af-9f55-3b78b77ef3f2,Air,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+15.782654762268066,16,BigBird,-81,61,Single Order,Atlanta,10/8/20,ace25724-e528-433a-aca2-839f15a76aac,Standard,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+12.849081993103027,13,GlobalFreight,28,131,Bulk Order,Houston,9/17/21,1546a116-a8dc-490e-8368-9a2bcea503c9,Standard,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+9.172863006591797,9,Shipper,-7,-136,Bulk Order,New York City,8/24/21,7a520df6-f3b6-4280-bfb0-01681dd92876,Express,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+14.025121688842773,14,MicroCarrier,-65,48,Single Order,Chicago,1/28/20,1e5daf2a-ed67-4c9b-ac06-57cf477b335e,Express,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+14.02607536315918,15,Shipper,91,71,Bulk Order,Atlanta,3/20/21,1fd259ae-346b-4d17-b3c2-bc5d8e9e206d,Ground,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+13.02914810180664,14,GlobalFreight,-60,-126,Bulk Order,Houston,7/26/20,ef05353d-6822-4141-b4e3-cc4f90f88900,Ground,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+15.230294227600098,16,MicroCarrier,-74,-76,Single Order,Las Vegas,12/15/20,b48980e6-8aa6-4b23-acd0-5581f67f0fef,Standard,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+11.979965209960938,12,BigBird,25,113,Bulk Order,New York City,5/19/20,88f2ec0a-2ae5-4878-ae30-280eed4d7eeb,Air,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+13.897729873657227,14,Shipper,-167,10,Single Order,Las Vegas,1/5/21,506a5cc3-67ec-4619-801a-9b84e26f4bba,Express,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+10.149385452270508,10,Shipper,-110,-77,Bulk Order,New York City,3/8/21,b495f1ec-2e57-4c0b-8291-825dc1452947,Air,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+13.396056175231934,16,MicroCarrier,11,359,Bulk Order,Atlanta,6/14/21,e1e1f768-17df-4c56-962e-e9861178f3a2,Standard,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+15.909538269042969,24,Shipper,221,-10,Single Order,San Francisco,4/1/21,7fdd57fb-b3f9-441c-9475-fe039bf8cb72,Ground,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+14.941547393798828,15,MicroCarrier,-115,41,Single Order,Chicago,12/15/20,1ff950d1-c0b1-4e2d-9093-60eb5f6b110d,Express,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+11.023885726928711,11,MicroCarrier,-52,74,Bulk Order,Atlanta,7/14/21,e6ebf8ab-f274-4c3d-89fc-b3403ffa434c,Air,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+13.029280662536621,12,Shipper,-114,-29,Single Order,Las Vegas,10/19/20,34818e33-3703-4cdf-9057-a418bcb8fd22,Express,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+10.128278732299805,10,GlobalFreight,43,106,Bulk Order,New York City,10/6/20,42f057ec-c069-4b8b-a993-e056dea159fe,Standard,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+13.023323059082031,14,MicroCarrier,265,-9,Bulk Order,Chicago,12/17/20,3ab90cd1-0c5a-47e9-9aaa-5614593d0f12,Ground,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+13.190872192382812,14,BigBird,215,7,Single Order,Seattle,7/24/20,80ca870e-4aaf-4903-9ae9-e846b772f947,Express,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+6.9892473220825195,7,MicroCarrier,-118,-24,Bulk Order,Salt Lake City,10/11/20,a9198b28-efce-4b5c-b85d-09e5404db475,Express,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+12.886375427246094,14,BigBird,-13,-244,Bulk Order,San Francisco,1/11/21,d61f3703-5a37-4ec6-9a52-480b5cf3bed5,Air,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+14.108831405639648,15,MicroCarrier,43,-174,Bulk Order,San Francisco,12/4/20,4aec5119-2c22-4f9a-984d-2bfea24263ef,Ground,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+12.13847541809082,13,MicroCarrier,29,-247,Bulk Order,Seattle,12/2/21,d8d5c4f0-d2e9-403b-aeb0-387c02494f00,Standard,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+15.040505409240723,16,MicroCarrier,-189,11,Single Order,Chicago,9/8/20,a093aa09-5c17-4a60-8842-18e28fabfc2c,Ground,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+13.910175323486328,14,MicroCarrier,12,173,Single Order,Houston,2/28/20,99cc2af3-d84d-4410-b206-c04f9f876f4f,Express,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+13.921022415161133,13,GlobalFreight,14,-171,Single Order,New York City,1/20/21,96aa2abb-eb9b-48b5-8af5-b31ae0b22379,Express,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+15.331991195678711,20,MicroCarrier,303,9,Single Order,Houston,3/30/20,db06525c-e6f3-40cd-b52e-950d665a929d,Ground,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+10.98959732055664,10,MicroCarrier,-23,165,Bulk Order,Atlanta,7/24/20,c720ad8a-8733-4b71-a6cd-70793b168d0c,Express,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+15.03715991973877,16,Shipper,10,-213,Single Order,Chicago,5/14/21,388df633-535f-4713-9571-2c8f65969bd0,Ground,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+14.03373908996582,15,Shipper,-201,46,Single Order,New York City,11/2/21,f8f86edd-a5ef-43cd-b8a3-c8cd16b7b5a4,Air,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+8.056690216064453,8,MicroCarrier,-87,30,Bulk Order,Salt Lake City,4/8/20,e0ddcc39-b5e9-4dc0-989c-1d3cb95bf4bc,Express,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+13.274675369262695,17,GlobalFreight,316,20,Bulk Order,Chicago,9/8/20,1db45df6-fd76-495c-9867-cd829d13035b,Ground,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+12.13547420501709,13,Shipper,-37,-160,Bulk Order,Las Vegas,4/7/21,2b002e79-140c-4d61-9fcb-03dc2b885866,Ground,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+12.020346641540527,11,MicroCarrier,11,149,Single Order,Las Vegas,5/5/21,772085cd-519b-468f-b096-3a5cd8439807,Express,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+14.57371997833252,17,MicroCarrier,108,95,Bulk Order,Houston,4/13/21,8210913d-06e9-45c1-9436-ddd1c11586f9,Ground,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+8.043645858764648,8,GlobalFreight,145,-45,Bulk Order,Salt Lake City,8/25/20,16b4baed-f658-4d5f-a33a-73ce39ed4de9,Air,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+12.34605598449707,14,GlobalFreight,173,16,Bulk Order,Seattle,6/18/20,6c40b9c6-102b-4303-9d48-3f2273876c24,Ground,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+14.98537826538086,15,Shipper,109,59,Single Order,Chicago,1/26/20,25a5691d-ff30-4f5b-b471-65d634850b59,Express,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+15.244573593139648,17,BigBird,55,185,Single Order,Las Vegas,11/23/21,46d66246-f811-4427-9d9a-02e4c7077474,Standard,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+14.59211540222168,17,BigBird,19,287,Single Order,Salt Lake City,11/24/20,a67bffcf-d68a-42f7-9344-91190c116f80,Air,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+16.5183162689209,25,BigBird,25,-280,Single Order,New York City,11/25/20,49d19a48-0a2e-43e1-b931-e06589335a01,Ground,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+11.11608600616455,11,BigBird,79,71,Single Order,New York City,12/17/21,8d5f69b1-6a7d-405e-b9c4-20de7ecf8a4b,Express,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+16.42937469482422,19,MicroCarrier,259,9,Single Order,Seattle,8/7/21,e69d5782-cbdd-4807-bdfa-00c570c991ce,Ground,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+14.843652725219727,15,GlobalFreight,15,156,Single Order,Seattle,8/11/21,c89fcd54-b08a-48ee-871d-441665026b01,Standard,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+15.062041282653809,17,BigBird,-20,-199,Single Order,New York City,5/4/21,4daf4856-3c12-4175-bcb4-a25b6f1b21df,Ground,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+13.147790908813477,15,BigBird,-180,10,Single Order,San Francisco,9/21/21,6a8a6595-6f53-4455-8e68-94b51e7ad191,Air,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+12.667824745178223,13,GlobalFreight,-187,8,Bulk Order,Seattle,2/19/20,0afb9a75-4881-4eef-8770-074c37b6e945,Ground,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+12.019890785217285,12,GlobalFreight,-46,-51,Bulk Order,Las Vegas,1/10/21,135c3be4-795c-403d-989a-31dbc6e1833c,Air,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+12.966500282287598,14,GlobalFreight,-266,-11,Bulk Order,Las Vegas,11/12/21,2f22ff78-25cc-4aa7-8576-e1439ff65c34,Ground,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+9.914989471435547,9,BigBird,-141,-14,Bulk Order,Salt Lake City,2/19/20,e21fa8f1-1ba4-400f-ac87-e7ef58c7fc4d,Express,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+16.484697341918945,21,BigBird,335,9,Single Order,Las Vegas,6/22/21,1075c90c-4ca0-4223-8aa6-93ddaa731eb6,Ground,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
+13.108427047729492,14,GlobalFreight,195,-28,Bulk Order,Seattle,12/18/21,4b037d8b-dd37-4276-8090-c13c2df68765,Ground,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+14.018335342407227,14,Shipper,-122,-17,Single Order,San Francisco,5/13/20,86abe63f-e0d3-4f8a-b95a-6ea984835415,Air,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+9.367594718933105,9,GlobalFreight,14,123,Bulk Order,Salt Lake City,12/6/20,eb68fd64-9429-4e2e-bcc5-8097c8741e87,Air,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+14.700315475463867,17,BigBird,210,-29,Single Order,Atlanta,2/9/21,f5fd0cf4-41c8-4fce-8c79-55a15a1856a5,Ground,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+10.176162719726562,10,GlobalFreight,-40,-138,Bulk Order,New York City,8/1/20,5382830f-3328-4022-8419-881e1a07cd1f,Air,On Time,7923f796-abdd-406b-9f1a-6a1a4905ce83
+14.069538116455078,16,Shipper,8,235,Bulk Order,Houston,7/3/20,779fe27f-97d9-401f-899a-574a0a81b07e,Ground,Late,7923f796-abdd-406b-9f1a-6a1a4905ce83
