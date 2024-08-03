@@ -1,3 +1,4 @@
 *.py linguist-language=Python
 *.java linguist-language=Java
 *.html linguist-language=HTML
+*.md linguist-language=Markdown
