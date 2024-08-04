@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "FastAPI-StoreAPI"
+version = "0.0.1"
+description = "Projeto: Desenvolvendo uma API com FastAPI Utilizando TDD"
+authors = ["Fabrício Dos Santos Moreira"]
+readme = "README.md"
+package-mode = false
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "0.111.0"
+pydantic = "2.7.4"
+pydantic-settings = "2.3.3"
+motor = "3.4.0"
+pytest = "8.2.2"
+pytest-asyncio = "0.23.7"
+uvicorn = "0.30.1"
+httpx = "0.27.0"
+pytz = "2024.1"
+
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+addopts = [
+  "--strict-config",
+  "--strict-markers",
+  "--ignore=docs_src",
+]
+xfail_strict = true
+junit_family = "xunit2"
+testpaths = "./tests"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
