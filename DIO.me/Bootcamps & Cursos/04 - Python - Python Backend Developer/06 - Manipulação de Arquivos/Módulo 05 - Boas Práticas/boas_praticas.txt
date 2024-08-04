@@ -1,0 +1,1 @@
+Boas práticas em manipulação de arquivos envolvem técnicas e convenções para garantir a eficiência, segurança e legibilidade ao lidar com operações de leitura, escrita e manipulação de arquivos no Python.
