@@ -1,0 +1,3 @@
+Exemplo de escrita de arquivo em Python usando 'write()'.
+Exemplo de escrita de arquivos em Python usando 'writelines()'.
+Este texto será acrescentado ao arquivo existente.
