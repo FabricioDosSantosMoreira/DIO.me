@@ -1,4 +1,0 @@
-Veja os projetos em: 
-
-    -> DIO.me/Projetos/04 - Python - Desenvolvendo sua Primeira API com FastAPI
-    -> DIO.me/Projetos/05 - Python - Desenvolvendo uma API com FastAPI Utilizando TDD
