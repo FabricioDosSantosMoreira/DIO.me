@@ -29,7 +29,7 @@ poetry shell
 poetry install
 ```
 
-### 🔹 Configure o banco de dados
+### 🔹 Configure o Postgres
 
 Crie um novo banco de dados localmente usando o `Postgres`, contendo:
 - Usuário = `postgres`
