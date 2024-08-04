@@ -29,7 +29,7 @@ poetry shell
 poetry install
 ```
 
-### 🔹 Configurar o MongoDB
+### 🔹 Configure o MongoDB
 
 Crie um novo banco de dados localmente usando o `MongoDB`, contendo:
 - Nome= `store`
