@@ -1,0 +1,32 @@
+{   
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Dev",
+            "request": "launch",
+            "mainClass": "edu.dio.me.api.Application",
+            "projectName": "java-rest-api",
+            "vmArgs": "-Dspring.profiles.active=dev",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prd",
+            "request": "launch",
+            "mainClass": "edu.dio.me.api.Application",
+            "projectName": "java-rest-api",
+            "vmArgs": "-Dspring.profiles.active=prd",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "env": {
+                "PGHOST": "PGHOSTHERE", // Ex: "viaduct.proxy.rlwy.net"
+                "PGPORT": "PGPORTHERE", // Ex: "12345"
+                "PGDATABASE": "PGDATABASEHERE", // Ex: "railway"
+                "PGUSER": "PGUSERHERE", // Ex: "postgres"
+                "PGPASSWORD": "PGPASSWORDHERE" // Ex: "npmcJdvLKVLNrdMjJQWzuFTMbWFGXqOr"
+            }
+        }
+    ]
+}
