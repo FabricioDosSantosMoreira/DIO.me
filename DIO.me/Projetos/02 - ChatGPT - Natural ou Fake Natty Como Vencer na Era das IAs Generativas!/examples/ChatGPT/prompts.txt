@@ -16,7 +16,7 @@ Prompts para gerar o conteúdo do projeto com o ChatGPT:
 
             Título: Título do projeto
             Descrição: Breve descrição do projeto
-            Tecnologias Utilizadas: Liste as IAs Generativas e outras ferramentas usadas. Neste caso Leonardo Ai e chatgpt
+            Tecnologias Utilizadas: Liste as IAs Generativas e outras ferramentas usadas.
             processo de Criação: Descreva como você criou o conteúdo
             Resultados: Apresente os resultados do seu projeto
             Reflexão: Comente sobre o desafio de criar algo com IA.
