@@ -1,0 +1,26 @@
+Inputs que eu utilizei para gerar as imagens com o 'Dall E' de acordo com o projeto do 'Copilot':
+
+    -   Input 1:    
+
+        Aerion, a Cidade Celestial: Descreva uma cidade flutuante em Aerion, com torres de cristal, 
+        jardins suspensos e pontes de arco-íris.
+
+    -   Input 2: 
+
+        Terram, a Floresta Ancestral: Imagine uma clareira mágica em Terram, com árvores gigantes, 
+        fadas dançando e um riacho de águas cristalinas.
+
+    -   Input 3: 
+
+        Pyra, o Vulcão Ardente: Crie uma cena no coração de Pyra, com lava jorrando, salamandras em 
+        chamas e um portal para o submundo.
+
+    -   Input 4: 
+
+        Aqua, a Cidade Submarina: Visualize uma cidade submarina em Aqua, com conchas luminosas, 
+        algas dançantes e tritões guardiões.
+
+    -   Input 5: 
+
+        Umbrum, o Castelo das Sombras: Desenhe o castelo gótico de Umbrum, com torres escuras, 
+        corvos nos telhados e uma lua cheia sinistra.

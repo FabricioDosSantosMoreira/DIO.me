@@ -1,0 +1,28 @@
+Inputs que eu utilizei para gerar o conteúdo do projeto com o 'Copilot':
+
+    -   Input 1:
+
+        Você Copilot está encarregado de um projeto sobre IA's, cujo objetivo é:
+
+        Explorar as suas capacidades. Utilizando do seu conhecimento e tecnologia para criar conteúdos que sejam o mais 
+        realista possível. Com base na ideia "Criação de um Universo Narrativo: O Mundo de Etheria", a sua função é:
+            
+            -   Criar a história sobre o mundo de Etheria;
+            -   Criar os textos sobre a história de Etheria.
+
+
+    -   Input 2:
+
+        Agora, você como autor da obra deverá criar 5 prompts para gerar imagens sobre o mundo da história.
+
+
+    -   Input 3:
+
+        Agora, você irá descrever como foi todo esse processo de desenvolvimento, deverá conter:
+            
+            -   Título: Título do projeto;
+            -   Descrição: Breve descrição do projeto;
+            -   Tecnologias Utilizadas: Liste as IAs Generativas e outras ferramentas usadas;
+            -   processo de Criação: Descreva como você criou o conteúdo;
+            -   Resultados: Apresente os resultados do seu projeto;
+            -   Reflexão: Comente sobre o desafio de criar este projeto.

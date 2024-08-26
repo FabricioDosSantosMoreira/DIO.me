@@ -1,0 +1,36 @@
+Inputs que eu utilizei para gerar as imagens com o 'Leonardo AI' de acordo com o projeto do 'ChatGPT':
+
+    -   Input 1:    
+
+        O Reino de Luminaris: Uma majestosa cidade dourada construída sobre colinas ondulantes, com torres altas que 
+        refletem a luz do sol. O castelo real fica no centro, com arcos brilhantes e jardins exuberantes. 
+        Magos em mantos brancos estudam em bibliotecas ao ar livre, enquanto cavaleiros em armaduras 
+        reluzentes patrulham as ruas.
+
+    -   Input 2:   
+
+        A Floresta Mística de Verdânia: Uma floresta antiga e densa, repleta de árvores gigantescas cujas copas formam 
+        um  teto verde. A luz do sol filtra-se suavemente através das folhas, criando um brilho esmeralda. Criaturas 
+        místicas, como fadas e centauros, movem-se entre as árvores. No centro, uma druida poderosa, com um cajado 
+        de madeira viva, conecta-se à natureza ao seu redor.
+
+    -   Input 3:   
+
+        As Ruínas de Mortalis: Um vasto deserto sob um céu nublado e sombrio, onde antigas ruínas de um império perdido 
+        emergem da areia. Templos desmoronados e estátuas quebradas espalham-se pela paisagem. Espíritos inquietos 
+        flutuam entre os destroços, e um necromante em um manto negro com runas brilhantes levanta os mortos ao 
+        seu comando.
+
+    -   Input 4:
+
+        O Palácio das Sombras em Nocturna: Uma fortaleza imponente construída de pedra escura, envolta em névoa e cercada 
+        por florestas sombrias. As torres do palácio perfuram o céu noturno, iluminadas apenas por tochas e a luz da lua 
+        cheia. Guerreiros encapuzados montam criaturas aterrorizantes, e o Senhor das Sombras observa de uma varanda, 
+        com um olhar intenso e enigmático.
+
+    -   Input 5:    
+        
+        O Templo do Tempo em Tempus: Um templo etéreo flutuando no vazio, cercado por portais que levam a diferentes 
+        momentos no tempo. As paredes do templo são feitas de um material translúcido que brilha com uma luz suave. 
+        No centro, um altar onde Chronos, o Guardião do Tempo, manipula relíquias antigas que controlam o fluxo 
+        do tempo. Ao fundo, relógios gigantescos e engrenagens giram, marcando o ritmo do universo.
