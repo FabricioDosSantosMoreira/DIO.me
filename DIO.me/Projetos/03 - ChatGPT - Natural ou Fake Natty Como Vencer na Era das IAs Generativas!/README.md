@@ -1,6 +1,12 @@
-# 📚 Criando um Universo Narrativo - O Mundo de Etheria
+# 📚 Deixando o ChatGPT Criar um Universo Narrativo
+
 
 ## 📒 Descrição
+
+Neste lab "Natural ou Fake Natty? Como Vencer na Era das IA's Generativas" da DIO, decidi testar a criatividade do ChatGPT. O objetivo foi criar prompts que seriam capazes de fazer o ChatGPT construir um universo narrativo por conta própria, assim como documentar todo o processo da elaboração do projeto. Agora segue o projeto que o ChatGPT criou seguindo os meus prompts.
+
+
+## 📖 O Mundo de Etheria
 
 O projeto "Criação de um Universo Narrativo: O Mundo de Etheria" teve como objetivo explorar o uso de IAs generativas para desenvolver um universo ficcional rico e detalhado. Utilizando tecnologias avançadas, criamos uma história envolvente, textos descritivos e prompts para a geração de imagens, trazendo o mundo de Etheria à vida de maneira realista e criativa.
 
