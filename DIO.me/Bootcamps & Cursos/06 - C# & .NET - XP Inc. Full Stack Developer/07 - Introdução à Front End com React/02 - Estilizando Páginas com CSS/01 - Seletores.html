@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(169, 255, 236);
+            color: rgb(0, 0, 0);
+        }
+
+        h2 {
+            font-size: 32px;
+            color: rgb(255, 62, 62);
+        }
+        .red {
+            color: red;
+        }
+
+        #email {
+            border: 0;   
+            background-color: rgb(229, 255, 80);
+        }
+    </style>
+
+</head>
+<body>
+    
+    <hr>
+    <h2>Formulário</h2>
+    <div>
+        <form action="" method="get">
+            <div>
+                <label for="nome" class="red">Nome:</label>
+                <br>
+                <input type="text" id="nome" name="nome">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <br>
+                <input type="text" id="email" name="email">
+            </div>
+            <div>
+                <label for="msg" class="red">Mensagem:</label>
+                <br>
+                <textarea name="mensagem" id="msg"></textarea>
+            </div>
+            <div>
+                <button>Enviar</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

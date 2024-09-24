@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia Queries</title>
+
+    <style>
+        body{
+            background-color: rgb(0, 255, 136);
+        }
+
+        .flex {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-around;
+        }
+
+        .item {
+            width: 80px;
+            height: 80px;
+            background-color: blueviolet;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        @media (max-width: 450px) {
+            body{
+                background-color: rgb(0, 255, 13);
+            }
+
+            .flex {
+                flex-direction: column;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    
+    <h2>Flexbox</h2>
+    <div class="flex">
+       <div class="item">A</div>
+       <div class="item">B</div>
+       <div class="item">C</div>
+       <div class="item">D</div>
+       <div class="item">E</div>
+    </div>
+
+</body>
+</html>
