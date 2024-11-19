@@ -74,6 +74,8 @@ git config --global core.longpaths true
 Pressione Win + R, digite gpedit.msc e pressione Enter
 
 Configuração do Computador > Modelos Administrativos > Sistema > Sistema de Arquivos > Ativar Caminhos Longos Win32
+
+Habilite a configuração e reinicie o computador
 ```
 
 3. Opte por clonar em um diretório raiz, como C:/
